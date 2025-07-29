@@ -1,0 +1,213 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link:
+    - /url: /
+  - navigation:
+    - link "ประกันรถยนต์":
+      - /url: /car-insurance/all
+    - link "ประกันเดินทาง":
+      - /url: /travel-insurance
+    - link "ประกันสุขภาพ":
+      - /url: /health-insurance
+    - link "ประกันอุบัติเหตุ":
+      - /url: /accident-insurance
+    - link "ประกันบ้าน":
+      - /url: /home-insurance
+    - link "ประกันอื่น ๆ":
+      - /url: /promotion/special-insurance
+    - button "เข้าสู่ระบบ"
+  - navigation:
+    - link "เคลม":
+      - /url: /claim/car-insurance
+    - link "ตรวจสอบกรมธรรม์":
+      - /url: /order-search
+    - link "อู่ซ่อมรถ":
+      - /url: /car-insurance/service
+    - link "เกี่ยวกับเรา":
+      - /url: /aboutus
+    - link "ติดต่อเรา":
+      - /url: /contactus
+    - link "บทความ":
+      - /url: /articles
+    - link "โปรโมชัน":
+      - /url: /promotion/car-insurance
+    - link:
+      - /url: tel:1737
+- main:
+  - img "TQM Banner"
+  - heading "TQMดูแลคุณทุกช่วงเวลา เปรียบเทียบแผนประกันกว่า40บริษัท" [level=1]
+  - paragraph: ประกันรถยนต์ เริ่มต้น7,499
+  - button "เช็คเบี้ย ประกันรถยนต์"
+  - text: ประกันรถยนต์ ประกันเดินทาง ประกันสุขภาพ ประกันชีวิต ประกันอุบัติเหตุ ประกันอัคคีภัย
+  - article:
+    - heading "เลือกแผนประกันตามไลฟ์สไตล์" [level=2]
+    - heading "เอาใจคนรักสุขภาพ" [level=3]
+    - paragraph: สุขใดใด ก็ไม่เท่าสุขภาพดี
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E
+    - heading "เอาใจคนชอบขับ" [level=3]
+    - paragraph: เส้นทางไหนก็มั่นใจ รู้สึกปลอดภัยทุกครั้งที่ได้ออกเดินทาง
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99
+    - heading "เอาใจคนชอบเที่ยวพร้อมครอบครัว" [level=3]
+    - paragraph: พร้อมหน้า พร้อมตา เที่ยวได้อย่างสบายใจ ไปพร้อมกัน
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%A7
+    - heading "เอาใจคนรักบ้าน" [level=3]
+    - paragraph: ความปลอดภัยและความสุขใจ มีอยู่ในทุกตารางเมตร
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99
+    - heading "เอาใจคนห่วงรถ" [level=3]
+    - paragraph: ยิ่งขับยิ่งรัก ยิ่งต้องดูแล
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%20%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2
+    - heading "เอาใจคนชอบบิน" [level=3]
+    - paragraph: ไม่ว่าดินแดนแห่งใด ที่เธอจะไป ฉันจะคอยร่วมทาง
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%9A%E0%B8%B4%E0%B8%99
+    - heading "เอาใจสาย X-treme" [level=3]
+    - paragraph
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_Xtreme
+    - heading "เอาใจRider" [level=3]
+    - paragraph
+    - link:
+      - /url: /curations/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_Rider
+  - article:
+    - heading "สิทธิประโยชน์จาก TQM" [level=2]
+    - heading "ผ่อน 0%" [level=3]
+    - paragraph: โปรโมชั่นบัตรเครดิต ผ่อนสบายๆ 0%
+    - heading "มีรถใช้ระหว่างซ่อม" [level=3]
+    - paragraph: ฟรี! 1 ครั้ง จำนวน 3 วัน กรณีที่ เป็นฝ่ายถูก
+    - heading "บริการ 24 ชั่วโมง" [level=3]
+    - paragraph: เช็คเบี้ย เปรียบเทียบราคา ให้คำปรึกษา 24 ชั่วโมง
+    - heading "กิจกรรมและส่วนลด ตลอดปี" [level=3]
+    - paragraph: แค่เปรียบเทียบประกันออนไลน์
+  - heading "TQM “ผู้นำด้านที่ปรึกษาประกันภัย และการเงินด้วยคุณภาพและความยั่งยืน”" [level=2]
+  - heading "TQM ที่ปรึกษาประกันภัยและการเงินชั้นนำของไทย" [level=3]
+  - paragraph: ประสบการณ์ที่มีมายาวนานกว่า 70 ปี ให้บริการครบวงจรด้วยความชำนาญทั้งในเรื่องประกันวินาศภัย ประกันชีวิต และการเงิน มีผลิตภัณฑ์ประกันภัยให้เลือกจากพันธมิตรประกันภัยกว่า 40 แห่ง มีลูกค้ามากกว่า 5,000,000 รายทั่วประเทศ
+  - heading "ให้บริการ 24 ชั่วโมง ที่ Hotline 1737" [level=3]
+  - paragraph: ด้วยพนักงานมืออาชีพให้บริการมากกว่า 4,000 คน ที่ประจำอยู่สาขาและศูนย์ประสานงาน 95 แห่งทั่วประเทศ พร้อมบริการหลังการขายและสิทธิประโยชน์พิเศษมากมาย ซื้อประกันได้ง่ายด้วยตัวเองบน www.tqm.co.th หรือแค่โทร. 1737
+  - article:
+    - heading "พันธมิตรของเรา" [level=2]
+    - paragraph: TQM มีแผนประกันรถยนต์ให้คุณเลือกเปรียบเทียบความคุ้มค่าจากเหล่าบริษัทพันธมิตรชั้นนำ
+    - list
+  - article:
+    - heading "แชร์ประสบการณ์จากผู้ใช้บริการ TQM" [level=2]
+    - list
+- contentinfo:
+  - link:
+    - /url: /
+  - paragraph: บริษัท ทีคิวเอ็ม อินชัวร์รันส์ โบรคเกอร์ จำกัด 123 ถนนลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพฯ 10230
+  - link:
+    - /url: https://www.facebook.com/TqmBroker
+  - link:
+    - /url: https://page.line.me/tqmbroker?openQrModal=true
+  - link:
+    - /url: https://www.youtube.com/channel/UCHjNT-OxLzcJBZ97v01OVlQ
+  - link:
+    - /url: https://twitter.com/TqmOfficial
+  - link:
+    - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+  - link:
+    - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+  - link:
+    - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+  - paragraph: ใบอนุญาตจากกรมพัฒนาธุรกิจการค้า เลขที่0105540084143
+  - paragraph: ใบอนุญาตนายหน้าประกันวินาศภัย เลขที่ว00019/2546
+  - navigation:
+    - paragraph: ผลิตภัณฑ์ประกันภัย
+    - list:
+      - listitem:
+        - link "ประกันรถยนต์":
+          - /url: /car-insurance/all
+      - listitem:
+        - link "ประกันเดินทาง":
+          - /url: /travel-insurance
+      - listitem:
+        - link "ประกันสุขภาพ":
+          - /url: /health-insurance
+      - listitem:
+        - link "ประกันอุบัติเหตุ":
+          - /url: /accident-insurance
+      - listitem:
+        - link "ประกันบ้าน":
+          - /url: /home-insurance
+      - listitem:
+        - link "ประกันอื่น ๆ":
+          - /url: /promotion/special-insurance
+    - paragraph: บริการลูกค้า
+    - list:
+      - listitem:
+        - link "เคลมประกัน":
+          - /url: /claim/car-insurance
+      - listitem:
+        - link "ตรวจสอบกรมธรรม์":
+          - /url: /order-search
+      - listitem:
+        - link "สถานตรวจสภาพรถ (ตรอ.)":
+          - /url: /car-insurance/inspection
+      - listitem:
+        - link "แจ้งปัญหาการใช้บริการ":
+          - /url: /user-report
+      - listitem:
+        - link "อู่ซ่อมรถ":
+          - /url: /car-insurance/service
+      - listitem:
+        - link "โรงพยาบาล":
+          - /url: /hospitals
+      - listitem:
+        - link "สิทธิประโยชน์สมาชิก":
+          - /url: /articles/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%82%E0%B8%9B%E0%B8%A3
+      - listitem:
+        - link "แอป TQM 24":
+          - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+    - paragraph: บริษัท
+    - list:
+      - listitem:
+        - link "เกี่ยวกับเรา":
+          - /url: /aboutus
+      - listitem:
+        - link "ติดต่อเรา":
+          - /url: /contactus
+      - listitem:
+        - link "ร่วมงานกับเรา":
+          - /url: /tqm/job
+      - listitem:
+        - link "ข่าวบริษัท":
+          - /url: https://www.tqmalpha.com/en/newsroom/news-and-activities
+      - listitem:
+        - link "นักลงทุน":
+          - /url: https://www.tqmalpha.com/
+      - listitem:
+        - link "คำถามที่พบบ่อย":
+          - /url: /tqmservice/faq/car-insurance
+      - listitem:
+        - link "บริษัทประกันภัย":
+          - /url: /insurance/partners
+    - paragraph: ติดต่อสอบถาม
+    - link "1737":
+      - /url: "1737"
+    - text: โทรศัพท์
+    - link "02 119 8888":
+      - /url: tel:021198888
+    - text: โทรสาร
+    - link "02 119 8800":
+      - /url: tel:021198800
+    - text: เวลาทำการ จันทร์ - เสาร์ 8.30 - 17.30 น. อีเมล
+    - link "info@tqm.co.th":
+      - /url: mailto:info@tqm.co.th
+  - separator
+  - paragraph: ©Copyright 2025 TQM.co.th All Rights Reserved.
+  - paragraph:
+    - link "แผนผังเว็บไซต์":
+      - /url: /sitemap
+  - paragraph:
+    - link "ข้อกำหนดและเงื่อนไข":
+      - /url: /terms-and-conditions
+  - paragraph:
+    - link "นโยบายข้อมูลส่วนบุคคล":
+      - /url: /tqm/privacy
+```

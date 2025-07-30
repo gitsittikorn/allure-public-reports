@@ -1,8 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6573","health-normal-flow-with-tax-deduction","Desktop - Google Chrome","Tue Jul 29 05:33:04 UTC 2025","passed","Tue Jul 29 05:33:10 UTC 2025","","main-web/health/health-normal-flow.spec.ts","",""
-"","4516","accident-normal-flow-with-tax-deduction","Desktop - Google Chrome","Tue Jul 29 05:32:26 UTC 2025","passed","Tue Jul 29 05:32:30 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","3274","Motor-NormalFlow","Desktop - Google Chrome","Tue Jul 29 05:34:08 UTC 2025","passed","Tue Jul 29 05:34:12 UTC 2025","","main-web/motor/normal-flow.spec.ts","",""
-"","55933","health-normal-flow-no-tax-deduction","Desktop - Google Chrome","Tue Jul 29 05:33:10 UTC 2025","passed","Tue Jul 29 05:34:06 UTC 2025","","main-web/health/health-normal-flow.spec.ts","",""
-"","2928","accident-normal-flow-no-tax-deduction","Desktop - Google Chrome","Tue Jul 29 05:32:36 UTC 2025","passed","Tue Jul 29 05:32:39 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","6951","Main web first page","Desktop - Google Chrome","Tue Jul 29 05:32:56 UTC 2025","passed","Tue Jul 29 05:33:03 UTC 2025","","main-web/first-page.spec.ts","",""
-"","4448","travel-normal-flow","Desktop - Google Chrome","Tue Jul 29 05:34:12 UTC 2025","passed","Tue Jul 29 05:34:16 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

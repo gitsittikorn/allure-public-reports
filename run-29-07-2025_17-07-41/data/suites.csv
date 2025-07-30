@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","49539","accident-normal-flow-no-tax-deduction","Desktop - Google Chrome","Tue Jul 29 10:05:18 UTC 2025","passed","Tue Jul 29 10:06:07 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","3590","Main web first page","Desktop - Google Chrome","Tue Jul 29 10:06:07 UTC 2025","passed","Tue Jul 29 10:06:11 UTC 2025","","main-web/first-page.spec.ts","",""
-"","36638","accident-normal-flow-with-tax-deduction","Desktop - Google Chrome","Tue Jul 29 10:03:41 UTC 2025","failed","Tue Jul 29 10:04:18 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","60835","health-normal-flow-with-tax-deduction","Desktop - Google Chrome","Tue Jul 29 10:06:11 UTC 2025","passed","Tue Jul 29 10:07:12 UTC 2025","","main-web/health/health-normal-flow.spec.ts","",""

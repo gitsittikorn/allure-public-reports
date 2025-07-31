@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7485","travel-normal-flow","Desktop - Google Chrome","Thu Jul 31 01:54:01 UTC 2025","failed","Thu Jul 31 01:54:08 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
+"","10272","accident-normal-flow-with-tax-deduction","Desktop - Google Chrome","Thu Jul 31 01:53:26 UTC 2025","passed","Thu Jul 31 01:53:36 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""

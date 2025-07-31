@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4148","Main web first page","Desktop - Google Chrome","Wed Jul 30 05:07:58 UTC 2025","passed","Wed Jul 30 05:08:02 UTC 2025","","main-web/first-page.spec.ts","",""
-"","3107","travel-normal-flow","Desktop - Google Chrome","Wed Jul 30 05:08:04 UTC 2025","passed","Wed Jul 30 05:08:07 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

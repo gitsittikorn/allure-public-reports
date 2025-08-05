@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6165","Home-NormalFlow-FirstLost","Desktop - Google Chrome","Tue Aug 05 04:57:23 UTC 2025","passed","Tue Aug 05 04:57:29 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""
-"","3824","Home-NormalFlow-Fullvalue","Desktop - Google Chrome","Tue Aug 05 04:57:34 UTC 2025","passed","Tue Aug 05 04:57:37 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""

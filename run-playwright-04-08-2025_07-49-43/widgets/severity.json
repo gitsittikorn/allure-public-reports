@@ -1,1 +1,0 @@
-[{"uid":"b2631c8fb93a729a","name":"travel-normal-flow","time":{"start":1754268521506,"stop":1754268527663,"duration":6157},"status":"passed","severity":"normal"},{"uid":"f5c2cdb578a75369","name":"accident-normal-flow-with-tax-deduction","time":{"start":1754268531463,"stop":1754268577699,"duration":46236},"status":"failed","severity":"normal"}]

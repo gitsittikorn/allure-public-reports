@@ -1,2 +1,0 @@
-Start time: "30508.261805"
-Wait for invisible is success NOT found locator "getByTestId('agreeConsentButton')" at 33594.639147 ms.

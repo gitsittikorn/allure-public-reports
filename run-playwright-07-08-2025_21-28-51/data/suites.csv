@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6515","Home-NormalFlow-FirstLost","Desktop - Google Chrome","Thu Aug 07 14:28:25 UTC 2025","passed","Thu Aug 07 14:28:31 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""
-"","2533","Home-NormalFlow-Fullvalue","Desktop - Google Chrome","Thu Aug 07 14:28:38 UTC 2025","passed","Thu Aug 07 14:28:41 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""
-"","2692","travel-normal-flow","Desktop - Google Chrome","Thu Aug 07 14:28:41 UTC 2025","passed","Thu Aug 07 14:28:43 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

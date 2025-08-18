@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3073","Home-NormalFlow-Fullvalue","Desktop - Google Chrome","Thu Aug 07 14:45:05 UTC 2025","passed","Thu Aug 07 14:45:08 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""
-"","2861","accident-normal-flow-with-tax-deduction","Desktop - Google Chrome","Thu Aug 07 14:44:56 UTC 2025","passed","Thu Aug 07 14:44:59 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","2946","Home-NormalFlow-FirstLost","Desktop - Google Chrome","Thu Aug 07 14:45:02 UTC 2025","passed","Thu Aug 07 14:45:05 UTC 2025","","main-web/home/home-normal-flow.spec.ts","",""
-"","2629","travel-normal-flow","Desktop - Google Chrome","Thu Aug 07 14:45:08 UTC 2025","passed","Thu Aug 07 14:45:11 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","2920","accident-normal-flow-no-tax-deduction","Desktop - Google Chrome","Thu Aug 07 14:44:59 UTC 2025","passed","Thu Aug 07 14:45:02 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""

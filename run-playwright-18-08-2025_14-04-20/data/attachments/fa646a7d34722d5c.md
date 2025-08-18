@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- dialog:
+  - text: สิงหาคม 2025
+  - button "calendar view is open, switch to year view"
+  - button "Previous month" [disabled]
+  - button "Next month"
+  - grid "สิงหาคม 2025":
+    - row "อาทิตย์ จันทร์ อังคาร พุธ พฤหัสบดี ศุกร์ เสาร์":
+      - columnheader "อาทิตย์": อ
+      - columnheader "จันทร์": จ
+      - columnheader "อังคาร": อ
+      - columnheader "พุธ": พ
+      - columnheader "พฤหัสบดี": พ
+      - columnheader "ศุกร์": ศ
+      - columnheader "เสาร์": ส
+    - rowgroup:
+      - row "1 2":
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell "1" [disabled]
+        - gridcell "2" [disabled]
+      - row "3 4 5 6 7 8 9":
+        - gridcell "3" [disabled]
+        - gridcell "4" [disabled]
+        - gridcell "5" [disabled]
+        - gridcell "6" [disabled]
+        - gridcell "7" [disabled]
+        - gridcell "8" [disabled]
+        - gridcell "9" [disabled]
+      - row "10 11 12 13 14 15 16":
+        - gridcell "10" [disabled]
+        - gridcell "11" [disabled]
+        - gridcell "12" [disabled]
+        - gridcell "13" [disabled]
+        - gridcell "14" [disabled]
+        - gridcell "15" [disabled]
+        - gridcell "16" [disabled]
+      - row "17 18 19 20 21 22 23":
+        - gridcell "17" [disabled]
+        - gridcell "18"
+        - gridcell "19"
+        - gridcell "20"
+        - gridcell "21"
+        - gridcell "22"
+        - gridcell "23"
+      - row "24 25 26 27 28 29 30":
+        - gridcell "24"
+        - gridcell "25"
+        - gridcell "26"
+        - gridcell "27"
+        - gridcell "28"
+        - gridcell "29"
+        - gridcell "30"
+      - row "31":
+        - gridcell "31"
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell
+        - gridcell
+  - button "Cancel"
+  - button "OK"
+```

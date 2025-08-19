@@ -1,0 +1,340 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "TQM Logo":
+    - /url: /
+    - img "TQM Logo"
+  - navigation:
+    - link "ประกันรถยนต์":
+      - /url: /car-insurance/all
+    - link "ประกันเดินทาง":
+      - /url: /travel-insurance
+    - link "ประกันสุขภาพ":
+      - /url: /health-insurance
+    - link "ประกันอุบัติเหตุ":
+      - /url: /accident-insurance
+    - link "ประกันบ้าน":
+      - /url: /home-insurance
+    - link "ประกันอื่น ๆ":
+      - /url: /promotion/special-insurance
+    - button "เข้าสู่ระบบ"
+  - navigation:
+    - link "subNavItem.claim เคลม":
+      - /url: /claim/car-insurance
+      - img "subNavItem.claim"
+      - text: เคลม
+    - link "ตรวจสอบกรมธรรม์":
+      - /url: /order-search
+    - link "อู่ซ่อมรถ":
+      - /url: /car-insurance/service
+    - link "เกี่ยวกับเรา":
+      - /url: /aboutus
+    - link "ติดต่อเรา":
+      - /url: /contactus
+    - link "บทความ":
+      - /url: /articles
+    - link "โปรโมชัน":
+      - /url: /promotion/car-insurance
+    - link "TQM call center":
+      - /url: tel:1737
+      - img "TQM call center"
+- main:
+  - article:
+    - heading "ประกันสุขภาพ ประกันโรคร้ายแรง" [level=1]
+    - paragraph: เปรียบเทียบประกันสุขภาพ ประกันโรคร้ายแรง ในราคาสบายใจ หมดกังวลเรื่องค่าใช้จ่ายยามเจ็บป่วย ทั้งค่าห้อง ค่ายา ค่ารักษาพยาบาล ลดหย่อนภาษีได้ ให้ประกันสุขภาพดูแลคุณ
+    - list:
+      - listitem:
+        - link "automate health flow1 title":
+          - /url: /health-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3_automate%20health%20flow1
+          - img "automate health flow1 title"
+    - list:
+      - listitem:
+        - button "paginate-dots"
+      - listitem:
+        - button "paginate-dots"
+      - listitem:
+        - button "paginate-dots"
+  - article:
+    - heading "เช็คราคาแผนประกันตรงใจ" [level=2]
+    - article:
+      - heading "กรอกข้อมูลเพื่อค้นหาแผนประกัน" [level=6]
+      - paragraph: ข้อมูลสุขภาพ
+      - img "สุขภาพ"
+      - text: สุขภาพ
+      - img "มะเร็ง"
+      - text: มะเร็ง
+      - img "ลดหย่อนภาษี"
+      - text: ลดหย่อนภาษี
+      - paragraph: เพศ *
+      - combobox: เพศ
+      - paragraph: วัน/เดือน/ปีเกิด *
+      - textbox "Choose date"
+      - button
+      - button "ให้เจ้าหน้าที่ติดต่อกลับ"
+      - button "ค้นหาแผนประกัน" [disabled]
+    - img "TQM Bear"
+  - article:
+    - heading "โปรโมชันประกันสุขภาพ แนะนำโดย TQM" [level=2]
+    - tablist "promotion_tabs":
+      - tab "โปรโมชันทั้งหมด" [selected]
+      - tab "สุขภาพ"
+      - tab "มะเร็ง"
+      - tab "ลดหย่อนภาษี"
+    - tabpanel "โปรโมชันทั้งหมด":
+      - list:
+        - listitem:
+          - link "Health flow2O สุขภาพ, มะเร็ง, ลดหย่อนภาษี Health flow2O Health flow2O":
+            - /url: /health-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_Health2O
+            - img "Health flow2O"
+            - text: สุขภาพ, มะเร็ง, ลดหย่อนภาษี
+            - paragraph: Health flow2O
+            - paragraph: Health flow2O
+        - listitem:
+          - link "Health flow3O สุขภาพ Health flow3O Health flow3O":
+            - /url: /health-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_Health3O
+            - img "Health flow3O"
+            - text: สุขภาพ
+            - paragraph: Health flow3O
+            - paragraph: Health flow3O
+        - listitem:
+          - link "Health flow4O สุขภาพ Health flow4O Health flow4O":
+            - /url: /health-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_Health4O
+            - img "Health flow4O"
+            - text: สุขภาพ
+            - paragraph: Health flow4O
+            - paragraph: Health flow4O
+    - button "ดูโปรโมชันประกันสุขภาพทั้งหมด"
+  - article:
+    - heading "เลือกแผนประกันสุขภาพตามไลฟ์สไตล์" [level=2]
+    - heading "pond" [level=3]
+    - paragraph
+    - link "pond":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_pond
+      - img "pond"
+    - heading "เอาใจคนห่วง OPD" [level=3]
+    - paragraph: ป่วยเบาๆ แต่ป่วยบ่อยก็อุ่นใจ เพราะมีความคุ้มครอง OPD
+    - link "เอาใจคนห่วง OPD":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99%E0%B8%AB%E0%B9%88%E0%B8%A7%E0%B8%87%20OPD
+      - img "เอาใจคนห่วง OPD"
+    - heading "HealthSet7" [level=3]
+    - paragraph
+    - link "HealthSet7":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_HealthSet7
+      - img "HealthSet7"
+    - heading "เอาใจคนห่วง IPD" [level=3]
+    - paragraph: หมดห่วงเรื่องค่ารักษา เมื่อต้องนอนโรงพยาบาล
+    - link "เอาใจคนห่วง IPD":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99%E0%B8%AB%E0%B9%88%E0%B8%A7%E0%B8%87%20IPD
+      - img "เอาใจคนห่วง IPD"
+    - heading "Health 8" [level=3]
+    - paragraph
+    - link "Health 8":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_Health8
+      - img "Health 8"
+    - heading "Test" [level=3]
+    - paragraph
+    - link "Test":
+      - /url: /health-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_Test
+      - img "Test"
+  - article:
+    - heading "เพราะเหตุใดประกันสุขภาพจึงสำคัญ" [level=2]
+    - img "deceased"
+    - heading "โรคต่างๆ ที่เกิดขึ้นใหม่" [level=3]
+    - paragraph: การรับมือกับโรคภัยที่เกิดขึ้นใหม่ อาจเป็นเรื่องที่ยากเกินป้องกันและรักษาให้ได้ทัน เงินเก็บที่มีอยู่ อาจต้องหยิบมาใช้ฉุกเฉิน
+    - img "environment"
+    - heading "สิ่งแวดล้อมแย่ลง" [level=3]
+    - paragraph: สิ่งแวดล้อมในปัจจุบันแย่ลงไปมาก ส่งผลให้ร่างกายได้รับมลพิษต่าง ๆ มากขึ้นและทำให้เกิดการเจ็บป่วยได้ง่ายและบ่อยขึ้น
+    - img "welfare"
+    - heading "สวัสดิการไม่เพียงพอ" [level=3]
+    - paragraph: สวัสดิการขั้นพื้นฐานที่ทุกคนมีอยู่อาจไม่ครอบคลุมค่ารักษาพยาบาลที่เกิดขึ้นจริง ซึ่งอาจเกิดภาระค่าใช้จ่ายในอนาคต
+    - img "prices"
+    - heading "จ่ายน้อย คุ้มครองสูง" [level=3]
+    - paragraph: จ่ายเบี้ยประกันหลักหมื่น แต่คุ้มครองสูงถึงหลักล้าน ครอบคลุมค่ารักษาพยาบาล รพ.เอกชน อุ่นใจเรื่องค่าใช้จ่ายไปได้เลย
+  - article:
+    - heading "ประกันสุขภาพในปัจจุบันมีกี่รูปแบบ" [level=2]
+    - paragraph: ประกันสุขภาพ สามารถแบ่งออกเป็นหลายแบบตามลักษณะการคุ้มครองและความต้องการของผู้เอาประกัน
+    - heading "ประกันสุขภาพผู้ป่วยใน IPD" [level=3]
+    - paragraph: คุ้มครองค่าใช้จ่ายเมื่อผู้เอาประกันต้องเข้าพักรักษาตัวในโรงพยาบาล เช่น ค่าห้องพัก ค่าผ่าตัด ค่ารักษาพยาบาล ค่ายา และค่าบริการทางการแพทย์ต่าง ๆ
+    - heading "ประกันสุขภาพผู้ป่วยนอก OPD" [level=3]
+    - paragraph: คุ้มครองค่าใช้จ่ายเมื่อผู้เอาประกันต้องเข้ารับการรักษาโดยไม่ต้องเข้าพักรักษาตัวในโรงพยาบาล เช่น ค่าตรวจวินิจฉัยโรค ค่ารักษาทางการแพทย์ทั่วไป ค่ายา และค่าตรวจสุขภาพ
+    - heading "ประกันสุขภาพเหมาจ่าย" [level=3]
+    - paragraph: คุ้มครองค่าใช้จ่ายทางการแพทย์ทั้งหมดตามวงเงินที่กำหนด โดยไม่จำกัดวงเงินในแต่ละประเภทการรักษา
+    - heading "ประกันสุขภาพโรคร้ายแรง" [level=3]
+    - paragraph: คุ้มครองเมื่อผู้เอาประกันป่วยเป็นโรคร้ายแรงตามที่ระบุในกรมธรรม์ เช่น โรคมะเร็ง โรคหัวใจ โรคหลอดเลือดสมอง เป็นต้น
+    - heading "ประกันสุขภาพเด็ก" [level=3]
+    - paragraph: คุ้มครองค่ารักษาพยาบาลและค่าใช้จ่ายทางการแพทย์สำหรับเด็ก เช่น ค่าวัคซีน ค่ารักษาโรคทั่วไป และค่ารักษาโรคเฉพาะทาง
+    - heading "ประกันสุขภาพผู้สูงอายุ" [level=3]
+    - paragraph: คุ้มครองค่ารักษาพยาบาลและค่าใช้จ่ายทางการแพทย์สำหรับผู้สูงอายุ เช่น ค่ารักษาโรคเรื้อรัง และค่ารักษาพยาบาลทั่วไป
+  - article:
+    - img "คุณกัญญ์ปภัส วัฒนพสิษฐ์"
+    - img "quote-start"
+    - paragraph: ตั้งแต่มีประกันสุขภาพ เจ็บป่วยแค่ไหนก็ไม่กังวลอีกแล้วค่ะ ความคุ้มครองครอบคลุมค่ารักษาพยาบาลทั้งหมดและไม่ต้องสำรองจ่ายไปก่อนด้วย
+    - img "quote-end"
+    - text: คุณกัญญ์ปภัส วัฒนพสิษฐ์
+  - article:
+    - heading "คำถามที่พบบ่อยเกี่ยวกับประกันสุขภาพ" [level=2]
+    - button "ควรเลือกซื้อประกันสุขภาพแบบไหนดีที่สุด":
+      - heading "ควรเลือกซื้อประกันสุขภาพแบบไหนดีที่สุด" [level=3]
+    - button "ทำประกันสุขภาพต้องรอกี่วัน ถึงจะคุ้มครอง":
+      - heading "ทำประกันสุขภาพต้องรอกี่วัน ถึงจะคุ้มครอง" [level=3]
+    - button "ประกันสุขภาพเหมาจ่ายคืออะไร":
+      - heading "ประกันสุขภาพเหมาจ่ายคืออะไร" [level=3]
+    - button "ทำประกันสุขภาพ ต้องตรวจสุขภาพก่อนทำไหม":
+      - heading "ทำประกันสุขภาพ ต้องตรวจสุขภาพก่อนทำไหม" [level=3]
+    - button "ประกันสุขภาพกับประกันโรคร้ายแรง ต่างกันอย่างไร":
+      - heading "ประกันสุขภาพกับประกันโรคร้ายแรง ต่างกันอย่างไร" [level=3]
+    - button "ประกันสุขภาพสามารถเคลมค่ารักษาผู้ป่วยนอกได้หรือไม่?":
+      - heading "ประกันสุขภาพสามารถเคลมค่ารักษาผู้ป่วยนอกได้หรือไม่?" [level=3]
+    - button "มีสวัสดิการบริษัทอยู่แล้ว ต้องทำประกันสุขภาพเพิ่มไหม":
+      - heading "มีสวัสดิการบริษัทอยู่แล้ว ต้องทำประกันสุขภาพเพิ่มไหม" [level=3]
+    - button "ทำประกันสุขภาพให้พ่อแม่ ลดหย่อนภาษีได้ไหม":
+      - heading "ทำประกันสุขภาพให้พ่อแม่ ลดหย่อนภาษีได้ไหม" [level=3]
+  - article:
+    - heading "เคลมประกันสุขภาพ" [level=2]
+    - paragraph: เจ็บป่วยหากมีประกันสุขภาพ ความคุ้มครองครอบคลุมค่ารักษาพยาบาลทั้งหมดและไม่ต้องสำรองจ่ายไปก่อนด้วย
+    - img "เคลมเงินชดเชยรายวัน"
+    - heading "เคลมเงินชดเชยรายวัน" [level=3]
+    - paragraph: เคลมเงินชดเชยรายวันกรณีนอนโรงพยาบาล รวบรวมเอกสารใบรับรองแพทย์ ประวัติการรักษา และใบเสร็จรับเงิน นำเอกสาร เพื่อขอรับสินไหม
+    - img "เคลมสินไหมผู้ป่วยนอก (OPD)"
+    - heading "เคลมสินไหมผู้ป่วยนอก (OPD)" [level=3]
+    - paragraph: ก่อนเข้าใช้บริการสามารถแจ้งบริษัทประกัน ณ โรงพยาบาลที่ท่านเข้าใช้บริการ ให้ตรวจเช็คสิทธิ์ในการเบิกเคลมประกันสุขภาพได้ เพื่อความสะดวกในการเข้าใช้บริการที่โรงพยาบาล สะดวก และไม่ต้องสำรองจ่าย
+    - img "เคลมสินไหมผู้ป่วยใน (IPD)"
+    - heading "เคลมสินไหมผู้ป่วยใน (IPD)" [level=3]
+    - paragraph: เมื่อเข้ารับรักษาตัวเป็นผู้ป่วยใน (IPD) สามารถแจ้งเคลมสินไหมสุขภาพโดยการแจ้งชื่อบริษัทประกันที่ท่านทำอยู่ เพื่อเช็คสิทธิ์ในการเบิกเคลมตรงกับทางโรงพยาบาล โดยลูกค้าไม่ต้องสำรองจ่ายค่ารักษาพยาบาล
+    - text: "หมายเหตุ : เป็นไปตามเงื่อนไขกรมธรรม์"
+    - heading "ช่องทางการเคลมประกันสุขภาพ" [level=2]
+    - img "app"
+    - text: สายด่วน 1737
+    - img "app"
+    - text: App TQM24
+    - img "app"
+    - text: Line TQM
+    - button "ดูข้อมูลการเคลมเพิ่มเติม"
+- contentinfo:
+  - link "TQM Logo":
+    - /url: /
+    - img "TQM Logo"
+  - paragraph: บริษัท ทีคิวเอ็ม อินชัวร์รันส์ โบรคเกอร์ จำกัด 123 ถนนลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพฯ 10230
+  - link "facebook":
+    - /url: https://www.facebook.com/TqmBroker
+    - img "facebook"
+  - link "line":
+    - /url: https://page.line.me/tqmbroker?openQrModal=true
+    - img "line"
+  - link "youtube":
+    - /url: https://www.youtube.com/channel/UCHjNT-OxLzcJBZ97v01OVlQ
+    - img "youtube"
+  - link "twitter":
+    - /url: https://twitter.com/TqmOfficial
+    - img "twitter"
+  - link "TQM Application":
+    - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+    - img "TQM Application"
+  - link "TQM IOS Application":
+    - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+    - img "TQM IOS Application"
+  - link "TQM Android Application":
+    - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+    - img "TQM Android Application"
+  - navigation:
+    - paragraph: ผลิตภัณฑ์ประกันภัย
+    - list:
+      - listitem:
+        - link "ประกันรถยนต์":
+          - /url: /car-insurance/all
+      - listitem:
+        - link "ประกันเดินทาง":
+          - /url: /travel-insurance
+      - listitem:
+        - link "ประกันสุขภาพ":
+          - /url: /health-insurance
+      - listitem:
+        - link "ประกันอุบัติเหตุ":
+          - /url: /accident-insurance
+      - listitem:
+        - link "ประกันบ้าน":
+          - /url: /home-insurance
+      - listitem:
+        - link "ประกันอื่น ๆ":
+          - /url: /promotion/special-insurance
+    - paragraph: บริการลูกค้า
+    - list:
+      - listitem:
+        - link "เคลมประกัน":
+          - /url: /claim/car-insurance
+      - listitem:
+        - link "ตรวจสอบกรมธรรม์":
+          - /url: /order-search
+      - listitem:
+        - link "สถานตรวจสภาพรถ (ตรอ.)":
+          - /url: /car-insurance/inspection
+      - listitem:
+        - link "แจ้งปัญหาการใช้บริการ":
+          - /url: /user-report
+      - listitem:
+        - link "อู่ซ่อมรถ":
+          - /url: /car-insurance/service
+      - listitem:
+        - link "โรงพยาบาล":
+          - /url: /hospitals
+      - listitem:
+        - link "สิทธิประโยชน์สมาชิก":
+          - /url: /articles/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%82%E0%B8%9B%E0%B8%A3
+      - listitem:
+        - link "แอป TQM 24":
+          - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+    - paragraph: บริษัท
+    - list:
+      - listitem:
+        - link "เกี่ยวกับเรา":
+          - /url: /aboutus
+      - listitem:
+        - link "ติดต่อเรา":
+          - /url: /contactus
+      - listitem:
+        - link "ร่วมงานกับเรา":
+          - /url: /tqm/job
+      - listitem:
+        - link "ข่าวบริษัท":
+          - /url: https://www.tqmalpha.com/en/newsroom/news-and-activities
+      - listitem:
+        - link "นักลงทุน":
+          - /url: https://www.tqmalpha.com/
+      - listitem:
+        - link "คำถามที่พบบ่อย":
+          - /url: /tqmservice/faq/car-insurance
+      - listitem:
+        - link "บริษัทประกันภัย":
+          - /url: /insurance/partners
+    - paragraph: ติดต่อสอบถาม
+    - link "1737":
+      - /url: "1737"
+    - text: โทรศัพท์
+    - link "02 119 8888":
+      - /url: tel:021198888
+    - text: โทรสาร
+    - link "02 119 8800":
+      - /url: tel:021198800
+    - text: เวลาทำการ จันทร์ - เสาร์ 8.30 - 17.30 น. อีเมล
+    - link "info@tqm.co.th":
+      - /url: mailto:info@tqm.co.th
+  - img "ใบอนุญาตจากกรมพัฒนาธุรกิจการค้าเลขที่ 0105540084143"
+  - paragraph: ใบอนุญาตจากกรมพัฒนาธุรกิจการค้า เลขที่0105540084143
+  - img "ใบอนุญาตนายหน้าประกันวินาศภัยเลขที่ ว00019/2546"
+  - paragraph: ใบอนุญาตนายหน้าประกันวินาศภัย เลขที่ว00019/2546
+  - separator
+  - paragraph: ©Copyright 2025 TQM.co.th All Rights Reserved.
+  - paragraph:
+    - link "แผนผังเว็บไซต์":
+      - /url: /sitemap
+  - paragraph:
+    - link "ข้อกำหนดและเงื่อนไข":
+      - /url: /terms-and-conditions
+  - paragraph:
+    - link "นโยบายข้อมูลส่วนบุคคล":
+      - /url: /tqm/privacy
+- img "line-chat"
+- img "line-qrcode"
+- alert
+```

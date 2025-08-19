@@ -1,8 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","32228","travel-normal-flow","Mobile Chrome","Mon Aug 18 07:00:46 UTC 2025","failed","Mon Aug 18 07:01:18 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","29450","travel-normal-flow","Desktop - Google Chrome","Mon Aug 18 07:00:14 UTC 2025","failed","Mon Aug 18 07:00:44 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","31680","travel-normal-flow","Desktop - safari","Mon Aug 18 07:02:26 UTC 2025","failed","Mon Aug 18 07:02:58 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","18268","travel-normal-flow","Desktop - firefox","Mon Aug 18 07:03:57 UTC 2025","failed","Mon Aug 18 07:04:15 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","37551","travel-normal-flow","Desktop - Microsoft Edge","Mon Aug 18 07:02:59 UTC 2025","failed","Mon Aug 18 07:03:37 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","36928","travel-normal-flow","Mobile Safari","Mon Aug 18 07:01:18 UTC 2025","failed","Mon Aug 18 07:01:55 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","28235","travel-normal-flow","Desktop - chromium","Mon Aug 18 07:01:57 UTC 2025","failed","Mon Aug 18 07:02:26 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

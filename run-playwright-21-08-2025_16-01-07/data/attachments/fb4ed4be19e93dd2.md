@@ -1,0 +1,653 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13] [cursor=pointer]
+          - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - article [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "ประกันรถยนต์ออนไลน์" [level=1] [ref=e19]
+            - paragraph [ref=e21]: ซื้อประกันรถยนต์ออนไลน์ กับ TQM ให้คุณค้นหา เปรียบเทียบ เช็คเบี้ยประกันรถยนต์ชั้น 1, 2+, 3+, 2 และ 3 กับบริษัทประกันภัยชั้นนำ พร้อมรับความคุ้มครองที่คุ้มค่าและบริการผ่อน 0%
+          - generic [ref=e22]:
+            - list [ref=e24]:
+              - listitem [ref=e25]:
+                - img [ref=e27] [cursor=pointer]
+              - listitem [ref=e28]:
+                - img [ref=e30] [cursor=pointer]
+              - listitem [ref=e31]:
+                - generic [ref=e32]:
+                  - link "automate mt promotion flow1 title":
+                    - /url: /car-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3_automate%20mt%20promotion%20flow1
+                    - img "automate mt promotion flow1 title" [ref=e33] [cursor=pointer]
+              - listitem [ref=e34]:
+                - img [ref=e36] [cursor=pointer]
+              - listitem [ref=e37]:
+                - img [ref=e39] [cursor=pointer]
+              - listitem [ref=e40]:
+                - img [ref=e42] [cursor=pointer]
+              - listitem [ref=e43]:
+                - img [ref=e45] [cursor=pointer]
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - button "paginate-dots" [ref=e48] [cursor=pointer]
+              - listitem [ref=e49]:
+                - button "paginate-dots" [ref=e50] [cursor=pointer]
+              - listitem [ref=e51]:
+                - button "paginate-dots" [ref=e52] [cursor=pointer]
+      - article [ref=e53]:
+        - heading "เช็คเบี้ย เปรียบเทียบ ประกันรถยนต์" [level=2] [ref=e54]
+        - article [ref=e55]:
+          - article [ref=e56]:
+            - generic [ref=e57]:
+              - heading "ค้นหาแผนประกันรถยนต์" [level=3] [ref=e58]
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - generic [ref=e64] [cursor=pointer]:
+                    - img "ชั้น 1" [ref=e65] [cursor=pointer]
+                    - generic [ref=e66] [cursor=pointer]: ชั้น 1
+                  - generic [ref=e68] [cursor=pointer]:
+                    - img "ชั้น 2+" [ref=e69] [cursor=pointer]
+                    - generic [ref=e70] [cursor=pointer]: ชั้น 2+
+                  - generic [ref=e72] [cursor=pointer]:
+                    - img "ชั้น 2" [ref=e73] [cursor=pointer]
+                    - generic [ref=e74] [cursor=pointer]: ชั้น 2
+                - generic [ref=e75]:
+                  - generic [ref=e77] [cursor=pointer]:
+                    - img "ชั้น 3+" [ref=e78] [cursor=pointer]
+                    - generic [ref=e79] [cursor=pointer]: ชั้น 3+
+                  - generic [ref=e81] [cursor=pointer]:
+                    - img "ชั้น 3" [ref=e82] [cursor=pointer]
+                    - generic [ref=e83] [cursor=pointer]: ชั้น 3
+              - button "เช็คราคาประกันชั้น 1" [ref=e85] [cursor=pointer]
+            - generic [ref=e86]:
+              - paragraph [ref=e87]: เรามีพันธมิตรบริษัทประกันชั้นนำกว่า 40 แห่ง
+              - article [ref=e88]:
+                - generic [ref=e91]:
+                  - img "แอลเอ็มจีประกันภัย" [ref=e93]
+                  - img "เออร์โกประกันภัย" [ref=e95]
+                  - img "เมืองไทยประกันภัย" [ref=e97]
+                  - img "เอ็ม เอส ไอ จี" [ref=e99]
+                  - img "แอกซ่าประกันภัย" [ref=e101]
+                  - img "ประกันภัยไทยวิวัฒน์" [ref=e103]
+                  - img "วิริยะประกันภัย" [ref=e105]
+                  - img "มิตรแท้ประกันภัย" [ref=e107]
+        - img "TQM Bear" [ref=e109]
+      - article [ref=e110]:
+        - heading "โปรโมชันประกันรถยนต์ แนะนำโดย TQM" [level=2] [ref=e112]:
+          - img [ref=e113]
+          - text: โปรโมชันประกันรถยนต์ แนะนำโดย TQM
+        - button "ดูโปรโมชันประกันรถยนต์ทั้งหมด" [ref=e116] [cursor=pointer]
+      - article [ref=e118]:
+        - heading "แผนประกันรถยนต์ตามไลฟ์สไตล์" [level=2] [ref=e119]
+        - paragraph [ref=e120]: เลือกซื้อประกันรถยนต์ออนไลน์ที่ออกแบบมาเพื่อตอบโจทย์ไลฟ์สไตล์ที่เป็นคุณ
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - heading "ประกันรถยนต์ระยะสั้น" [level=3] [ref=e123]
+            - paragraph [ref=e124]: ประกันรถยนต์ระยะสั้น
+            - generic [ref=e125]:
+              - link "ประกันรถยนต์ระยะสั้น":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99
+                - img "ประกันรถยนต์ระยะสั้น" [ref=e126] [cursor=pointer]
+          - generic [ref=e127]:
+            - heading "ขับน้อย จ่ายน้อย" [level=3] [ref=e128]
+            - paragraph [ref=e129]: ขับน้อย จ่ายน้อย
+            - generic [ref=e130]:
+              - link "ขับน้อย จ่ายน้อย":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%AA%E0%B9%8C%20%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%20%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2
+                - img "ขับน้อย จ่ายน้อย" [ref=e131] [cursor=pointer]
+          - generic [ref=e132]:
+            - heading "ประกันรายเดือน" [level=3] [ref=e133]
+            - paragraph [ref=e134]: ประกันรายเดือน
+            - generic [ref=e135]:
+              - link "ประกันรายเดือน":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B8%AD%E0%B8%99
+                - img "ประกันรายเดือน" [ref=e136] [cursor=pointer]
+          - generic [ref=e137]:
+            - heading "ประกันรถยนต์รายวัน" [level=3] [ref=e138]
+            - paragraph
+            - generic [ref=e139]:
+              - link "ประกันรถยนต์รายวัน":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99
+                - img "ประกันรถยนต์รายวัน" [ref=e140] [cursor=pointer]
+          - generic [ref=e141]:
+            - heading "ประกันรถยนต์เหมาเหมา" [level=3] [ref=e142]
+            - paragraph
+            - generic [ref=e143]:
+              - link "ประกันรถยนต์เหมาเหมา":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B2
+                - img "ประกันรถยนต์เหมาเหมา" [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - heading "ประกันรถยนต์คนบ้านไกล" [level=3] [ref=e146]
+            - paragraph
+            - generic [ref=e147]:
+              - link "ประกันรถยนต์คนบ้านไกล":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%84%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%81%E0%B8%A5
+                - img "ประกันรถยนต์คนบ้านไกล" [ref=e148] [cursor=pointer]
+          - generic [ref=e149]:
+            - heading "ประกันรถยนต์คนเที่ยวป่า" [level=3] [ref=e150]
+            - paragraph
+            - generic [ref=e151]:
+              - link "ประกันรถยนต์คนเที่ยวป่า":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%9B%E0%B9%88%E0%B8%B2
+                - img "ประกันรถยนต์คนเที่ยวป่า" [ref=e152] [cursor=pointer]
+          - generic [ref=e153]:
+            - heading "ประกันสปอต" [level=3] [ref=e154]
+            - paragraph [ref=e155]: sportcar
+            - generic [ref=e156]:
+              - link "ประกันสปอต":
+                - /url: /car-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_sportcar
+                - img "ประกันสปอต" [ref=e157] [cursor=pointer]
+      - article [ref=e158]:
+        - generic [ref=e159]:
+          - heading "ซื้อประกันรถยนต์บริษัทไหนดี" [level=2] [ref=e160]
+          - paragraph [ref=e161]: TQM มีแผนประกันรถยนต์ให้คุณเลือกเปรียบเทียบความคุ้มค่าจากเหล่าบริษัทพันธมิตรชั้นนำ
+        - generic [ref=e164]:
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e168]:
+                - img "แอลเอ็มจีประกันภัย" [ref=e170]
+                - img "เออร์โกประกันภัย" [ref=e172]
+                - img "เมืองไทยประกันภัย" [ref=e174]
+                - img "เอ็ม เอส ไอ จี" [ref=e176]
+                - img "แอกซ่าประกันภัย" [ref=e178]
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e180]
+                - img "วิริยะประกันภัย" [ref=e182]
+                - img "มิตรแท้ประกันภัย" [ref=e184]
+            - listitem [ref=e185]:
+              - generic [ref=e187]:
+                - img [ref=e189]
+                - img [ref=e191]
+                - img [ref=e193]
+                - img [ref=e195]
+                - img [ref=e197]
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - button "paginate-dots" [ref=e200] [cursor=pointer]
+            - listitem [ref=e201]:
+              - button "paginate-dots" [ref=e202] [cursor=pointer]
+      - article [ref=e203]:
+        - heading "ซื้อประกันรถยนต์กับ TQM ดียังไง" [level=2] [ref=e204]
+        - list [ref=e205]:
+          - listitem [ref=e206]:
+            - img "จัดส่งกรมธรรม์ออนไลน์" [ref=e207]
+            - generic [ref=e208]:
+              - heading "จัดส่งกรมธรรม์ออนไลน์" [level=3] [ref=e209]
+              - paragraph [ref=e210]: เลือกรูปแบบการจัดส่งกรมธรรม์เองได้ ไม่ว่าจะจัดส่งแบบออนไลน์ผ่านอีเมลหรือจัดส่งเอกสารฉบับจริงผ่านไปรษณีย์
+          - listitem [ref=e211]:
+            - img "บริการรถใช้ระหว่างซ่อมฟรี" [ref=e212]
+            - generic [ref=e213]:
+              - heading "บริการรถใช้ระหว่างซ่อมฟรี" [level=3] [ref=e214]
+              - paragraph [ref=e215]: รถใช้ระหว่างซ่อม จำนวน 1 ครั้ง เป็นเวลา 3 วัน กรณีที่เป็นฝ่ายถูก
+          - listitem [ref=e216]:
+            - img "บริการ<a class='text-light-blue-500 underline' href='https://www.tqm.co.th/car-insurance/service' hrefLang='th'>ค้นหาอู่ซ่อมรถและศูนย์บริการ</a>ใกล้คุณ" [ref=e217]
+            - generic [ref=e218]:
+              - heading "บริการค้นหาอู่ซ่อมรถและศูนย์บริการใกล้คุณ" [level=3] [ref=e219]:
+                - text: บริการ
+                - link "ค้นหาอู่ซ่อมรถและศูนย์บริการ" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/service
+                - text: ใกล้คุณ
+              - paragraph [ref=e221]: รวบรวมอู่ซ่อมรถและศูนย์บริการ ทั้งในเครือและนอกเครือที่ได้มาตรฐานทั่วทุกเขตในกรุงเทพฯ และทุกจังหวัดในประเทศไทย
+          - listitem [ref=e222]:
+            - img "<a class='text-light-blue-500 underline' href='https://www.tqm.co.th/car-insurance/service/search?companyId=TQM' hrefLang='th'>อู่ซ่อมในเครือ TQM</a> ที่ได้รับมาตรฐาน" [ref=e223]
+            - generic [ref=e224]:
+              - heading "อู่ซ่อมในเครือ TQM ที่ได้รับมาตรฐาน" [level=3] [ref=e225]:
+                - link "อู่ซ่อมในเครือ TQM" [ref=e226] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/service/search?companyId=TQM
+                - text: ที่ได้รับมาตรฐาน
+              - paragraph [ref=e227]: คัดสรรมาเฉพาะอู่ซ่อมในเครือที่ได้รับมาตรฐานและได้รับความไว้วางใจจาก TQM
+          - listitem [ref=e228]:
+            - img "มีทีมงานกฎหมายคอยดูแล" [ref=e229]
+            - generic [ref=e230]:
+              - heading "มีทีมงานกฎหมายคอยดูแล" [level=3] [ref=e231]
+              - paragraph [ref=e232]: ได้รับความเป็นธรรมจากการดูแลโดยทีมงานกฎหมาย ตลอดระยะเวลาเคลมประกันรถยนต์
+          - listitem [ref=e233]:
+            - img "TQM มีศูนย์ประสานงานทั่วประเทศ" [ref=e234]
+            - generic [ref=e235]:
+              - heading "TQM มีศูนย์ประสานงานทั่วประเทศ" [level=3] [ref=e236]
+              - paragraph [ref=e237]: ศูนย์ประสานงาน TQM กว่า 90 สาขา ครอบคลุมทั่วประเทศ ถึงจุดเกิดเหตุไว
+          - listitem [ref=e238]:
+            - img "ครบจบทุกขั้นตอน บนแอปพลิเคชัน TQM 24" [ref=e239]
+            - generic [ref=e240]:
+              - heading "ครบจบทุกขั้นตอน บนแอปพลิเคชัน TQM 24" [level=3] [ref=e241]
+              - paragraph [ref=e242]: ให้ลูกค้ามั่นใจ เลือก ซื้อ จ่าย เคลม และเช็คกรมธรรม์ประกันรถยนต์ได้แบบครบจบที่แอปพลิเคชัน TQM 24
+          - listitem [ref=e243]:
+            - img "บริการให้คำปรึกษาและช่วยเหลือตลอด 24 ชั่วโมง" [ref=e244]
+            - generic [ref=e245]:
+              - heading "บริการให้คำปรึกษาและช่วยเหลือตลอด 24 ชั่วโมง" [level=3] [ref=e246]
+              - paragraph [ref=e247]: สอบถามหรือปรึกษาเรื่องประกันรถยนต์ได้ทั้งวันทั้งคืน พร้อมช่วยเหลือและประสานงานเพียงโทรสายด่วน 1737
+          - listitem [ref=e248]:
+            - img "สิทธิพิเศษสำหรับลูกค้า TQM" [ref=e249]
+            - generic [ref=e250]:
+              - heading "สิทธิพิเศษสำหรับลูกค้า TQM" [level=3] [ref=e251]
+              - paragraph [ref=e252]: ลุ้นรับรางวัล โค้ดส่วนลดเงินสดเติมน้ำมันช็อปปิ้งออนไลน์ และดีลพิเศษจากร้านค้าโรงแรมชั้นนำทั่วประเทศ
+          - listitem [ref=e253]:
+            - img "ต่อประกันรถยนต์ออนไลน์" [ref=e254]
+            - generic [ref=e255]:
+              - heading "ต่อประกันรถยนต์ออนไลน์" [level=3] [ref=e256]
+              - paragraph [ref=e257]: รับความคุ้มครองอย่างต่อเนื่องจากการต่อประกันรถยนต์ออนไลน์กับ TQM ผ่านแอปพลิเคชัน TQM 24 ได้ตลอด 24 ชั่วโมง
+      - article [ref=e259]:
+        - generic [ref=e260]:
+          - heading "ประกันรถยนต์คืออะไร มีกี่ประเภท อะไรบ้าง" [level=2] [ref=e261]
+          - paragraph [ref=e262]: ประกันรถยนต์แบ่งออกเป็น 2 ประเภท คือ ประกันรถยนต์ภาคบังคับ หรือ พ.ร.บ. และประกันรถยนต์ภาคสมัครใจ
+        - list [ref=e263]:
+          - listitem [ref=e264]:
+            - link "ประกันชั้น 1 ประกันชั้น 1" [ref=e265] [cursor=pointer]:
+              - /url: /car-insurance/type1
+              - generic [ref=e267] [cursor=pointer]:
+                - img "ประกันชั้น 1" [ref=e268] [cursor=pointer]
+                - generic [ref=e269] [cursor=pointer]: ประกันชั้น 1
+          - listitem [ref=e270]:
+            - link "ประกันชั้น 2+ ประกันชั้น 2+" [ref=e271] [cursor=pointer]:
+              - /url: /car-insurance/type2plus
+              - generic [ref=e273] [cursor=pointer]:
+                - img "ประกันชั้น 2+" [ref=e274] [cursor=pointer]
+                - generic [ref=e275] [cursor=pointer]: ประกันชั้น 2+
+          - listitem [ref=e276]:
+            - link "ประกันชั้น 2 ประกันชั้น 2" [ref=e277] [cursor=pointer]:
+              - /url: /car-insurance/type2
+              - generic [ref=e279] [cursor=pointer]:
+                - img "ประกันชั้น 2" [ref=e280] [cursor=pointer]
+                - generic [ref=e281] [cursor=pointer]: ประกันชั้น 2
+          - listitem [ref=e282]:
+            - link "ประกันชั้น 3+ ประกันชั้น 3+" [ref=e283] [cursor=pointer]:
+              - /url: /car-insurance/type3plus
+              - generic [ref=e285] [cursor=pointer]:
+                - img "ประกันชั้น 3+" [ref=e286] [cursor=pointer]
+                - generic [ref=e287] [cursor=pointer]: ประกันชั้น 3+
+          - listitem [ref=e288]:
+            - link "ประกันชั้น 3 ประกันชั้น 3" [ref=e289] [cursor=pointer]:
+              - /url: /car-insurance/type3
+              - generic [ref=e291] [cursor=pointer]:
+                - img "ประกันชั้น 3" [ref=e292] [cursor=pointer]
+                - generic [ref=e293] [cursor=pointer]: ประกันชั้น 3
+          - listitem [ref=e294]:
+            - link "พ.ร.บ. พ.ร.บ." [ref=e295] [cursor=pointer]:
+              - /url: /prb
+              - generic [ref=e297] [cursor=pointer]:
+                - img "พ.ร.บ." [ref=e298] [cursor=pointer]
+                - generic [ref=e299] [cursor=pointer]: พ.ร.บ.
+      - article [ref=e300]:
+        - generic [ref=e301]:
+          - generic [ref=e303]:
+            - heading "ประกันรถยนต์ภาคบังคับ หรือ พ.ร.บ. คืออะไร" [level=3] [ref=e304]
+            - paragraph [ref=e305]:
+              - text: ประกันรถยนต์ภาคบังคับ หรือที่เรียกกันว่า
+              - link "พ.ร.บ." [ref=e306] [cursor=pointer]:
+                - /url: https://www.tqm.co.th/prb
+              - text: คือ ประกันรถยนต์ที่เจ้าของรถทุกคนจะต้องทำเพื่อคุ้มครองบุคคลที่ได้รับผลกระทบจากอุบัติเหตุทางถนน หากฝ่าฝืนจะมีความผิดทางกฏหมาย มีโทษปรับและไม่สามารถเสียภาษีรถยนต์จนทำให้ป้ายทะเบียนรถยนต์ขาดต่อได้
+          - generic [ref=e308]:
+            - heading "ประกันรถยนต์ภาคสมัครใจ คืออะไร" [level=3] [ref=e309]
+            - paragraph [ref=e310]: ประกันรถยนต์ภาคสมัครใจ คือ ประกันรถยนต์ที่เจ้าของรถเลือกทำโดยสมัครใจเพื่อให้ได้รับความคุ้มครองเพิ่มขึ้นและครอบคลุมทั้งตัวบุคคลและรถยนต์ ซึ่งก็มีบริษัทประกันรถยนต์ให้เลือกหลายแห่ง แต่ละแห่งจะมีประกันภัยให้เลือกอยู่หลักๆ 5 ประเภทที่ให้ความคุ้มครองแตกต่างกันไป ได้แก่ ประกันรถยนต์ชั้น 1 , ประกันรถยนต์ชั้น 2+, ประกันรถยนต์ชั้น 2, ประกันรถยนต์ชั้น 3+ และประกันรถยนต์ชั้น 3 หากสนใจ สามารถเช็คเบี้ยประกันบริษัทชั้นนำและตัดสินใจซื้อประกันรถยนต์ออนไลน์ได้ที่ TQM
+      - article [ref=e311]:
+        - heading "ตารางเปรียบเทียบประกันรถยนต์แต่ละชั้น คุ้มครองอะไรบ้าง" [level=2] [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - generic [ref=e315]: ความเสียหายต่อตัวรถยนต์คันทำประกันภัย
+            - img "1" [ref=e317]
+            - img "2+" [ref=e319]
+            - img "2" [ref=e321]
+            - img "3+" [ref=e323]
+            - img "3" [ref=e325]
+          - generic [ref=e326]:
+            - generic [ref=e327]: ชนกับยานพาหนะทางบก
+            - img [ref=e329]
+            - img [ref=e332]
+            - img [ref=e335]
+            - img [ref=e338]
+            - img [ref=e341]
+          - generic [ref=e343]:
+            - generic [ref=e344]: ชนแบบไม่มีคู่กรณี
+            - img [ref=e346]
+            - img [ref=e349]
+            - img [ref=e352]
+            - img [ref=e355]
+            - img [ref=e358]
+          - generic [ref=e360]:
+            - generic [ref=e361]: รถหาย
+            - img [ref=e363]
+            - img [ref=e366]
+            - img [ref=e369]
+            - img [ref=e372]
+            - img [ref=e375]
+          - generic [ref=e377]:
+            - generic [ref=e378]: ไฟไหม้
+            - img [ref=e380]
+            - img [ref=e383]
+            - img [ref=e386]
+            - img [ref=e389]
+            - img [ref=e392]
+          - generic [ref=e394]:
+            - generic [ref=e395]: น้ำท่วม
+            - img [ref=e397]
+            - img [ref=e400]
+            - img [ref=e403]
+            - img [ref=e406]
+            - img [ref=e409]
+          - generic [ref=e411]: บุคคลภายนอก
+          - generic [ref=e412]:
+            - generic [ref=e413]: ค่ารักษาและชีวิต
+            - img [ref=e415]
+            - img [ref=e418]
+            - img [ref=e421]
+            - img [ref=e424]
+            - img [ref=e427]
+          - generic [ref=e429]:
+            - generic [ref=e430]: รถและทรัพย์สิน
+            - img [ref=e432]
+            - img [ref=e435]
+            - img [ref=e438]
+            - img [ref=e441]
+            - img [ref=e444]
+          - generic [ref=e446]: ผู้ขับขี่และผู้โดยสาร
+          - generic [ref=e447]:
+            - generic [ref=e448]: ค่ารักษาและชีวิต
+            - img [ref=e450]
+            - img [ref=e453]
+            - img [ref=e456]
+            - img [ref=e459]
+            - img [ref=e462]
+          - generic [ref=e464]:
+            - generic [ref=e465]: ประกันตัว
+            - img [ref=e467]
+            - img [ref=e470]
+            - img [ref=e473]
+            - img [ref=e476]
+            - img [ref=e479]
+      - article [ref=e481]:
+        - heading "ประกันรถยนต์แต่ละชั้นต่างกันอย่างไร" [level=2] [ref=e482]:
+          - text: ประกันรถยนต์
+          - generic [ref=e483]: แต่ละชั้นต่างกันอย่างไร
+        - generic [ref=e484]:
+          - generic [ref=e485]:
+            - img "ประกันรถยนต์ชั้น 1 คุ้มครองอะไรบ้าง" [ref=e486]
+            - generic [ref=e487]:
+              - heading "ประกันรถยนต์ชั้น 1 คุ้มครองอะไรบ้าง" [level=3] [ref=e488]
+              - generic [ref=e489]:
+                - text: ประกันรถยนต์ภาคสมัครใจที่ดีที่สุด ต้องยกให้
+                - link "ประกันรถยนต์ชั้น 1" [ref=e490] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/type1
+                - text: ที่คุ้มครองครอบคลุมความเสียหายต่อตัวรถยนต์มากกว่าประกันชั้นอื่นๆ ทั้งในกรณีชนกับยานพาหนะทางบกหรือชนแบบไม่มีคู่กรณี กรณีรถหาย หรือถูกโจรกรรม ไฟไหม้รถ รถน้ำท่วมจากภัยธรรมชาติ รวมถึงภัยก่อการร้าย แต่นอกจากจะคุ้มครองตัวรถยนต์แล้ว ยังคุ้มครองความเสียหายต่อตัวบุคคลและทรัพย์สิน กรณีที่ผู้ขับขี่เป็นฝ่ายผิด ดังนี้
+                - list [ref=e491]:
+                  - listitem [ref=e492]: ความเสียหายต่อชีวิต ร่างกาย และทรัพย์สินของผู้ขับขี่ ผู้โดยสาร และบุคคลภายนอก
+                  - listitem [ref=e493]: ความเสียหายต่อทรัพย์สินภายในรถยนต์ของผู้ขับขี่และผู้โดยสาร
+                  - listitem [ref=e494]: ความเสียหายต่อทรัพย์สินของบุคคลภายนอก
+                  - listitem [ref=e495]: ค่ารักษาพยาบาลกรณีบาดเจ็บจากอุบัติเหตุทางรถยนต์คันเอาประกันภัย
+                  - listitem [ref=e496]: ค่าประกันตัวเพื่อสู้คดี
+          - generic [ref=e497]:
+            - img "ประกันรถยนต์ชั้น 2+ คุ้มครองอะไรบ้าง" [ref=e498]
+            - generic [ref=e499]:
+              - heading "ประกันรถยนต์ชั้น 2+ คุ้มครองอะไรบ้าง" [level=3] [ref=e500]
+              - generic [ref=e501]:
+                - link "ประกันรถยนต์ชั้น 2+" [ref=e502] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/type2plus
+                - text: คุ้มครองไม่เป็นรองใคร ยกให้เป็นประกันรถยนต์ยอดนิยมด้วยราคาที่ประหยัดและคุ้มครองต่างจากประกันชั้น 1 เพียงเล็กน้อย คือ ไม่คุ้มครองความเสียหายต่อรถยนต์กรณีชนแบบไม่มีคู่กรณี นอกจากนั้น ประกันชั้น 2+ ให้ความคุ้มครองกรณีชนกับยานพาหนะทางบกกรณีรถหาย หรือถูกโจรกรรม ไฟไหม้รถ รถน้ำท่วมจากภัยธรรมชาติ รวมถึงภัยก่อการร้าย แต่นอกจากจะคุ้มครองตัวรถยนต์แล้ว ยังคุ้มครองความเสียหายต่อตัวบุคคลและทรัพย์สิน กรณีที่ผู้ขับขี่เป็นฝ่ายผิด ดังนี้
+                - list [ref=e503]:
+                  - listitem [ref=e504]: ความเสียหายต่อชีวิต ร่างกาย และทรัพย์สินของผู้ขับขี่ ผู้โดยสาร และบุคคลภายนอก
+                  - listitem [ref=e505]: ความเสียหายต่อทรัพย์สินภายในรถยนต์ของผู้ขับขี่และผู้โดยสาร
+                  - listitem [ref=e506]: ความเสียหายต่อทรัพย์สินของบุคคลภายนอก
+                  - listitem [ref=e507]: ค่ารักษาพยาบาลกรณีบาดเจ็บจากอุบัติเหตุทางรถยนต์คันเอาประกันภัย
+                  - listitem [ref=e508]: ค่าประกันตัวเพื่อสู้คดี
+          - generic [ref=e509]:
+            - img "ประกันรถยนต์ชั้น 2 คุ้มครองอะไรบ้าง" [ref=e510]
+            - generic [ref=e511]:
+              - heading "ประกันรถยนต์ชั้น 2 คุ้มครองอะไรบ้าง" [level=3] [ref=e512]
+              - generic [ref=e513]:
+                - link "ประกันรถยนต์ชั้น 2" [ref=e514] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/type2
+                - text: ซ่อมเขา ไม่ซ่อมเรา เป็นประกันที่ให้ความคุ้มครองกรณีชนกับยานพาหนะทางบกของคันคู่กรณีเท่านั้น หากเป็นคันเอาประกันภัยจะคุ้มครองเฉพาะกรณีรถหายและไฟไหม้รถ ส่วนความเสียหายต่อตัวบุคคลและทรัพย์สิน กรณีที่ผู้ขับขี่เป็นฝ่ายผิด ยังคงให้ความคุ้มครองเหมือนประกันชั้นอื่นๆ
+          - generic [ref=e515]:
+            - img "ประกันรถยนต์ชั้น 3+ คุ้มครองอะไรบ้าง" [ref=e516]
+            - generic [ref=e517]:
+              - heading "ประกันรถยนต์ชั้น 3+ คุ้มครองอะไรบ้าง" [level=3] [ref=e518]
+              - generic [ref=e519]:
+                - link "ประกันรถยนต์ชั้น 3+" [ref=e520] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/type3plus
+                - text: เรียกได้ว่า คุ้มครองแบบซ่อมเขา ซ่อมเรา เฉพาะกรณีชนกับยานพาหนะทางบกเท่านั้น ส่วนความเสียหายต่อตัวบุคคลและทรัพย์สินและค่าประกันตัวที่ประกันรถยนต์ชั้น 3+ ยังคงให้ความคุ้มครองเช่นเดิม
+          - generic [ref=e521]:
+            - img "ประกันรถยนต์ชั้น 3 คุ้มครองอะไรบ้าง" [ref=e522]
+            - generic [ref=e523]:
+              - heading "ประกันรถยนต์ชั้น 3 คุ้มครองอะไรบ้าง" [level=3] [ref=e524]
+              - generic [ref=e525]:
+                - link "ประกันรถยนต์ชั้น 3" [ref=e526] [cursor=pointer]:
+                  - /url: https://www.tqm.co.th/car-insurance/type3
+                - text: เปรียบเสมือนประกันรถยนต์ภาคสมัครใจขั้นพื้นฐานที่คุ้มครองความเสียหายต่อตัวบุคคลและทรัพย์สินของผู้ขับขี่ ผู้โดยสาร และบุคคลภายนอก รวมถึงค่าประกันตัวเพื่อสู้คดี
+      - generic [ref=e527]:
+        - heading "จำเป็นต้องทำประกันรถยนต์ไหม?" [level=2] [ref=e528]
+        - paragraph [ref=e529]: การทำประกันรถยนต์ภาคสมัครใจ ไม่ได้เป็นข้อบังคับ แต่เป็นสิ่งจำเป็นที่รถทุกคันควรมีประกันรถยนต์ติดรถไว้ เพราะขึ้นชื่อว่าอุบัติเหตุเกิดขึ้นได้ตลอดเวลา ถ้าไม่มีประกันรถยนต์ที่คุ้มครองตัวรถยนต์และตัวบุคคล อาจทำให้เจ้าของรถหรือผู้ขับขี่เสียเวลาในการดำเนินเรื่องต่างๆ และแบกรับค่าเสียหายของรถยนต์ที่เกิดขึ้นจากอุบัติเหตุด้วยตัวเอง
+      - article [ref=e530]:
+        - heading "รายละเอียดความคุ้มครองประกันรถยนต์" [level=2] [ref=e531]
+        - list [ref=e532]:
+          - listitem [ref=e533] [cursor=pointer]:
+            - img [ref=e535] [cursor=pointer]
+            - heading "คุ้มครองความเสียหายต่อตัวรถยนต์" [level=3] [ref=e537] [cursor=pointer]
+          - listitem [ref=e538] [cursor=pointer]:
+            - img [ref=e540] [cursor=pointer]
+            - heading "คุ้มครองความเสียหายจากภัยธรรมชาติ ไฟไหม้ ถูกโจรกรรม" [level=3] [ref=e542] [cursor=pointer]
+          - listitem [ref=e543] [cursor=pointer]:
+            - img [ref=e545] [cursor=pointer]
+            - heading "คุ้มครองบุคคลภายนอก" [level=3] [ref=e547] [cursor=pointer]
+          - listitem [ref=e548] [cursor=pointer]:
+            - img [ref=e550] [cursor=pointer]
+            - heading "คุ้มครองบุคคลในรถยนต์คันทำประกันภัย" [level=3] [ref=e552] [cursor=pointer]
+          - listitem [ref=e553] [cursor=pointer]:
+            - img [ref=e555] [cursor=pointer]
+            - heading "ค่าเสียหายส่วนแรก" [level=3] [ref=e557] [cursor=pointer]
+          - listitem [ref=e558] [cursor=pointer]:
+            - img [ref=e560] [cursor=pointer]
+            - heading "แผนการซ่อม เลือกซ่อมอู่หรือซ่อมห้าง" [level=3] [ref=e562] [cursor=pointer]
+        - generic [ref=e563]:
+          - generic [ref=e564]:
+            - heading "คุ้มครองความเสียหายต่อตัวรถยนต์" [level=3] [ref=e565]
+            - generic [ref=e566]:
+              - heading "อุบัติเหตุรถชนแบบมีคู่กรณีและไม่มีคู่กรณี" [level=4] [ref=e567]
+              - generic [ref=e568]: เมื่อรถคันทำประกันภัยไว้ได้รับความเสียหายด้วยสาเหตุใด ๆ ก็ตาม บริษัทประกันภัยจะซ่อมให้กลับสู่สภาพเดิมหรือจ่ายค่าสินไหมทดแทน เพื่อชดใช้ค่าเสียหายที่เกิดขึ้น
+          - img "คุ้มครองความเสียหายต่อตัวรถยนต์" [ref=e570]
+      - article [ref=e571]:
+        - heading "ทำประกันรถยนต์ชั้นไหนดี จึงเหมาะสม" [level=2] [ref=e572]
+        - paragraph [ref=e573]: ประกันรถยนต์แต่ละชั้นเหมาะกับการใช้รถยนต์แบบใด ลักษณะการใช้งานแบบไหน
+        - generic [ref=e575]:
+          - generic [ref=e576]:
+            - heading "ประกันชั้น 1 เหมาะกับ" [level=3] [ref=e577]
+            - list [ref=e579]:
+              - listitem [ref=e580]: มือใหม่หัดขับหรือคนที่ยังขับรถไม่ค่อยแข็ง
+              - listitem [ref=e581]: ขับรถใหม่ป้ายแดง หรือรถที่เพิ่งออกจากศูนย์
+              - listitem [ref=e582]: ขับรถเก่าอายุเกิน 7 ปี แต่อยากทำประกันชั้น 1
+              - listitem [ref=e583]: รถที่อยู่ในพื้นที่เสี่ยงน้ำท่วม หรือ ถูกโจรกรรม
+          - generic [ref=e584]:
+            - heading "ประกันชั้น 2+ เหมาะกับ" [level=3] [ref=e585]
+            - list [ref=e587]:
+              - listitem [ref=e588]: คนที่มีประสบการณ์การขับรถมามากกว่า 3 ปี
+              - listitem [ref=e589]: รถที่ใช้งานประจำ อายุรถไม่เกิน 7 ปี
+              - listitem [ref=e590]: รถที่อยู่ในพื้นที่เสี่ยงน้ำท่วม หรือ ถูกโจรกรรม
+          - generic [ref=e591]:
+            - heading "ประกันชั้น 3+ เหมาะกับ" [level=3] [ref=e592]
+            - list [ref=e594]:
+              - listitem [ref=e595]: คนที่มีประสบการณ์การขับรถมาหลายปี หรือแทบจะไม่เคยมีประวัติเคลม
+              - listitem [ref=e596]: ขับรถในระยะทางใกล้ๆ
+              - listitem [ref=e597]: รถที่อยู่ในพื้นที่ปลอดภัย ไม่เสี่ยงน้ำท่วม หรือ ถูกโจรกรรม
+              - listitem [ref=e598]: รถอายุเกิน 7 ปี
+          - generic [ref=e599]:
+            - heading "ประกันชั้น 2 และ 3 เหมาะกับ" [level=3] [ref=e600]
+            - list [ref=e602]:
+              - listitem [ref=e603]: คนที่มีประสบการณ์ในการขับรถเยอะแล้ว หรือมีความชำนาญในการขับรถพอสมควร จึงมีความเสี่ยงขับรถชนน้อย
+      - article [ref=e604]:
+        - heading "แชร์ประสบการณ์จากผู้ใช้บริการ TQM" [level=2] [ref=e605]
+        - list [ref=e609]:
+          - listitem [ref=e610]:
+            - generic [ref=e612]:
+              - img "คุณปัญญา แย้มโอษฐ์" [ref=e614]
+              - paragraph [ref=e615]: คุณปัญญา แย้มโอษฐ์
+              - generic [ref=e616]:
+                - img [ref=e618]
+                - img [ref=e621]
+                - img [ref=e624]
+                - img [ref=e627]
+                - img [ref=e630]
+              - paragraph [ref=e633]: เป็นลูกค้าทีคิวเอ็มมา 1 ปี การบริการดีมากครับ พร้อมบริการ 24 ชั่วโมง
+          - listitem [ref=e634]:
+            - generic [ref=e636]:
+              - img [ref=e638]
+              - paragraph [ref=e639]: คุณอิศรา บูชาบุญ
+              - generic [ref=e640]:
+                - img [ref=e642]
+                - img [ref=e645]
+                - img [ref=e648]
+                - img [ref=e651]
+                - img [ref=e654]
+              - paragraph [ref=e657]: เป็นลูกค้าทีคิวเอ็มฯมา 6 ปีแล้วค่ะ บริการหลังการขายดูแลดีมาก เจ้าหน้าที่สุภาพดีมากค่ะ
+          - listitem [ref=e658]:
+            - generic [ref=e660]:
+              - img [ref=e662]
+              - paragraph [ref=e663]: คุณจุติพร ศรีคำพร
+              - generic [ref=e664]:
+                - img [ref=e666]
+                - img [ref=e669]
+                - img [ref=e672]
+                - img [ref=e675]
+                - img [ref=e678]
+              - paragraph [ref=e681]: บริการดีมาก โทรมาถามตลอดว่าได้รับเอกสารเรียบร้อยหรือยัง ติดตามงานดีใส่ใจลูกค้ามากค่ะ
+      - article [ref=e682]:
+        - heading "คำถามที่พบบ่อยเกี่ยวกับประกันรถยนต์" [level=2] [ref=e683]
+        - generic [ref=e684]:
+          - button "ชำระเบี้ยประกันรถยนต์ผ่านช่องทางไหนได้บ้าง ผ่อนได้ไหม" [ref=e688] [cursor=pointer]:
+            - heading "ชำระเบี้ยประกันรถยนต์ผ่านช่องทางไหนได้บ้าง ผ่อนได้ไหม" [level=3] [ref=e690] [cursor=pointer]
+            - img [ref=e692] [cursor=pointer]
+          - button "โทรหา TQM ไม่ติด มีช่องทางไหนติดต่อได้บ้าง" [ref=e697] [cursor=pointer]:
+            - heading "โทรหา TQM ไม่ติด มีช่องทางไหนติดต่อได้บ้าง" [level=3] [ref=e699] [cursor=pointer]
+            - img [ref=e701] [cursor=pointer]
+          - button "TQM มีบริษัทประกันรถยนต์อะไรบ้าง" [ref=e706] [cursor=pointer]:
+            - heading "TQM มีบริษัทประกันรถยนต์อะไรบ้าง" [level=3] [ref=e708] [cursor=pointer]
+            - img [ref=e710] [cursor=pointer]
+          - button "ซื้อประกันรถยนต์ออนไลน์กับ TQM อย่างไร" [ref=e715] [cursor=pointer]:
+            - heading "ซื้อประกันรถยนต์ออนไลน์กับ TQM อย่างไร" [level=3] [ref=e717] [cursor=pointer]
+            - img [ref=e719] [cursor=pointer]
+          - button "ซื้อประกันรถยนต์ออนไลน์กับ TQM ชำระเงินอย่างไร" [ref=e724] [cursor=pointer]:
+            - heading "ซื้อประกันรถยนต์ออนไลน์กับ TQM ชำระเงินอย่างไร" [level=3] [ref=e726] [cursor=pointer]
+            - img [ref=e728] [cursor=pointer]
+          - button "วิธีการเคลมประกันรถยนต์ แจ้งเหตุฉุกเฉิน ขอรถลาก/รถยก ทำอย่างไร" [ref=e733] [cursor=pointer]:
+            - heading "วิธีการเคลมประกันรถยนต์ แจ้งเหตุฉุกเฉิน ขอรถลาก/รถยก ทำอย่างไร" [level=3] [ref=e735] [cursor=pointer]
+            - img [ref=e737] [cursor=pointer]
+          - button "TQM24 App ช่วยทำอะไรได้บ้าง" [ref=e742] [cursor=pointer]:
+            - heading "TQM24 App ช่วยทำอะไรได้บ้าง" [level=3] [ref=e744] [cursor=pointer]
+            - img [ref=e746] [cursor=pointer]
+      - article [ref=e748]:
+        - heading "เคลมประกันรถยนต์" [level=2] [ref=e749]
+        - paragraph [ref=e750]: อุบัติเหตุที่เกิดจากการใช้รถยนต์บนถนน ควรทำอย่างไร TQM มีช่องทางการเคลมที่สะดวก รวดเร็ว ง่าย และควรเตรียมตัวอย่างไร เมื่อเกิดเหตุ
+        - generic [ref=e751]:
+          - generic [ref=e752]:
+            - img "เกิดอุบัติเหตุมีคู่กรณี" [ref=e754]
+            - generic [ref=e755]:
+              - heading "เกิดอุบัติเหตุมีคู่กรณี" [level=3] [ref=e756]
+              - paragraph [ref=e757]: รีบโทรแจ้งศูนย์หรือสายด่วนของบริษัทประกันแจ้งข้อมูลรถและสถานที่เกิดเหตุ รายละเอียดเหตุการณ์ เมื่อได้รับใบเคลม นำเอกสารต่างๆ ยื่นเรื่องเคลม นำรถเข้าซ่อมกับอู่ในเครือ โดยไม่ต้องเสียค่าใช้จ่ายใดๆ เพิ่มเติม
+          - generic [ref=e758]:
+            - img "เกิดอุบัติเหตุไม่มีคู่กรณี" [ref=e760]
+            - generic [ref=e761]:
+              - heading "เกิดอุบัติเหตุไม่มีคู่กรณี" [level=3] [ref=e762]
+              - paragraph [ref=e763]: โทรแจ้งบริษัทประกันภัย เพื่อแจ้งเคลมได้เลย จากนั้นบริษัทจะให้เรานำรถไปตรวจเช็คที่อู่ หรือศูนย์บริการรถยนต์
+          - generic [ref=e764]:
+            - img "หินกระเด็นใส่กระจกร้าว" [ref=e766]
+            - generic [ref=e767]:
+              - heading "หินกระเด็นใส่กระจกร้าว" [level=3] [ref=e768]
+              - paragraph [ref=e769]: โทรแจ้งบริษัทประกันภัย แจ้งรายละเอียดอุบัติเหตุ ระบุวันนำรถเข้าอู่หรือศูนย์นำรถเข้าซ่อมหรือเปลี่ยนกระจกทันที
+        - generic [ref=e770]: "หมายเหตุ : เป็นไปตามเงื่อนไขกรมธรรม์"
+        - generic [ref=e772]:
+          - heading "ช่องทางการเคลมประกันรถยนต์" [level=2] [ref=e773]
+          - generic [ref=e774]:
+            - generic [ref=e775] [cursor=pointer]:
+              - img "app" [ref=e776] [cursor=pointer]
+              - generic [ref=e777] [cursor=pointer]: สายด่วน 1737
+            - generic [ref=e778] [cursor=pointer]:
+              - img "app" [ref=e779] [cursor=pointer]
+              - generic [ref=e780] [cursor=pointer]: App TQM24
+            - generic [ref=e781] [cursor=pointer]:
+              - img "app" [ref=e782] [cursor=pointer]
+              - generic [ref=e783] [cursor=pointer]: Line TQM
+        - button "ดูข้อมูลการเคลมเพิ่มเติม" [ref=e785] [cursor=pointer]
+    - contentinfo [ref=e786]:
+      - link "TQM Logo" [ref=e788] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e789] [cursor=pointer]
+      - generic [ref=e790]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e793] [cursor=pointer]:
+          - generic [ref=e795] [cursor=pointer]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e797] [cursor=pointer]
+        - button "บริการลูกค้า" [ref=e801] [cursor=pointer]:
+          - generic [ref=e803] [cursor=pointer]: บริการลูกค้า
+          - img [ref=e805] [cursor=pointer]
+        - button "ติดต่อสอบถาม" [ref=e809] [cursor=pointer]:
+          - generic [ref=e811] [cursor=pointer]: ติดต่อสอบถาม
+          - img [ref=e813] [cursor=pointer]
+        - button "บริษัท" [ref=e817] [cursor=pointer]:
+          - generic [ref=e819] [cursor=pointer]: บริษัท
+          - img [ref=e821] [cursor=pointer]
+        - generic [ref=e823]:
+          - generic [ref=e824]:
+            - link "facebook" [ref=e826] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e827] [cursor=pointer]
+            - link "line" [ref=e829] [cursor=pointer]:
+              - /url: https://page.line.me/tqmbroker?openQrModal=true
+              - img "line" [ref=e830] [cursor=pointer]
+            - link "youtube" [ref=e832] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCHjNT-OxLzcJBZ97v01OVlQ
+              - img "youtube" [ref=e833] [cursor=pointer]
+            - link "twitter" [ref=e835] [cursor=pointer]:
+              - /url: https://twitter.com/TqmOfficial
+              - img "twitter" [ref=e836] [cursor=pointer]
+          - link "1737" [ref=e838] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e839] [cursor=pointer]
+            - text: "1737"
+        - generic [ref=e842]:
+          - link "TQM Application" [ref=e844] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e845] [cursor=pointer]
+          - generic [ref=e846]:
+            - link "TQM IOS Application" [ref=e848] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e849] [cursor=pointer]
+            - link "TQM Android Application" [ref=e851] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e852] [cursor=pointer]
+        - generic [ref=e853]:
+          - paragraph [ref=e854]: ©Copyright 2025 TQM.co.th All Rights Reserved.
+          - generic [ref=e855]:
+            - paragraph [ref=e856]:
+              - link "แผนผังเว็บไซต์" [ref=e857] [cursor=pointer]:
+                - /url: /sitemap
+            - paragraph [ref=e858]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e859] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e860]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e861] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e863]:
+      - img [ref=e865]
+      - generic [ref=e1152]:
+        - text: เราขอใช้คุกกี้เพื่อให้ประสบการณ์ที่ดีที่สุดกับคุณตาม
+        - link "นโยบายคุกกี้" [ref=e1153] [cursor=pointer]:
+          - /url: /tqm/cookie_policy
+        - text: และ
+        - link "นโยบายคุ้มครองข้อมูลส่วนบุคคล" [ref=e1154] [cursor=pointer]:
+          - /url: /tqm/privacy
+      - generic [ref=e1155]:
+        - button [ref=e1156] [cursor=pointer]:
+          - img [ref=e1157] [cursor=pointer]
+        - button "ตกลง" [ref=e1159] [cursor=pointer]
+    - img "line-chat" [ref=e1161] [cursor=pointer]
+    - generic:
+      - img [ref=e1163] [cursor=pointer]
+      - img "line-qrcode"
+  - alert [ref=e1166]
+```

@@ -1,0 +1,288 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button [ref=e8] [cursor=pointer]:
+            - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e13] [cursor=pointer]
+          - button [ref=e14] [cursor=pointer]: เข้าสู่ระบบ
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e20]: ค้นหา แผนประกัน
+        - progressbar [ref=e22]
+        - generic [ref=e24]:
+          - img [ref=e25]
+          - generic [ref=e26]: เลือก แผนประกัน
+        - progressbar [ref=e28]
+        - generic [ref=e30]:
+          - img [ref=e31]
+          - generic [ref=e32]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e34]
+        - generic [ref=e36]:
+          - img [ref=e37]
+          - generic [ref=e38]: ชำระเงิน
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: แผนประกันที่เหมาะกับคุณ
+          - generic [ref=e44]: พบทั้งหมด 5 รายการ
+        - generic [ref=e45]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: แผนประกัน
+            - generic [ref=e49]:
+              - img [ref=e51]
+              - generic [ref=e53]: ประกันอุบัติเหตุ
+              - generic [ref=e55] [cursor=pointer]:
+                - img [ref=e56] [cursor=pointer]
+                - text: แก้ไข
+          - generic [ref=e60]:
+            - generic [ref=e62] [cursor=pointer]:
+              - img [ref=e64] [cursor=pointer]
+              - generic [ref=e65] [cursor=pointer]: ตัวกรองข้อมูล
+            - img [ref=e69] [cursor=pointer]
+        - generic [ref=e72]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /accident-insurance/packages/%E0%B9%81%E0%B8%84%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%8D_%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_automate-accident-yearDifference-flow4
+            - img [ref=e75] [cursor=pointer]
+          - generic [ref=e80]:
+            - generic [ref=e82]:
+              - img [ref=e83]
+              - generic [ref=e84]:
+                - generic [ref=e85]: ทิพยประกันภัย
+                - generic [ref=e86]: ประกันภัยอุบัติเหตุระยะสั้น
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: จำนวนเงินเอาประกันภัย
+                  - generic [ref=e94]: ฿ 200,000
+                - generic [ref=e95]:
+                  - generic [ref=e96]: ชดเชยรายได้
+                  - generic [ref=e97]: ฿ 1,900
+              - generic [ref=e98]:
+                - generic [ref=e99]: อายุ 1-70 ปี
+                - button [ref=e101] [cursor=pointer]:
+                  - text: ฿ 18
+                  - img [ref=e103] [cursor=pointer]
+          - generic [ref=e109]:
+            - generic [ref=e111]:
+              - img [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: เมืองไทยประกันภัย
+                - generic [ref=e115]: ประกันอุบัติเหตุ ครอบจักรวาล
+            - generic [ref=e117]:
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: จำนวนเงินเอาประกันภัย
+                    - generic [ref=e123]: ฿ 300,000
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: ชดเชยรายได้
+                    - generic [ref=e126]: ฿ 5,006.55
+                - generic [ref=e127]:
+                  - generic [ref=e128]: อายุ 15-30 ปี
+                  - button [ref=e130] [cursor=pointer]:
+                    - text: ฿ 1,820
+                    - img [ref=e132] [cursor=pointer]
+                  - generic [ref=e135]: ลดหย่อนภาษีได้
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: จำนวนเงินเอาประกันภัย
+                    - generic [ref=e141]: ฿ 450,000
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: ชดเชยรายได้
+                    - generic [ref=e144]: "-"
+                - generic [ref=e145]:
+                  - generic [ref=e146]: อายุ 15-30 ปี
+                  - button [ref=e148] [cursor=pointer]:
+                    - text: ฿ 4,820
+                    - img [ref=e150] [cursor=pointer]
+                  - generic [ref=e153]: ลดหย่อนภาษีได้
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: จำนวนเงินเอาประกันภัย
+                    - generic [ref=e159]: ฿ 600,000
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: ชดเชยรายได้
+                    - generic [ref=e162]: ฿ 500
+                - generic [ref=e163]:
+                  - generic [ref=e164]: อายุ 15-30 ปี
+                  - button [ref=e166] [cursor=pointer]:
+                    - text: ฿ 7,820
+                    - img [ref=e168] [cursor=pointer]
+                  - generic [ref=e171]: ลดหย่อนภาษีได้
+          - generic [ref=e176]:
+            - generic [ref=e178]:
+              - img [ref=e179]
+              - generic [ref=e180]:
+                - generic [ref=e181]: เมืองไทยประกันภัย
+                - generic [ref=e182]: ประกันอุบัติเหตุ
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]: จำนวนเงินเอาประกันภัย
+                  - generic [ref=e190]: ฿ 1,500,000
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ชดเชยรายได้
+                  - generic [ref=e193]: จ่ายตามจริง
+              - generic [ref=e194]:
+                - generic [ref=e195]: อายุ 0-40 ปี
+                - button [ref=e197] [cursor=pointer]:
+                  - text: ฿ 10,000
+                  - img [ref=e199] [cursor=pointer]
+                - generic [ref=e202]: ลดหย่อนภาษีได้
+    - contentinfo [ref=e203]:
+      - link [ref=e205] [cursor=pointer]:
+        - /url: /
+        - img [ref=e206] [cursor=pointer]
+      - generic [ref=e207]:
+        - button [ref=e210] [cursor=pointer]:
+          - generic [ref=e212] [cursor=pointer]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e214] [cursor=pointer]
+        - button [ref=e218] [cursor=pointer]:
+          - generic [ref=e220] [cursor=pointer]: บริการลูกค้า
+          - img [ref=e222] [cursor=pointer]
+        - button [ref=e226] [cursor=pointer]:
+          - generic [ref=e228] [cursor=pointer]: ติดต่อสอบถาม
+          - img [ref=e230] [cursor=pointer]
+        - button [ref=e234] [cursor=pointer]:
+          - generic [ref=e236] [cursor=pointer]: บริษัท
+          - img [ref=e238] [cursor=pointer]
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - link [ref=e243] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img [ref=e244] [cursor=pointer]
+            - link [ref=e246] [cursor=pointer]:
+              - /url: https://page.line.me/tqmbroker?openQrModal=true
+              - img [ref=e247] [cursor=pointer]
+            - link [ref=e249] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCHjNT-OxLzcJBZ97v01OVlQ
+              - img [ref=e250] [cursor=pointer]
+            - link [ref=e252] [cursor=pointer]:
+              - /url: https://twitter.com/TqmOfficial
+              - img [ref=e253] [cursor=pointer]
+          - link [ref=e255] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e256] [cursor=pointer]
+            - text: "1737"
+        - generic [ref=e259]:
+          - link [ref=e261] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img [ref=e262] [cursor=pointer]
+          - generic [ref=e263]:
+            - link [ref=e265] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img [ref=e266] [cursor=pointer]
+            - link [ref=e268] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img [ref=e269] [cursor=pointer]
+        - generic [ref=e270]:
+          - paragraph [ref=e271]: ©Copyright 2025 TQM.co.th All Rights Reserved.
+          - generic [ref=e272]:
+            - paragraph [ref=e273]:
+              - link [ref=e274] [cursor=pointer]:
+                - /url: /sitemap
+                - text: แผนผังเว็บไซต์
+            - paragraph [ref=e275]:
+              - link [ref=e276] [cursor=pointer]:
+                - /url: /terms-and-conditions
+                - text: ข้อกำหนดและเงื่อนไข
+            - paragraph [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /tqm/privacy
+                - text: นโยบายข้อมูลส่วนบุคคล
+    - img [ref=e280] [cursor=pointer]
+    - img [ref=e282] [cursor=pointer]
+  - alert [ref=e285]: ผลการค้นหาประกันอุบัติเหตุ | TQM ทีคิวเอ็ม
+  - generic [ref=e288]:
+    - generic [ref=e290]: ตัวกรองข้อมูล
+    - generic [ref=e291]:
+      - generic [ref=e292]:
+        - heading "บริษัทประกันภัย" [level=3] [ref=e293]:
+          - button "บริษัทประกันภัย" [expanded] [ref=e294] [cursor=pointer]:
+            - generic [ref=e296] [cursor=pointer]: บริษัทประกันภัย
+            - img [ref=e298] [cursor=pointer]
+        - region [ref=e303]:
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - textbox "เลือกบริษัทประกัน..." [ref=e307]
+              - img [ref=e309]
+            - generic [ref=e311]:
+              - button "เมืองไทยประกันภัย เมืองไทยประกันภัย" [ref=e312] [cursor=pointer]:
+                - listitem [ref=e313] [cursor=pointer]:
+                  - img "เมืองไทยประกันภัย" [ref=e315] [cursor=pointer]
+                  - generic [ref=e318] [cursor=pointer]: เมืองไทยประกันภัย
+                  - generic [ref=e320] [cursor=pointer]:
+                    - checkbox [ref=e321] [cursor=pointer]
+                    - img [ref=e322] [cursor=pointer]
+              - button "เอ็ม เอส ไอ จี เอ็ม เอส ไอ จี" [ref=e324] [cursor=pointer]:
+                - listitem [ref=e325] [cursor=pointer]:
+                  - img "เอ็ม เอส ไอ จี" [ref=e327] [cursor=pointer]
+                  - generic [ref=e330] [cursor=pointer]: เอ็ม เอส ไอ จี
+                  - generic [ref=e332] [cursor=pointer]:
+                    - checkbox [ref=e333] [cursor=pointer]
+                    - img [ref=e334] [cursor=pointer]
+              - button "กรุงเทพประกันภัย กรุงเทพประกันภัย" [ref=e336] [cursor=pointer]:
+                - listitem [ref=e337] [cursor=pointer]:
+                  - img "กรุงเทพประกันภัย" [ref=e339] [cursor=pointer]
+                  - generic [ref=e342] [cursor=pointer]: กรุงเทพประกันภัย
+                  - generic [ref=e344] [cursor=pointer]:
+                    - checkbox [ref=e345] [cursor=pointer]
+                    - img [ref=e346] [cursor=pointer]
+              - button "ชับบ์สามัคคีประกันภัย ชับบ์สามัคคีประกันภัย" [ref=e348] [cursor=pointer]:
+                - listitem [ref=e349] [cursor=pointer]:
+                  - img "ชับบ์สามัคคีประกันภัย" [ref=e351] [cursor=pointer]
+                  - generic [ref=e354] [cursor=pointer]: ชับบ์สามัคคีประกันภัย
+                  - generic [ref=e356] [cursor=pointer]:
+                    - checkbox [ref=e357] [cursor=pointer]
+                    - img [ref=e358] [cursor=pointer]
+              - button "ทูนประกันภัย ทูนประกันภัย" [ref=e360] [cursor=pointer]:
+                - listitem [ref=e361] [cursor=pointer]:
+                  - img "ทูนประกันภัย" [ref=e363] [cursor=pointer]
+                  - generic [ref=e366] [cursor=pointer]: ทูนประกันภัย
+                  - generic [ref=e368] [cursor=pointer]:
+                    - checkbox [ref=e369] [cursor=pointer]
+                    - img [ref=e370] [cursor=pointer]
+              - button "ธนชาติ ธนชาติ" [ref=e372] [cursor=pointer]:
+                - listitem [ref=e373] [cursor=pointer]:
+                  - img "ธนชาติ" [ref=e375] [cursor=pointer]
+                  - generic [ref=e378] [cursor=pointer]: ธนชาติ
+                  - generic [ref=e380] [cursor=pointer]:
+                    - checkbox [ref=e381] [cursor=pointer]
+                    - img [ref=e382] [cursor=pointer]
+              - button "ทิพยประกันภัย ทิพยประกันภัย" [ref=e384] [cursor=pointer]:
+                - listitem [ref=e385] [cursor=pointer]:
+                  - img "ทิพยประกันภัย" [ref=e387] [cursor=pointer]
+                  - generic [ref=e390] [cursor=pointer]: ทิพยประกันภัย
+                  - generic [ref=e392] [cursor=pointer]:
+                    - checkbox [ref=e393] [cursor=pointer]
+                    - img [ref=e394] [cursor=pointer]
+      - generic [ref=e396]:
+        - heading "อายุผู้เอาประกัน" [level=3] [ref=e397]:
+          - button "อายุผู้เอาประกัน" [expanded] [ref=e398] [cursor=pointer]:
+            - generic [ref=e400] [cursor=pointer]: อายุผู้เอาประกัน
+            - img [ref=e402] [cursor=pointer]
+        - region [ref=e407]:
+          - generic [ref=e411]:
+            - paragraph [ref=e412]: วัน/เดือน/ปีเกิด
+            - generic [ref=e416]:
+              - textbox "Choose date, selected date is 21 ส.ค. 2000" [ref=e417]: 21/08/2000
+              - button [ref=e418] [cursor=pointer]:
+                - img [ref=e419] [cursor=pointer]
+              - group
+    - generic [ref=e421]:
+      - button "ล้างข้อมูล" [ref=e422] [cursor=pointer]:
+        - generic [ref=e423] [cursor=pointer]: ล้างข้อมูล
+      - button "แสดงผล" [ref=e424] [cursor=pointer]:
+        - generic [ref=e425] [cursor=pointer]: แสดงผล
+```

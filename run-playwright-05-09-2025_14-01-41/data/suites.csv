@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","60989","travel-normal-flow","Mobile Chrome","Fri Sep 05 07:00:32 UTC 2025","broken","Fri Sep 05 07:01:33 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

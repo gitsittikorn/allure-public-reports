@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","30280","accident-normal-flow-no-tax-deduction","Mobile Chrome","Thu Aug 21 02:01:37 UTC 2025","broken","Thu Aug 21 02:02:07 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""
-"","30527","accident-normal-flow-with-tax-deduction","Mobile Chrome","Thu Aug 21 02:01:03 UTC 2025","broken","Thu Aug 21 02:01:34 UTC 2025","","main-web/accident/accident-normal-flow.spec.ts","",""

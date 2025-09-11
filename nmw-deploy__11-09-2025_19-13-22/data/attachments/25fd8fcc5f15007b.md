@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13] [cursor=pointer]
+          - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - img "fail" [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: ขออภัย
+          - generic [ref=e22]: ไม่พบหน้าเว็ปเพจที่ต้องการค้นหา
+        - link "กลับหน้าหลัก" [ref=e24] [cursor=pointer]:
+          - /url: /
+          - button "กลับหน้าหลัก" [ref=e25] [cursor=pointer]
+    - contentinfo [ref=e26]:
+      - link "TQM Logo" [ref=e28] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e29] [cursor=pointer]
+      - generic [ref=e30]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35] [cursor=pointer]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e37] [cursor=pointer]
+        - button "บริการลูกค้า" [ref=e41] [cursor=pointer]:
+          - generic [ref=e43] [cursor=pointer]: บริการลูกค้า
+          - img [ref=e45] [cursor=pointer]
+        - button "ติดต่อสอบถาม" [ref=e49] [cursor=pointer]:
+          - generic [ref=e51] [cursor=pointer]: ติดต่อสอบถาม
+          - img [ref=e53] [cursor=pointer]
+        - button "บริษัท" [ref=e57] [cursor=pointer]:
+          - generic [ref=e59] [cursor=pointer]: บริษัท
+          - img [ref=e61] [cursor=pointer]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - link "line" [ref=e66] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e67] [cursor=pointer]
+            - link "facebook" [ref=e69] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e70] [cursor=pointer]
+            - link "instagram" [ref=e72] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e73] [cursor=pointer]
+            - link "tiktok" [ref=e75] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e76] [cursor=pointer]
+            - link "youtube" [ref=e78] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e79] [cursor=pointer]
+            - link "x" [ref=e81] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e82] [cursor=pointer]
+          - link "1737" [ref=e84] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e85] [cursor=pointer]
+            - text: "1737"
+        - generic [ref=e88]:
+          - link "TQM Application" [ref=e90] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - link "TQM IOS Application" [ref=e94] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e95] [cursor=pointer]
+            - link "TQM Android Application" [ref=e97] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e98] [cursor=pointer]
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: ©Copyright 2025 TQM.co.th All Rights Reserved.
+          - generic [ref=e101]:
+            - paragraph [ref=e102]:
+              - link "แผนผังเว็บไซต์" [ref=e103] [cursor=pointer]:
+                - /url: /sitemap
+            - paragraph [ref=e104]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e105] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e106]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e107] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e108]:
+      - generic [ref=e110] [cursor=pointer]:
+        - button "Close notification" [ref=e111] [cursor=pointer]:
+          - img [ref=e112] [cursor=pointer]
+        - paragraph [ref=e115] [cursor=pointer]: คุณมีข้อความใหม่ เจ้าหน้าที่มาแล้วครับ 💬
+      - button "Toggle chat" [ref=e117] [cursor=pointer]:
+        - img "chat-on-web" [ref=e118] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+          - button "send" [disabled]:
+            - img "send"
+  - alert [ref=e119]: Not Found
+```

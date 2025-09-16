@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","27726","travel-normal-ในประเทศ-รายเที่ยว-เครื่องบิน 1 คน","Mobile Chrome","Tue Sep 16 10:26:17 UTC 2025","failed","Tue Sep 16 10:26:44 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""
+"","18198","travel-normal-ต่างประเทศ-รายเที่ยว-เครื่องบิน 2 คน","Mobile Chrome","Tue Sep 16 10:26:47 UTC 2025","failed","Tue Sep 16 10:27:05 UTC 2025","","main-web/travel/travel-normal-flow.spec.ts","",""

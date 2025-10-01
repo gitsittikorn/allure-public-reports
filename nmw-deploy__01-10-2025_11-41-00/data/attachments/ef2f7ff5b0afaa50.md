@@ -1,0 +1,241 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button [ref=e8] [cursor=pointer]:
+              - img [ref=e9] [cursor=pointer]
+          - generic [ref=e11]:
+            - link [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img [ref=e13] [cursor=pointer]
+            - button [ref=e14] [cursor=pointer]: เข้าสู่ระบบ
+      - main [ref=e15]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - generic [ref=e20]: ค้นหาแผนประกัน
+          - progressbar [ref=e22]
+          - generic [ref=e24]:
+            - img [ref=e25]
+            - generic [ref=e26]: เลือก แผนประกัน
+          - progressbar [ref=e28]
+          - generic [ref=e30]:
+            - img [ref=e31]
+            - generic [ref=e32]: ข้อมูล กรมธรรม์
+          - progressbar [ref=e34]
+          - generic [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e38]: ชำระเงิน
+        - generic [ref=e41]:
+          - generic [ref=e43]: ใกล้เสร็จแล้ว 👏🏻
+          - generic [ref=e45]:
+            - generic [ref=e47]: ชำระเงิน
+            - generic [ref=e48]:
+              - generic [ref=e49]: เลือกวิธีการชำระเงิน
+              - radiogroup [ref=e50]:
+                - generic [ref=e51] [cursor=pointer]:
+                  - generic [ref=e52] [cursor=pointer]:
+                    - radio [checked] [ref=e53] [cursor=pointer]
+                    - generic [ref=e54] [cursor=pointer]:
+                      - img [ref=e55] [cursor=pointer]
+                      - img [ref=e57] [cursor=pointer]
+                  - generic [ref=e61] [cursor=pointer]: ชำระเต็มจำนวน
+                - generic [ref=e62]:
+                  - generic:
+                    - radio [disabled]
+                  - generic [ref=e65]:
+                    - text: ผ่อนชำระ
+                    - img [ref=e67]
+              - generic [ref=e68]: เลือกช่องทางการชำระเงิน
+              - navigation [ref=e69]:
+                - button [ref=e70] [cursor=pointer]:
+                  - listitem [ref=e71] [cursor=pointer]:
+                    - img [ref=e73] [cursor=pointer]
+                    - generic [ref=e74] [cursor=pointer]:
+                      - generic [ref=e75] [cursor=pointer]: บัตรเครดิต/บัตรเดบิต
+                      - generic [ref=e76] [cursor=pointer]:
+                        - img [ref=e78] [cursor=pointer]
+                        - img [ref=e80] [cursor=pointer]
+                    - generic [ref=e82] [cursor=pointer]:
+                      - radio [checked] [ref=e83] [cursor=pointer]
+                      - generic [ref=e84] [cursor=pointer]:
+                        - img [ref=e85] [cursor=pointer]
+                        - img [ref=e87] [cursor=pointer]
+                - button [ref=e89] [cursor=pointer]:
+                  - listitem [ref=e90] [cursor=pointer]:
+                    - img [ref=e92] [cursor=pointer]
+                    - generic [ref=e93] [cursor=pointer]:
+                      - generic [ref=e94] [cursor=pointer]: QR Code
+                      - img [ref=e97] [cursor=pointer]
+                    - generic [ref=e99] [cursor=pointer]:
+                      - radio [ref=e100] [cursor=pointer]
+                      - img [ref=e102] [cursor=pointer]
+                - button [ref=e104] [cursor=pointer]:
+                  - listitem [ref=e105] [cursor=pointer]:
+                    - img [ref=e107] [cursor=pointer]
+                    - generic [ref=e109] [cursor=pointer]: เคาน์เตอร์
+                    - generic [ref=e111] [cursor=pointer]:
+                      - radio [ref=e112] [cursor=pointer]
+                      - img [ref=e114] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - img [ref=e121]
+                - generic [ref=e122]:
+                  - generic [ref=e123]: กรุงเทพประกันภัย
+                  - generic [ref=e124]: ประกันสุขภาพ Health Top Up (ห้ามแก้ ทดสอบ Health Flow 4) สุขภาพทั่วไป แผน1
+                  - generic [ref=e125]: ประกันสุขภาพ + โควิด-19 ทดสอบ
+              - separator [ref=e126]
+              - generic [ref=e127]:
+                - generic [ref=e128]: คูปองส่วนลด
+                - generic [ref=e129]: "-300.00 บาท"
+                - generic [ref=e130]: ยอดเงินที่ต้องชำระ
+                - generic [ref=e131]: 700.25 บาท
+                - generic [ref=e132]: 1,000.25 บาท
+              - separator [ref=e133]
+            - generic [ref=e134]:
+              - button [ref=e135] [cursor=pointer]: ชำระเงิน
+              - button [ref=e136] [cursor=pointer]: ย้อนกลับ
+      - contentinfo [ref=e137]:
+        - link [ref=e139] [cursor=pointer]:
+          - /url: /
+          - img [ref=e140] [cursor=pointer]
+        - generic [ref=e141]:
+          - button [ref=e144] [cursor=pointer]:
+            - generic [ref=e146] [cursor=pointer]: ผลิตภัณฑ์ประกันภัย
+            - img [ref=e148] [cursor=pointer]
+          - button [ref=e152] [cursor=pointer]:
+            - generic [ref=e154] [cursor=pointer]: บริการลูกค้า
+            - img [ref=e156] [cursor=pointer]
+          - button [ref=e160] [cursor=pointer]:
+            - generic [ref=e162] [cursor=pointer]: ติดต่อสอบถาม
+            - img [ref=e164] [cursor=pointer]
+          - button [ref=e168] [cursor=pointer]:
+            - generic [ref=e170] [cursor=pointer]: บริษัท
+            - img [ref=e172] [cursor=pointer]
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - link [ref=e177] [cursor=pointer]:
+                - /url: https://lin.ee/Ds7qY7v
+                - img [ref=e178] [cursor=pointer]
+              - link [ref=e180] [cursor=pointer]:
+                - /url: https://www.facebook.com/TqmBroker
+                - img [ref=e181] [cursor=pointer]
+              - link [ref=e183] [cursor=pointer]:
+                - /url: https://www.instagram.com/tqminsurancebroker
+                - img [ref=e184] [cursor=pointer]
+              - link [ref=e186] [cursor=pointer]:
+                - /url: http://www.tiktok.com/@tqmmorelove
+                - img [ref=e187] [cursor=pointer]
+              - link [ref=e189] [cursor=pointer]:
+                - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+                - img [ref=e190] [cursor=pointer]
+              - link [ref=e192] [cursor=pointer]:
+                - /url: https://x.com/Tqmbeside
+                - img [ref=e193] [cursor=pointer]
+            - link [ref=e195] [cursor=pointer]:
+              - /url: tel:1737
+              - img [ref=e196] [cursor=pointer]
+              - text: "1737"
+          - generic [ref=e199]:
+            - link [ref=e201] [cursor=pointer]:
+              - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+              - img [ref=e202] [cursor=pointer]
+            - generic [ref=e203]:
+              - link [ref=e205] [cursor=pointer]:
+                - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+                - img [ref=e206] [cursor=pointer]
+              - link [ref=e208] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+                - img [ref=e209] [cursor=pointer]
+          - generic [ref=e210]:
+            - paragraph [ref=e211]: ©Copyright 2025 TQM.co.th All Rights Reserved.
+            - generic [ref=e212]:
+              - paragraph [ref=e213]:
+                - link [ref=e214] [cursor=pointer]:
+                  - /url: /sitemap
+                  - text: แผนผังเว็บไซต์
+              - paragraph [ref=e215]:
+                - link [ref=e216] [cursor=pointer]:
+                  - /url: /terms-and-conditions
+                  - text: ข้อกำหนดและเงื่อนไข
+              - paragraph [ref=e217]:
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: /tqm/privacy
+                  - text: นโยบายข้อมูลส่วนบุคคล
+    - generic [ref=e219]:
+      - generic:
+        - generic:
+          - button:
+            - img
+          - generic:
+            - paragraph: เลือกช่องทางชำระเงิน ได้เลยครับ ทุกช่องทาง ปลอดภัยแน่นอน ✅
+      - button [ref=e220] [cursor=pointer]:
+        - img [ref=e221] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button:
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - textbox
+          - button [disabled]:
+            - img
+  - alert [ref=e222]: เลือกช่องทางการชำระเงิน | TQM ทีคิวเอ็ม
+  - generic [ref=e226]:
+    - img [ref=e228] [cursor=pointer]
+    - generic [ref=e231]: ข้อมูลบัตรเครดิต/เดบิต
+    - generic [ref=e232]:
+      - img [ref=e233]
+      - paragraph [ref=e235]: มาตราการคุ้มครองการชำระเงินจาก ทีคิวเอ็ม อินชัวร์รันส์ โบรคเกอร์
+    - generic [ref=e238]:
+      - generic [ref=e239]:
+        - img [ref=e240]
+        - img [ref=e241]
+      - generic [ref=e242]:
+        - generic [ref=e244]:
+          - paragraph [ref=e245]:
+            - text: หมายเลขบัตร
+            - generic [ref=e246]: "*"
+          - textbox [ref=e248]: "4111111111111111"
+        - generic [ref=e250]:
+          - paragraph [ref=e251]:
+            - text: ชื่อผู้ถือบัตร
+            - generic [ref=e252]: "*"
+          - textbox [ref=e254]: TQM Credit Card
+        - generic [ref=e256]:
+          - paragraph [ref=e257]:
+            - text: วันหมดอายุบัตร
+            - generic [ref=e258]: "*"
+          - textbox [ref=e260]: 12/26
+        - generic [ref=e262]:
+          - paragraph [ref=e263]:
+            - text: CVV
+            - generic [ref=e264]: "*"
+            - img [ref=e267]
+          - generic [ref=e268]:
+            - textbox [ref=e269]: "123"
+            - img [ref=e271] [cursor=pointer]
+    - button [ref=e275] [cursor=pointer]: ชำระเงิน
+  - dialog [ref=e278]:
+    - generic [ref=e279]:
+      - img "Warning Icon" [ref=e281]
+      - paragraph [ref=e282]: ขออภัย เกิดข้อผิดพลาดขึ้น
+      - paragraph [ref=e283]:
+        - text: ระบบยังไม่สามารถดำเนินการชำระเงินได้ กรุณากด
+        - generic [ref=e284]: ลองใหม่อีกครั้ง
+        - text: หรือ ติดต่อเจ้าหน้าที่ โทร. 1737
+      - button "ลองใหม่อีกครั้ง" [ref=e286] [cursor=pointer]
+```

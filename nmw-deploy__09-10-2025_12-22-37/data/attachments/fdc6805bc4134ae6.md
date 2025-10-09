@@ -1,0 +1,479 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button "open drawer" [ref=e8] [cursor=pointer]:
+              - img [ref=e9]
+          - generic [ref=e11]:
+            - link "TQM Logo" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img "TQM Logo" [ref=e13]
+            - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+      - main [ref=e15]:
+        - article [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - heading "ประกันเดินทางต่างประเทศและในประเทศ" [level=1] [ref=e19]
+              - paragraph [ref=e21]: ซื้อประกันเดินทางต่างประเทศหรือในประเทศ กับ TQM ให้คุณสามารถค้นหา เปรียบเทียบ เช็คราคาประกันเดินทางทั้งรายเที่ยวและรายปี พร้อมรับกรมธรรม์ออนไลน์ และความคุ้มครองที่คุ้มค่าตลอดทริป
+            - generic [ref=e22]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - img [ref=e27] [cursor=pointer]
+                - listitem [ref=e28]:
+                  - img [ref=e30] [cursor=pointer]
+                - listitem [ref=e31]:
+                  - generic [ref=e32]:
+                    - link "automate ta promotion flow2 (domestic-รายเที่ยว-ฟรี)":
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3_automate-ta-promotion-flow2-domestic-%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7-%E0%B8%9F%E0%B8%A3%E0%B8%B5
+                      - img "automate ta promotion flow2 (domestic-รายเที่ยว-ฟรี)" [ref=e33] [cursor=pointer]
+                - listitem [ref=e34]:
+                  - img [ref=e36] [cursor=pointer]
+                - listitem [ref=e37]:
+                  - img [ref=e39] [cursor=pointer]
+                - listitem [ref=e40]:
+                  - img [ref=e42] [cursor=pointer]
+                - listitem [ref=e43]:
+                  - img [ref=e45] [cursor=pointer]
+              - list [ref=e46]:
+                - listitem [ref=e47]:
+                  - button "paginate-dots" [ref=e48] [cursor=pointer]
+                - listitem [ref=e49]:
+                  - button "paginate-dots" [ref=e50] [cursor=pointer]
+                - listitem [ref=e51]:
+                  - button "paginate-dots" [ref=e52] [cursor=pointer]
+        - article [ref=e53]:
+          - heading "เช็คราคาแผนประกันเดินทางตรงใจ" [level=2] [ref=e54]
+          - article [ref=e55]:
+            - article [ref=e56]:
+              - generic [ref=e57]:
+                - heading "ค้นหาแผนประกันเดินทาง" [level=3] [ref=e58]
+                - generic [ref=e61]:
+                  - generic [ref=e63] [cursor=pointer]:
+                    - img "ในประเทศ" [ref=e64]
+                    - generic [ref=e65]: ในประเทศ
+                  - generic [ref=e67] [cursor=pointer]:
+                    - img "ต่างประเทศ" [ref=e68]
+                    - generic [ref=e69]: ต่างประเทศ
+                - button "เช็คราคาประกันเดินทางในประเทศ" [ref=e71] [cursor=pointer]
+              - generic [ref=e72]:
+                - paragraph [ref=e73]: พันธมิตรบริษัทประกันชั้นนำ
+                - article [ref=e74]:
+                  - generic [ref=e77]:
+                    - img "เมืองไทยประกันภัย" [ref=e79]
+                    - img "เอ็ม เอส ไอ จี" [ref=e81]
+                    - img "ประกันภัยไทยวิวัฒน์" [ref=e83]
+                    - img "กรุงเทพประกันภัย" [ref=e85]
+                    - img "ชับบ์สามัคคีประกันภัย" [ref=e87]
+                    - img "ทูนประกันภัย" [ref=e89]
+                    - img "ทิพยประกันภัย" [ref=e91]
+                    - img "ซมโปะ ประกันภัย" [ref=e93]
+          - img "TQM Bear" [ref=e95]
+        - article [ref=e96]:
+          - heading "โปรโมชันประกันเดินทาง แนะนำโดย TQM" [level=2] [ref=e99]:
+            - img [ref=e100]
+            - text: โปรโมชันประกันเดินทาง แนะนำโดย TQM
+          - generic [ref=e102]:
+            - tablist "promotion_tabs" [ref=e107]:
+              - tab "โปรโมชันทั้งหมด" [selected] [ref=e108] [cursor=pointer]
+              - tab "ต่างประเทศ" [ref=e109] [cursor=pointer]
+              - tab "ในประเทศ" [ref=e110] [cursor=pointer]
+            - tabpanel "โปรโมชันทั้งหมด" [ref=e111]:
+              - generic [ref=e114]:
+                - list [ref=e115]:
+                  - listitem [ref=e116]:
+                    - link "automate ta promotion flow3 ต่างประเทศ (รายเที่ยว) ต่างประเทศ automate ta promotion flow3 ต่างประเทศ (รายเที่ยว) automate ta promotion flow3 ต่างประเทศ (รายเที่ยว)" [ref=e119] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_aboard-daily
+                      - generic [ref=e120]:
+                        - generic [ref=e121]:
+                          - img "automate ta promotion flow3 ต่างประเทศ (รายเที่ยว)" [ref=e122]
+                          - generic [ref=e123]: ต่างประเทศ
+                        - generic [ref=e124]:
+                          - paragraph [ref=e125]: automate ta promotion flow3 ต่างประเทศ (รายเที่ยว)
+                          - paragraph [ref=e126]: automate ta promotion flow3 ต่างประเทศ (รายเที่ยว)
+                  - listitem [ref=e127]:
+                    - link [ref=e130] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_Goitest-ta
+                      - generic [ref=e131]:
+                        - generic [ref=e132]:
+                          - img [ref=e133]
+                          - generic [ref=e134]: ต่างประเทศ
+                        - generic [ref=e135]:
+                          - paragraph [ref=e136]: automate ta promotion flow3 ต่างประเทศ (รายปี)
+                          - paragraph [ref=e137]: automate ta promotion flow3 ต่างประเทศ (รายปี)
+                  - listitem [ref=e138]:
+                    - link [ref=e141] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_automate-ta-promotion-flow2-domestic-%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9F%E0%B8%A3%E0%B8%B5
+                      - generic [ref=e142]:
+                        - generic [ref=e143]:
+                          - img [ref=e144]
+                          - generic [ref=e145]: ต่างประเทศ, ในประเทศ
+                        - generic [ref=e146]:
+                          - paragraph [ref=e147]: automate ta promotion flow2 (ในประเทศ-รายเที่ยว)
+                          - paragraph [ref=e148]: automate ta promotion flow2 (ในประเทศ-รายเที่ยว)
+                  - listitem [ref=e149]:
+                    - link [ref=e152] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_japan
+                      - generic [ref=e153]:
+                        - generic [ref=e154]:
+                          - img [ref=e155]
+                          - generic [ref=e156]: ต่างประเทศ
+                        - generic [ref=e157]:
+                          - paragraph [ref=e158]: ประกันเดินทางญี่ปุ่น ท่องเที่ยวหายห่วง
+                          - paragraph [ref=e159]: หากคุณหลงเข้ามาที่บทความนี้ แปลว่าตัวคุณอาจจะมองหาประสบการณ์การ เที่ยวญี่ปุ่น ในแบบที่ไม่จำเจ ไม่เที่ยวตามไกด์ หรือสถานที่ที่ไปก็เจอแต่คนไทยมารุม แอร์อัดเต็มไปหมด ญี่ปุ่นไม่ได้มีแค่ สวนสนุก ซากุระ หรือออนเซ็นแต่อย่างใด ลองเปิดใจ และรับโอกาสใหม่ๆ ในการเที่ยวญี่ปุ่น ซึ่งอาจจะทำให้คุณกล้าฉีกขนบ เดิมๆ ในการเที่ยวไปตลอดกาล
+                  - listitem [ref=e160]:
+                    - link [ref=e163] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_travelflow2
+                      - generic [ref=e164]:
+                        - generic [ref=e165]:
+                          - img [ref=e166]
+                          - generic [ref=e167]: ต่างประเทศ, ในประเทศ
+                        - generic [ref=e168]:
+                          - paragraph [ref=e169]: Travel Flow2
+                          - paragraph [ref=e170]
+                  - listitem [ref=e171]:
+                    - link [ref=e174] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_travelflow2year
+                      - generic [ref=e175]:
+                        - generic [ref=e176]:
+                          - img [ref=e177]
+                          - generic [ref=e178]: ต่างประเทศ
+                        - generic [ref=e179]:
+                          - paragraph [ref=e180]: Travel Flow2 Year
+                          - paragraph [ref=e181]
+                  - listitem [ref=e182]:
+                    - link [ref=e185] [cursor=pointer]:
+                      - /url: /travel-insurance/packages/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9_travelflow3
+                      - generic [ref=e186]:
+                        - generic [ref=e187]:
+                          - img [ref=e188]
+                          - generic [ref=e189]: ต่างประเทศ, ในประเทศ
+                        - generic [ref=e190]:
+                          - paragraph [ref=e191]: Travel Flow3
+                          - paragraph [ref=e192]
+                - list [ref=e193]:
+                  - listitem [ref=e194]:
+                    - button "paginate-dots" [ref=e195] [cursor=pointer]
+                  - listitem [ref=e196]:
+                    - button "paginate-dots" [ref=e197] [cursor=pointer]
+                  - listitem [ref=e198]:
+                    - button "paginate-dots" [ref=e199] [cursor=pointer]
+                  - listitem [ref=e200]:
+                    - button "paginate-dots" [ref=e201] [cursor=pointer]
+                  - listitem [ref=e202]:
+                    - button "paginate-dots" [ref=e203] [cursor=pointer]
+                  - listitem [ref=e204]:
+                    - button "paginate-dots" [ref=e205] [cursor=pointer]
+                  - listitem [ref=e206]:
+                    - button "paginate-dots" [ref=e207] [cursor=pointer]
+          - button "ดูโปรโมชันประกันเดินทางทั้งหมด" [ref=e209] [cursor=pointer]
+        - article [ref=e211]:
+          - heading "เลือกแผนประกันเดินทางตามไลฟ์สไตล์" [level=2] [ref=e212]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - heading "Travel Set1" [level=3] [ref=e215]
+              - paragraph [ref=e216]: ที่เที่ยวภาคเหนือ
+              - generic [ref=e217]:
+                - link "Travel Set1":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%AA%E0%B9%8C%20Travel%20Set1
+                  - img "Travel Set1" [ref=e218] [cursor=pointer]
+            - generic [ref=e219]:
+              - heading "Travel Set2" [level=3] [ref=e220]
+              - paragraph [ref=e221]: ที่เที่ยวภาคตะวันออก
+              - generic [ref=e222]:
+                - link "Travel Set2":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%AA%E0%B9%8C%20Travel%20Set2
+                  - img "Travel Set2" [ref=e223] [cursor=pointer]
+            - generic [ref=e224]:
+              - heading "Travel Set4" [level=3] [ref=e225]
+              - paragraph
+              - generic [ref=e226]:
+                - link "Travel Set4":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_TravelSet4
+                  - img "Travel Set4" [ref=e227] [cursor=pointer]
+            - generic [ref=e228]:
+              - heading "Travel Set3" [level=3] [ref=e229]
+              - paragraph [ref=e230]: ที่เที่ยวภาคใต้
+              - generic [ref=e231]:
+                - link "Travel Set3":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%AA%E0%B9%8C%20Travel%20Set3
+                  - img "Travel Set3" [ref=e232] [cursor=pointer]
+            - generic [ref=e233]:
+              - heading "Travel Set5" [level=3] [ref=e234]
+              - paragraph
+              - generic [ref=e235]:
+                - link "Travel Set5":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_TravelSet5
+                  - img "Travel Set5" [ref=e236] [cursor=pointer]
+            - generic [ref=e237]:
+              - heading "Travel Set6" [level=3] [ref=e238]
+              - paragraph
+              - generic [ref=e239]:
+                - link "Travel Set6":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_TravelSet6
+                  - img "Travel Set6" [ref=e240] [cursor=pointer]
+            - generic [ref=e241]:
+              - heading "Travel Set7" [level=3] [ref=e242]
+              - paragraph
+              - generic [ref=e243]:
+                - link "Travel Set7":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_TravelSet7
+                  - img "Travel Set7" [ref=e244] [cursor=pointer]
+            - generic [ref=e245]:
+              - heading "Travel 8" [level=3] [ref=e246]
+              - paragraph [ref=e247]: travel8
+              - generic [ref=e248]:
+                - link "Travel 8":
+                  - /url: /travel-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_travel8
+                  - img "Travel 8" [ref=e249] [cursor=pointer]
+        - article [ref=e250]:
+          - heading "ซื้อประกันการเดินทางกับ TQM ดีอย่างไร" [level=2] [ref=e251]
+          - paragraph [ref=e252]: ไม่ว่าคุณจะเดินทางในประเทศหรือต่างประเทศ ประกันเดินทางจาก TQM พร้อมคุ้มครองค่ารักษา กระเป๋าสูญหาย หรือเที่ยวบินล่าช้า ด้วยแผนหลากหลายในราคาสบายกระเป๋า
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img "blueCorrect" [ref=e255]
+              - heading "เริ่มต้นเพียง 48 บาท" [level=3] [ref=e256]
+            - generic [ref=e257]:
+              - img "blueCorrect" [ref=e258]
+              - heading "วีซ่าไม่ผ่าน คืนเงิน 100%" [level=3] [ref=e259]
+            - generic [ref=e260]:
+              - img "blueCorrect" [ref=e261]
+              - heading "มีให้เลือกทั้งแบบ รายวันและรายปี" [level=3] [ref=e262]
+            - generic [ref=e263]:
+              - img "blueCorrect" [ref=e264]
+              - heading "คุ้มครองสูงสุด 2,000,000 บาท" [level=3] [ref=e265]
+            - generic [ref=e266]:
+              - img "blueCorrect" [ref=e267]
+              - heading "คุ้มครองทั้ง ชีวิต ทรัพย์สิน และค่ารักษาพยาบาล" [level=3] [ref=e268]
+            - generic [ref=e269]:
+              - img "blueCorrect" [ref=e270]
+              - heading "ซื้อออนไลน์ง่าย รับกรมธรรม์ผ่าน Email" [level=3] [ref=e271]
+        - generic [ref=e272]:
+          - heading "ประกันเดินทาง จำเป็นแค่ไหน" [level=2] [ref=e273]
+          - paragraph [ref=e274]: ไม่ว่าจะเดินทางเพื่อท่องเที่ยว เรียนต่อ หรือทำงาน ประกันเดินทางต่างประเทศและในประเทศ คือสิ่งที่ไม่ควรมองข้าม เพราะแค่ เจ็บป่วยเล็กน้อยในต่างประเทศ อาจทำให้คุณต้องจ่าย ค่ารักษาหลักหมื่นถึงแสนบาทจากกระเป๋าตัวเอง
+          - paragraph [ref=e275]: นอกจากนี้ หลายประเทศยัง บังคับให้ทำประกันเดินทางก่อนเข้า โดยเฉพาะผู้ที่ต้องยื่น วีซ่าเชงเก้น เพื่อเดินทางไปยุโรป รวมถึงประเทศยอดฮิตอย่าง ญี่ปุ่น เกาหลี ออสเตรเลีย
+          - paragraph [ref=e276]: อีกทั้งประกันยังคุ้มครองครบ ทั้ง เที่ยวบินล่าช้า กระเป๋าสูญหาย อุบัติเหตุระหว่างเดินทาง และ เหตุฉุกเฉินทางสุขภาพ ที่ไม่มีใครคาดคิด ให้คุณเดินทางได้อย่างสบายใจ ไม่ต้องเสี่ยงควักเงินจ่ายเอง
+        - generic [ref=e277]:
+          - heading "ประกันเดินทาง คุ้มครองอะไรบ้างประกันเดินทาง คุ้มครองอะไรบ้าง" [level=2] [ref=e278]:
+            - img "ประกันเดินทาง คุ้มครองอะไรบ้าง" [ref=e279]
+            - text: ประกันเดินทาง คุ้มครองอะไรบ้าง
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - img "TA_coverage_1" [ref=e282]
+              - paragraph [ref=e283]: ค่ารักษาพยาบาล
+            - generic [ref=e284]:
+              - img "TA_coverage_2" [ref=e285]
+              - paragraph [ref=e286]: การเคลื่อนย้ายเพื่อรักษาฉุกเฉิน/กลับประเทศไทย
+            - generic [ref=e287]:
+              - img "TA_coverage_3" [ref=e288]
+              - paragraph [ref=e289]: การเสียชีวิต การสูญเสียอวัยวะ สายตา หรือ ทุพพลภาพถาวรสิ้นเชิงเนื่องจากอุบัติเหตุ
+            - generic [ref=e290]:
+              - img "TA_coverage_4" [ref=e291]
+              - paragraph [ref=e292]: ถูกยกเลิกเที่ยวบิน/เลื่อนการเดินทาง/ลดจำนวนวันเดินทาง
+            - generic [ref=e293]:
+              - img "TA_coverage_5" [ref=e294]
+              - paragraph [ref=e295]: ความล่าช้าของเที่ยวบิน
+            - generic [ref=e296]:
+              - img "TA_coverage_6" [ref=e297]
+              - paragraph [ref=e298]: ความล่าช้าของกระเป๋าเดินทาง
+            - generic [ref=e299]:
+              - img "TA_coverage_7" [ref=e300]
+              - paragraph [ref=e301]: กระเป๋าเดินทางสูญหาย/ เสียหาย
+            - generic [ref=e302]:
+              - img "TA_coverage_8" [ref=e303]
+              - paragraph [ref=e304]: เอกสารเดินทาง เงินสด โน้ตบุ๊ค สูญหาย/เสียหาย
+          - generic [ref=e305]:
+            - paragraph [ref=e306]: ประกันเดินทางต่างประเทศและในประเทศจาก TQM มอบ ความคุ้มครองครอบคลุมทุกด้าน ที่จำเป็นสำหรับนักเดินทาง ไม่ว่าจะเป็น คุ้มครองค่ารักษาพยาบาล จากการเจ็บป่วยหรืออุบัติเหตุระหว่างเดินทางทั้งในและต่างประเทศ รวมถึง การเคลื่อนย้ายเพื่อรักษาพยาบาลฉุกเฉิน หรือการส่งกลับประเทศกรณีเกิดเหตุร้ายแรง
+            - paragraph [ref=e307]: ยังให้ คุ้มครองกรณีเสียชีวิตหรือทุพพลภาพถาวรจากอุบัติเหตุ, คุ้มครองกรณีเกิดเหตุความไม่สงบ หรือภัยพิบัติในประเทศปลายทาง, คุ้มครองความล่าช้าของเที่ยวบิน, คุ้มครองค่าชดเชยระหว่างพักรักษาตัวในโรงพยาบาล, คุ้มครองกระเป๋าสัมภาระสูญหายหรือเสียหาย และยังครอบคลุม เอกสารและค่าใช้จ่ายที่จำเป็นในการเดินทาง เช่น ค่าธรรมเนียมการยกเลิกทริปหรือเปลี่ยนแผนการเดินทาง
+        - article [ref=e308]:
+          - heading "แชร์ประสบการณ์จากผู้ใช้บริการ TQM" [level=2] [ref=e309]
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - generic [ref=e316]:
+                - img "คุณนุชนาถ ประโพธิ์ศรี" [ref=e318]
+                - paragraph [ref=e319]: คุณนุชนาถ ประโพธิ์ศรี
+                - generic [ref=e320]:
+                  - img [ref=e322]
+                  - img [ref=e325]
+                  - img [ref=e328]
+                  - img [ref=e331]
+                  - img [ref=e334]
+                - paragraph [ref=e337]: จองทริปปุ๊บ เข้าเว็บ TQM ซื้อประกันทันที สะดวก คุ้ม และรู้สึกสบายใจ
+            - listitem [ref=e338]:
+              - generic [ref=e340]:
+                - img [ref=e342]
+                - paragraph [ref=e343]: คุณวิทวัส คำมาก
+                - generic [ref=e344]:
+                  - img [ref=e346]
+                  - img [ref=e349]
+                  - img [ref=e352]
+                  - img [ref=e355]
+                  - img [ref=e358]
+                - paragraph [ref=e361]: เดินทางบ่อย หาประกันเองไม่ยากเลย TQM มีหลายแผน ซื้อจบในไม่กี่นาที
+            - listitem [ref=e362]:
+              - generic [ref=e364]:
+                - img [ref=e366]
+                - paragraph [ref=e367]: คุณจรรยา คณาสุข
+                - generic [ref=e368]:
+                  - img [ref=e370]
+                  - img [ref=e373]
+                  - img [ref=e376]
+                  - img [ref=e379]
+                  - img [ref=e382]
+                - paragraph [ref=e385]: เช็คหลายเจ้าแล้ว TQM ราคาดีสุด ซื้อออนไลน์ก่อนเดินทาง สบายใจค่ะ
+        - article [ref=e386]:
+          - heading "คำถามที่พบบ่อยเกี่ยวกับ ประกันเดินทาง" [level=2] [ref=e387]:
+            - text: คำถามที่พบบ่อยเกี่ยวกับ
+            - generic [ref=e388]: ประกันเดินทาง
+          - button "ประกันเดินทางต่างประเทศและในประเทศมีกี่แบบ? เหมาะกับใคร?" [ref=e392] [cursor=pointer]:
+            - heading "ประกันเดินทางต่างประเทศและในประเทศมีกี่แบบ? เหมาะกับใคร?" [level=3] [ref=e394]
+            - img [ref=e396]
+          - button "ประกันเดินทางต่างกับประกันอุบัติเหตุและประกันสุขภาพอย่างไร?" [ref=e401] [cursor=pointer]:
+            - heading "ประกันเดินทางต่างกับประกันอุบัติเหตุและประกันสุขภาพอย่างไร?" [level=3] [ref=e403]
+            - img [ref=e405]
+          - button "ถ้าเจ็บป่วยระหว่างเดินทาง ประกันเดินทางคุ้มครองอะไรบ้าง?" [ref=e410] [cursor=pointer]:
+            - heading "ถ้าเจ็บป่วยระหว่างเดินทาง ประกันเดินทางคุ้มครองอะไรบ้าง?" [level=3] [ref=e412]
+            - img [ref=e414]
+          - button "ประกันเดินทางคุ้มครองโรคทั่วไป เช่น อาหารเป็นพิษ หรือ COVID-19 หรือไม่?" [ref=e419] [cursor=pointer]:
+            - heading "ประกันเดินทางคุ้มครองโรคทั่วไป เช่น อาหารเป็นพิษ หรือ COVID-19 หรือไม่?" [level=3] [ref=e421]
+            - img [ref=e423]
+          - button "ประกันเดินทางเริ่มคุ้มครองตั้งแต่เมื่อไหร่?" [ref=e428] [cursor=pointer]:
+            - heading "ประกันเดินทางเริ่มคุ้มครองตั้งแต่เมื่อไหร่?" [level=3] [ref=e430]
+            - img [ref=e432]
+          - button "ต้องซื้อประกันเดินทางล่วงหน้ากี่วัน?" [ref=e437] [cursor=pointer]:
+            - heading "ต้องซื้อประกันเดินทางล่วงหน้ากี่วัน?" [level=3] [ref=e439]
+            - img [ref=e441]
+          - button "ใช้ประกันเดินทางเพื่อยื่นวีซ่าเชงเก้นได้ไหม?" [ref=e446] [cursor=pointer]:
+            - heading "ใช้ประกันเดินทางเพื่อยื่นวีซ่าเชงเก้นได้ไหม?" [level=3] [ref=e448]
+            - img [ref=e450]
+          - button "ยื่นวีซ่าไม่ผ่าน ประกันเดินทางคืนเงินได้ไหม?" [ref=e455] [cursor=pointer]:
+            - heading "ยื่นวีซ่าไม่ผ่าน ประกันเดินทางคืนเงินได้ไหม?" [level=3] [ref=e457]
+            - img [ref=e459]
+        - article [ref=e461]:
+          - heading "เคลมประกันเดินทาง" [level=2] [ref=e462]
+          - paragraph [ref=e463]: เหตุที่เกิดระหว่างการเดินทาง ท่องเที่ยว ควรทำอย่างไรต่อ TQM มีช่องทางการเคลมที่สะดวก รวดเร็ว ง่าย และควรเตรียมตัวอย่างไร เมื่อเกิดเหตุ
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - img "ไฟลท์ดีเลย์หรือเที่ยวบินล่าช้า" [ref=e467]
+              - generic [ref=e468]:
+                - heading "ไฟลท์ดีเลย์หรือเที่ยวบินล่าช้า" [level=3] [ref=e469]
+                - paragraph [ref=e470]: รวบรวมข้อมูลหลักฐานการแจ้งเตือนเที่ยวบินล่าช้า จากนั้นส่งเอกสารเรียกร้องค่าสินไหมทดแทนกับทางบริษัทประกัน รอรับค่าสินไหมทดแทนหลังจากส่งเอกสารเรียกร้องค่าชดเชยครบถ้วน
+            - generic [ref=e471]:
+              - img "กระเป๋าหาย" [ref=e473]
+              - generic [ref=e474]:
+                - heading "กระเป๋าหาย" [level=3] [ref=e475]
+                - paragraph [ref=e476]: เมื่อทราบว่ากระเป๋าหายให้ติดต่อที่สายการบินของสนามบินก่อนว่าสายการบินจะรับผิดชอบกับความผิดพลาดที่เกิดขึ้นนี้อย่างไร จากนั้นต้องรีบติดต่อบริษัทประกันทันที และเตรียมเอกสารให้ครบถ้วนส่งเคลมรับเงินชดเชย
+            - generic [ref=e477]:
+              - img "ไม่สบาย เจ็บป่วยต่างประเทศ" [ref=e479]
+              - generic [ref=e480]:
+                - heading "ไม่สบาย เจ็บป่วยต่างประเทศ" [level=3] [ref=e481]
+                - paragraph [ref=e482]: สำรองจ่ายเงินไปก่อน จากนั้นเมื่อกลับมาถึงประเทศไทยให้นำส่งเอกสารใบเสร็จค่ารักษาพยาบาล ตัวจริงพร้อมใบรับรองแพทย์ เพื่อเคลมค่าสินไหมกับบริษัทประกัน
+          - generic [ref=e483]: "หมายเหตุ : เป็นไปตามเงื่อนไขกรมธรรม์"
+          - generic [ref=e485]:
+            - heading "ช่องทางการเคลมประกันเดินทาง" [level=2] [ref=e486]
+            - generic [ref=e487]:
+              - generic [ref=e488] [cursor=pointer]:
+                - img "app" [ref=e489]
+                - generic [ref=e490]: สายด่วน 1737
+              - generic [ref=e491] [cursor=pointer]:
+                - img "app" [ref=e492]
+                - generic [ref=e493]: App TQM24
+              - generic [ref=e494] [cursor=pointer]:
+                - img "app" [ref=e495]
+                - generic [ref=e496]: Line TQM
+          - button "ดูข้อมูลการเคลมเพิ่มเติม" [ref=e498] [cursor=pointer]
+      - contentinfo [ref=e499]:
+        - link "TQM Logo" [ref=e501] [cursor=pointer]:
+          - /url: /
+          - img "TQM Logo" [ref=e502]
+        - generic [ref=e503]:
+          - button "ผลิตภัณฑ์ประกันภัย" [ref=e506] [cursor=pointer]:
+            - generic [ref=e508]: ผลิตภัณฑ์ประกันภัย
+            - img [ref=e510]
+          - button "บริการลูกค้า" [ref=e514] [cursor=pointer]:
+            - generic [ref=e516]: บริการลูกค้า
+            - img [ref=e518]
+          - button "ติดต่อสอบถาม" [ref=e522] [cursor=pointer]:
+            - generic [ref=e524]: ติดต่อสอบถาม
+            - img [ref=e526]
+          - button "บริษัท" [ref=e530] [cursor=pointer]:
+            - generic [ref=e532]: บริษัท
+            - img [ref=e534]
+          - generic [ref=e536]:
+            - generic [ref=e537]:
+              - link "line" [ref=e539] [cursor=pointer]:
+                - /url: https://lin.ee/Ds7qY7v
+                - img "line" [ref=e540]
+              - link "facebook" [ref=e542] [cursor=pointer]:
+                - /url: https://www.facebook.com/TqmBroker
+                - img "facebook" [ref=e543]
+              - link "instagram" [ref=e545] [cursor=pointer]:
+                - /url: https://www.instagram.com/tqminsurancebroker
+                - img "instagram" [ref=e546]
+              - link "tiktok" [ref=e548] [cursor=pointer]:
+                - /url: http://www.tiktok.com/@tqmmorelove
+                - img "tiktok" [ref=e549]
+              - link "youtube" [ref=e551] [cursor=pointer]:
+                - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+                - img "youtube" [ref=e552]
+              - link "x" [ref=e554] [cursor=pointer]:
+                - /url: https://x.com/Tqmbeside
+                - img "x" [ref=e555]
+            - link "1737" [ref=e557] [cursor=pointer]:
+              - /url: tel:1737
+              - img [ref=e558]
+              - text: "1737"
+          - generic [ref=e561]:
+            - link "TQM Application" [ref=e563] [cursor=pointer]:
+              - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+              - img "TQM Application" [ref=e564]
+            - generic [ref=e565]:
+              - link "TQM IOS Application" [ref=e567] [cursor=pointer]:
+                - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+                - img "TQM IOS Application" [ref=e568]
+              - link "TQM Android Application" [ref=e570] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+                - img "TQM Android Application" [ref=e571]
+          - generic [ref=e572]:
+            - paragraph [ref=e573]: ©Copyright 2025 TQM.co.th All Rights Reserved.
+            - generic [ref=e574]:
+              - paragraph [ref=e575]:
+                - link "แผนผังเว็บไซต์" [ref=e576] [cursor=pointer]:
+                  - /url: /sitemap
+              - paragraph [ref=e577]:
+                - link "ข้อกำหนดและเงื่อนไข" [ref=e578] [cursor=pointer]:
+                  - /url: /terms-and-conditions
+              - paragraph [ref=e579]:
+                - link "นโยบายข้อมูลส่วนบุคคล" [ref=e580] [cursor=pointer]:
+                  - /url: /tqm/privacy
+    - generic [ref=e581]:
+      - generic:
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: สนใจประกันเดินทางแบบไหน คุยกับพี่หมีได้เลยครับ
+      - button "Toggle chat" [ref=e582] [cursor=pointer]:
+        - img "chat-on-web" [ref=e583]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+          - button "send" [disabled]:
+            - img "send"
+  - alert [ref=e584]
+```

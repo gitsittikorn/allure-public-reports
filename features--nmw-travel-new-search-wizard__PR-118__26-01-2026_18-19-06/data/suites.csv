@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","70330","travel-normal-ในประเทศ-รายเที่ยว-เครื่องบิน 1 คน","Mobile Chrome","2026-01-26","broken","2026-01-26","","main-web/travel/travel-normal-flow.spec.ts","",""
+"","40467","travel-normal-ต่างประเทศ-รายเที่ยว-เครื่องบิน 2 คน","Mobile Chrome","2026-01-26","failed","2026-01-26","","main-web/travel/travel-normal-flow.spec.ts","",""

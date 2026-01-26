@@ -1,0 +1,204 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img "step0" [ref=e19]
+          - generic [ref=e20]: ข้อมูล การเดินทาง
+        - progressbar [ref=e22]
+        - generic [ref=e24]:
+          - img "step1" [ref=e25]
+          - generic [ref=e26]: เลือก แผนประกัน
+        - progressbar [ref=e28]
+        - generic [ref=e30]:
+          - img "step2" [ref=e31]
+          - generic [ref=e32]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e34]
+        - generic [ref=e36]:
+          - img "step3" [ref=e37]
+          - generic [ref=e38]: ชำระเงิน
+      - generic [ref=e41]:
+        - generic [ref=e44]: ใกล้เสร็จแล้ว 👏🏻
+        - generic [ref=e46]:
+          - generic [ref=e48]: ชำระเงิน
+          - generic [ref=e49]:
+            - generic [ref=e50]: เลือกวิธีการชำระเงิน
+            - radiogroup [ref=e51]:
+              - generic [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]:
+                  - radio "ชำระเต็มจำนวน" [checked] [ref=e55]
+                  - generic [ref=e56]:
+                    - img [ref=e57]
+                    - img [ref=e59]
+                - generic [ref=e63]: ชำระเต็มจำนวน
+              - generic [ref=e65]:
+                - generic:
+                  - radio "ผ่อนชำระ ไม่สามารถผ่อนชำระได้" [disabled]
+                - generic [ref=e68]:
+                  - text: ผ่อนชำระ
+                  - generic "ไม่สามารถผ่อนชำระได้" [ref=e69]:
+                    - img "ไม่สามารถผ่อนชำระได้" [ref=e70]
+            - generic [ref=e71]: เลือกช่องทางการชำระเงิน
+            - navigation [ref=e72]:
+              - button "บัตรเครดิต/บัตรเดบิต Icon บัตรเครดิต/บัตรเดบิต บัตรเครดิต/บัตรเดบิต บัตรเครดิต/บัตรเดบิต" [ref=e73] [cursor=pointer]:
+                - listitem [ref=e74]:
+                  - img "บัตรเครดิต/บัตรเดบิต Icon" [ref=e76]
+                  - generic [ref=e77]:
+                    - generic [ref=e78]: บัตรเครดิต/บัตรเดบิต
+                    - generic [ref=e79]:
+                      - img "บัตรเครดิต/บัตรเดบิต" [ref=e81]
+                      - img "บัตรเครดิต/บัตรเดบิต" [ref=e83]
+                  - generic [ref=e85]:
+                    - radio [checked] [ref=e86]
+                    - generic [ref=e87]:
+                      - img [ref=e88]
+                      - img [ref=e90]
+              - button "QR Code Icon QR Code QR Code" [ref=e92] [cursor=pointer]:
+                - listitem [ref=e93]:
+                  - img "QR Code Icon" [ref=e95]
+                  - generic [ref=e96]:
+                    - generic [ref=e97]: QR Code
+                    - img "QR Code" [ref=e100]
+                  - generic [ref=e102]:
+                    - radio [ref=e103]
+                    - img [ref=e105]
+              - button "เคาน์เตอร์ Icon เคาน์เตอร์" [ref=e107] [cursor=pointer]:
+                - listitem [ref=e108]:
+                  - img "เคาน์เตอร์ Icon" [ref=e110]
+                  - generic [ref=e112]: เคาน์เตอร์
+                  - generic [ref=e114]:
+                    - radio [ref=e115]
+                    - img [ref=e117]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - img "เมืองไทยประกันภัย" [ref=e124]
+              - generic [ref=e125]:
+                - generic [ref=e126]: เมืองไทยประกันภัย
+                - generic [ref=e127]: MTI Travel Inbound Daily
+                - generic [ref=e128]: เชียงใหม่ / เครื่องบิน / 1 คน / 6 วัน
+            - separator [ref=e129]
+            - generic [ref=e130]:
+              - generic [ref=e131]: ยอดเงินที่ต้องชำระ
+              - generic [ref=e132]: 79.00 บาท
+            - separator [ref=e133]
+          - generic [ref=e134]:
+            - button [disabled] [ref=e135]:
+              - status [ref=e136]
+            - button "ย้อนกลับ" [ref=e139] [cursor=pointer]
+    - contentinfo [ref=e140]:
+      - link "TQM Logo" [ref=e142] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e143]
+      - generic [ref=e144]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e147] [cursor=pointer]:
+          - generic [ref=e149]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e151]
+        - button "บริการลูกค้า" [ref=e155] [cursor=pointer]:
+          - generic [ref=e157]: บริการลูกค้า
+          - img [ref=e159]
+        - button "ติดต่อสอบถาม" [ref=e163] [cursor=pointer]:
+          - generic [ref=e165]: ติดต่อสอบถาม
+          - img [ref=e167]
+        - button "บริษัท" [ref=e171] [cursor=pointer]:
+          - generic [ref=e173]: บริษัท
+          - img [ref=e175]
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - link "line" [ref=e180] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e181]
+            - link "facebook" [ref=e183] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e184]
+            - link "instagram" [ref=e186] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e187]
+            - link "tiktok" [ref=e189] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e190]
+            - link "youtube" [ref=e192] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e193]
+            - link "x" [ref=e195] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e196]
+          - link "1737" [ref=e198] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e199]
+            - text: "1737"
+        - generic [ref=e202]:
+          - link "TQM Application" [ref=e204] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e205]
+          - generic [ref=e206]:
+            - link "TQM IOS Application" [ref=e207] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e208]
+            - link "TQM Android Application" [ref=e209] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e210]
+            - link "TQM APK Download" [ref=e211] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e212]
+        - generic [ref=e213]:
+          - paragraph [ref=e214]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e215]:
+            - paragraph [ref=e216]:
+              - link "แผนผังเว็บไซต์" [ref=e217] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e218]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e219] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e220]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e221] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e222]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: เลือกช่องทางชำระเงิน ได้เลยครับ ทุกช่องทาง ปลอดภัยแน่นอน ✅
+      - button "Toggle chat" [ref=e223] [cursor=pointer]:
+        - img "chat-on-web" [ref=e224]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e225]: เลือกช่องทางการชำระเงิน | TQM ทีคิวเอ็ม
+```

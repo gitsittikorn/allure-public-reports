@@ -1,0 +1,258 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img "step0" [ref=e19]
+          - generic [ref=e20]: ค้นหา แผนประกัน
+        - progressbar [ref=e22]
+        - generic [ref=e24]:
+          - img "step1" [ref=e25]
+          - generic [ref=e26]: เลือก แผนประกัน
+        - progressbar [ref=e28]
+        - generic [ref=e30]:
+          - img "step2" [ref=e31]
+          - generic [ref=e32]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e34]
+        - generic [ref=e36]:
+          - img "step3" [ref=e37]
+          - generic [ref=e38]: ชำระเงิน
+      - generic [ref=e40]:
+        - generic [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]:
+            - img "ประกันบ้าน First Lost ประกันบ้าน First Lost 1 Logo" [ref=e45]
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: แผนประกันภัยที่คุณเลือก
+              - paragraph [ref=e48]: ประกันบ้าน First Lost ประกันบ้าน First Lost 1
+          - generic [ref=e49]:
+            - paragraph [ref=e50]: ดูรายละเอียด >
+            - paragraph [ref=e51]: ฿ 500
+            - paragraph [ref=e52]: คุ้มครอง 3 ปี
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: กรอกข้อมูลอีกนิดเดียวก็สั่งซื้อได้แล้ว 🙌🏻
+                - button "ล้างข้อมูล" [ref=e59] [cursor=pointer]
+              - generic [ref=e60]:
+                - img "ISO" [ref=e61]
+                - generic [ref=e62]: รับรองความปลอดภัยข้อมูล ด้วยมาตรฐาน ISO 27001
+            - generic [ref=e63]:
+              - generic [ref=e64] [cursor=pointer]:
+                - generic [ref=e65]:
+                  - img "ข้อมูลกรมธรรม์" [ref=e67]
+                  - generic [ref=e69]: ข้อมูลกรมธรรม์
+                - generic [ref=e70]:
+                  - generic [ref=e71]: 1/2
+                  - img [ref=e72]
+                  - img [ref=e74]
+              - generic [ref=e77]:
+                - generic [ref=e79]:
+                  - paragraph [ref=e80]: คำนำหน้า *
+                  - generic [ref=e82]:
+                    - combobox [ref=e83] [cursor=pointer]:
+                      - generic [ref=e84]: นาย
+                    - textbox: นาย
+                    - img
+                    - group
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: ชื่อ *
+                  - textbox "ชื่อ" [ref=e88]: test
+                - generic [ref=e89]:
+                  - paragraph [ref=e90]: นามสกุล *
+                  - textbox "นามสกุล" [ref=e92]: test
+                - generic [ref=e94]:
+                  - paragraph [ref=e95]: วัน/เดือน/ปีเกิด *
+                  - generic [ref=e98]:
+                    - textbox "Choose date, selected date is 5 ก.พ. 2016" [ref=e99]:
+                      - /placeholder: DD/MM/YYYY
+                      - text: 05/02/2016
+                    - button [ref=e100] [cursor=pointer]:
+                      - img [ref=e101]
+                    - group
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: หมายเลขบัตรประชาชน *
+                  - textbox "หมายเลขบัตรประชาชน" [ref=e106]: "6855601700054"
+                - generic [ref=e107]:
+                  - paragraph [ref=e108]: เบอร์โทรศัพท์มือถือ (สำหรับรับ OTP) *
+                  - textbox "เบอร์โทรศัพท์มือถือ 10 หลัก" [ref=e110]: "0946828529"
+                - generic [ref=e111]:
+                  - paragraph [ref=e112]: อีเมล (สำหรับรับกรมธรรม์อิเล็กทรอนิกส์) *
+                  - textbox "อีเมล" [ref=e114]: qatqm480@gmail.com
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - img "ที่อยู่บนกรมธรรม์" [ref=e120]
+                  - generic [ref=e122]: ที่อยู่บนกรมธรรม์ / ที่อยู่ทรัพย์สิน
+                - generic [ref=e124]: 2/2
+              - generic [ref=e126]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - img "home" [ref=e131]
+                    - paragraph [ref=e132]: บ้านเดี่ยว / ปูนทั้งหมด / 2 ชั้น / ใช้สำหรับที่อยู่อาศัย / กระบี่ / 50 ตร.ม. / เฟอร์นิเจอร์ลอยตัวและบิวท์อินในบ้าน 200,000 - 400,000 บาท / เครื่องใช้ไฟฟ้า เครื่องครัว และทรัพย์สิน 200,000 - 400,000 บาท
+                  - generic [ref=e133] [cursor=pointer]:
+                    - paragraph [ref=e134]: แก้ไขข้อมูล
+                    - img [ref=e135]
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: เลขที่บ้าน/เลขที่อาคาร *
+                  - textbox "เลขที่บ้าน/เลขที่อาคาร" [ref=e141]: "888"
+                - generic [ref=e142]:
+                  - paragraph [ref=e143]: หมู่/หมู่บ้าน/อาคาร
+                  - textbox "หมู่/หมู่บ้าน/อาคาร" [ref=e145]: home
+                - generic [ref=e146]:
+                  - paragraph [ref=e147]: ตรอก/ซอย
+                  - textbox "ตรอก/ซอย" [ref=e149]: alley
+                - generic [ref=e150]:
+                  - paragraph [ref=e151]: ถนน
+                  - textbox "ถนน" [ref=e153]: road
+                - generic [ref=e154]:
+                  - paragraph [ref=e155]: รหัสไปรษณีย์ *
+                  - textbox "รหัสไปรษณีย์" [ref=e157]
+                  - generic [ref=e158]: กรุณากรอกรหัสไปรษณีย์ 5 หลัก
+                - generic [ref=e160]:
+                  - paragraph [ref=e161]: จังหวัด *
+                  - generic [ref=e165]:
+                    - combobox [disabled] [ref=e166]: กระบี่
+                    - generic [ref=e167]:
+                      - button "Open" [disabled]:
+                        - img
+                    - group
+                    - text: กระบี่
+                - generic [ref=e169]:
+                  - paragraph [ref=e170]: เขต/อำเภอ *
+                  - generic [ref=e172]:
+                    - combobox [ref=e173] [cursor=pointer]:
+                      - generic [ref=e174]: เกาะลันตา
+                    - textbox: "803"
+                    - img
+                    - group
+                - generic [ref=e176]:
+                  - paragraph [ref=e177]: แขวง/ตำบล *
+                  - generic [ref=e179]:
+                    - combobox [ref=e180] [cursor=pointer]:
+                      - generic [ref=e181]: เกาะลันตาน้อย
+                    - textbox: "6540"
+                    - img
+                    - group
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - button "บันทึกข้อมูล" [ref=e184] [cursor=pointer]
+              - button [disabled] [ref=e185]:
+                - status [ref=e186]
+            - generic [ref=e189]: ต้องการความช่วยเหลือในการดำเนินการ โทร.1737
+    - contentinfo [ref=e190]:
+      - link "TQM Logo" [ref=e192] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e193]
+      - generic [ref=e194]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e197] [cursor=pointer]:
+          - generic [ref=e199]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e201]
+        - button "บริการลูกค้า" [ref=e205] [cursor=pointer]:
+          - generic [ref=e207]: บริการลูกค้า
+          - img [ref=e209]
+        - button "ติดต่อสอบถาม" [ref=e213] [cursor=pointer]:
+          - generic [ref=e215]: ติดต่อสอบถาม
+          - img [ref=e217]
+        - button "บริษัท" [ref=e221] [cursor=pointer]:
+          - generic [ref=e223]: บริษัท
+          - img [ref=e225]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - link "line" [ref=e230] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e231]
+            - link "facebook" [ref=e233] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e234]
+            - link "instagram" [ref=e236] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e237]
+            - link "tiktok" [ref=e239] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e240]
+            - link "youtube" [ref=e242] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e243]
+            - link "x" [ref=e245] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e246]
+          - link "1737" [ref=e248] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e249]
+            - text: "1737"
+        - generic [ref=e252]:
+          - link "TQM Application" [ref=e254] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e255]
+          - generic [ref=e256]:
+            - link "TQM IOS Application" [ref=e257] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e258]
+            - link "TQM Android Application" [ref=e259] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e260]
+            - link "TQM APK Download" [ref=e261] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e262]
+        - generic [ref=e263]:
+          - paragraph [ref=e264]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e265]:
+            - paragraph [ref=e266]:
+              - link "แผนผังเว็บไซต์" [ref=e267] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e268]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e269] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e270]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e271] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e272]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: กรอกข้อมูลตรงไหน แล้วยังไม่ชัวร์ไหมครับ? เดี๋ยวพี่หมีช่วยแนะนำให้แบบทีละขั้นตอนเลย
+      - button "Toggle chat" [ref=e273] [cursor=pointer]:
+        - img "chat-on-web" [ref=e274]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e275]: แบบฟอร์มข้อมูลผู้เอาประกัน | TQM ทีคิวเอ็ม
+```

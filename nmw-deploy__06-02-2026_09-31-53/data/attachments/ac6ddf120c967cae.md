@@ -1,0 +1,235 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - button "open drawer" [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+      - link [ref=e12] [cursor=pointer]:
+        - /url: /
+  - main [ref=e13]:
+    - article [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - heading "ประกันอัคคีภัยบ้านและคอนโด" [level=1] [ref=e17]
+          - paragraph [ref=e19]: เปรียบเทียบราคาประกันอัคคีภัยบ้านและคอนโด ที่คุ้มครองมากกว่าไฟไหม้ ครอบคลุมทั้งภัยธรรมชาติ น้ำท่วม ไฟไหม้ แผ่นดินไหว และโจรกรรม เบี้ยเริ่มวันละ 5 บาท คุ้มครองสูงสุด 5,000,000 บาท
+        - generic [ref=e20]:
+          - generic:
+            - list
+    - article [ref=e21]:
+      - heading "เช็คราคาแผนประกันตรงใจ" [level=2] [ref=e22]
+      - article [ref=e23]:
+        - heading "กรอกข้อมูลเพื่อค้นหาแผนประกัน" [level=3] [ref=e24]
+        - paragraph [ref=e25]: รายละเอียดที่อยู่อาศัย
+        - paragraph [ref=e26]: เลือกประเภทที่อยู่อาศัย *
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - paragraph [ref=e32]: บ้านเดี่ยว
+            - paragraph [ref=e36]: บ้านแฝด
+            - paragraph [ref=e40]: ทาวน์โฮม
+            - paragraph [ref=e44]: คอนโด
+            - paragraph [ref=e48]: ตึกแถว
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: โครงสร้างบ้าน *
+              - generic [ref=e54]:
+                - combobox [ref=e55] [cursor=pointer]:
+                  - generic [ref=e56]: เลือกโครงสร้างบ้าน
+                - textbox
+                - img
+                - group
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: จำนวนชั้น *
+              - generic [ref=e61]:
+                - combobox [ref=e62] [cursor=pointer]:
+                  - generic [ref=e63]: เลือกจำนวนชั้น
+                - textbox
+                - img
+                - group
+            - generic [ref=e65]:
+              - paragraph [ref=e66]: ลักษณะการใช้งานบ้าน *
+              - generic [ref=e68]:
+                - combobox [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]: เลือกลักษณะการใช้งานบ้าน
+                - textbox
+                - img
+                - group
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: ตำแหน่งบ้านของคุณ *
+              - generic [ref=e77]:
+                - combobox [disabled] [ref=e78]
+                - generic [ref=e79]:
+                  - button "Open" [disabled]:
+                    - img
+                - group
+        - button "ค้นหาแผนประกัน" [disabled] [ref=e81]:
+          - img [ref=e83]
+          - text: ค้นหาแผนประกัน
+    - article [ref=e87]:
+      - heading "เลือกแผนประกันบ้านตามไลฟ์สไตล์" [level=2] [ref=e88]:
+        - generic [ref=e89]: เลือกแผนประกันบ้านตามไลฟ์สไตล์
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - heading "เพื่อที่อยู่อาศัย" [level=3] [ref=e92]
+          - paragraph [ref=e93]: เพื่อที่อยู่อาศัย
+          - generic [ref=e94]:
+            - link:
+              - /url: /home-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AD%E0%B8%B2%E0%B8%A8%E0%B8%B1%E0%B8%A2
+        - generic [ref=e95]:
+          - heading "รวมประกันบ้านเดี่ยว" [level=3] [ref=e96]
+          - paragraph [ref=e97]: รวมประกันบ้านเดี่ยว
+          - generic [ref=e98]:
+            - link:
+              - /url: /home-insurance/collections/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7
+    - generic [ref=e100]:
+      - heading "ประกันบ้าน คุ้มครองอะไรบ้าง" [level=2] [ref=e101]
+      - generic [ref=e102]:
+        - term [ref=e103]:
+          - heading "ประกันบ้านและทรัพย์สิน คุ้มครองอะไรบ้าง" [level=3] [ref=e104]
+        - definition [ref=e105]:
+          - paragraph [ref=e106]: เพื่อให้เข้าใจง่ายๆ พี่หมีจะแบ่งความคุ้มครองออกเป็น 3 ส่วน ส่วนแรกคือ ความคุ้มครองเรื่องอัคคีภัย ส่วนที่ 2 จะเป็น ความคุ้มครองเรื่องภัยพิบัติ ส่วนที่ 3 คุ้มครองการโจรกรรมทรัพย์สิน โดยจะมีรายละเอียดดังนี้
+        - term [ref=e107]:
+          - heading "ความคุ้มครองเรื่องอัคคีภัย" [level=3] [ref=e108]
+        - definition [ref=e109]:
+          - paragraph [ref=e110]:
+            - text: ประกันภัยบ้านหรือประกันอัคคีภัยจะคุ้มครองครอบคลุมความเสียหายของบ้านจากอัคคีภัย 3 เหตุการณ์ ได้แก่
+            - link "ไฟไหม้บ้าน" [ref=e111] [cursor=pointer]:
+              - /url: /articles/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/%E0%B8%A3%E0%B8%A7%E0%B8%A15%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%9B%E0%B8%B52562%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99
+            - text: ฟ้าผ่าลงกลางหลังคา และแก๊สหุงต้มรั่ว โดยคุ้มครองเฉพาะตัวบ้านไม่รวมถึงที่ดิน หากเกิดอัคคีภัยขึ้น บริษัทประกันจะจ่ายผลประโยชน์ตามกรมธรรม์ให้กับเจ้าของบ้านโดยตรง เว้นแต่กรณีบ้านติดจำนองไว้ ธนาคารจะเป็นผู้ได้รับผลประโยชน์แทน ส่วนเบี้ยประกันจะขึ้นอยู่กับบริษัทประกันและลักษณะอาคาร
+        - term [ref=e112]:
+          - heading "ความคุ้มครองเรื่องภัยพิบัติ" [level=3] [ref=e113]
+        - definition [ref=e114]:
+          - paragraph [ref=e115]: นอกจากประกันภัยบ้านจะคุ้มครองเรื่องอัคคีภัยแล้ว ยังคุ้มครองบ้านจากภัยธรรมชาติต่างๆ ด้วย ได้แก่ ภัยน้ำท่วม ภัยลมพายุ ภัยแผ่นดินไหว ภัยลูกเห็บ รวมถึงสินามิ หรือตามรายละเอียดในกรมธรรม์โดยจะอยู่ภายใต้เงื่อนไขความเสียหายจากภัยธรรมชาติ
+        - term [ref=e116]:
+          - heading "ความคุ้มครองการโจรกรรมทรัพย์สิน" [level=3] [ref=e117]
+        - definition [ref=e118]:
+          - paragraph [ref=e119]:
+            - text: ประกันบ้านหรือประกันอัคคีภัยบางบริษัทยังคุ้มครองครอบคลุมไปถึงกรณีการถูกโจรกรรมทรัพย์สินภายในบ้าน
+            - link "โจรกรรมทรัพย์สินภายในบ้าน" [ref=e120] [cursor=pointer]:
+              - /url: /articles/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/7%20%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B9%82%E0%B8%88%E0%B8%A3%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99
+            - text: ซึ่งหมายถึง คุ้มครองทั้งในส่วนของทรัพย์สินและตัวบ้าน ที่ได้รับความเสียหายจากการโจรกรรมนั้นๆ ด้วย
+    - generic [ref=e122]:
+      - heading "4 ขั้นตอน ซื้อประกันบ้าน ออนไลน์ด้วยตนเอง" [level=2] [ref=e123]
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - paragraph [ref=e127]: "01"
+          - generic [ref=e128]:
+            - heading "คำนวณเบี้ยประกัน" [level=3] [ref=e129]
+            - paragraph [ref=e130]: เพียงระบุขนาด ประเภทบ้านระบบจะคำนวณเบี้ยประกันที่เหมาะสมเฉพาะบ้านคุณ
+        - listitem [ref=e131]:
+          - paragraph [ref=e133]: "02"
+          - generic [ref=e134]:
+            - heading "เปรียบเทียบแผนประกัน" [level=3] [ref=e135]
+            - paragraph [ref=e136]: เปรียบเทียบราคาและความคุ้มครองเพื่อเลือกแผนประกันบ้านที่ใช่
+        - listitem [ref=e137]:
+          - paragraph [ref=e139]: "03"
+          - generic [ref=e140]:
+            - heading "ชำระเงิน" [level=3] [ref=e141]
+            - paragraph [ref=e142]: ชำระเงินได้หลากหลายช่องทางพร้อมบริการผ่อนชำระและเก็บเงินปลายทาง
+        - listitem [ref=e143]:
+          - paragraph [ref=e145]: "04"
+          - generic [ref=e146]:
+            - heading "รับกรมธรรม์" [level=3] [ref=e147]
+            - paragraph [ref=e148]: เลือกช่องทางการรับกรมธรรม์ได้ทางอีเมลและไปรษณีย์
+    - article [ref=e149]:
+      - heading "คำถามที่พบบ่อยเกี่ยวกับ ประกันอัคคีภัย" [level=2] [ref=e150]
+      - generic [ref=e151]:
+        - button "ประกันอัคคีภัย คุ้มครองที่อยู่อาศัยประเภทใดบ้าง" [ref=e155] [cursor=pointer]:
+          - heading "ประกันอัคคีภัย คุ้มครองที่อยู่อาศัยประเภทใดบ้าง" [level=3] [ref=e157]
+          - img [ref=e159]
+        - button "บ้านครึ่งปูนครึ่งไม้ ทำประกันอัคคีภัยบ้านได้ไหม" [ref=e164] [cursor=pointer]:
+          - heading "บ้านครึ่งปูนครึ่งไม้ ทำประกันอัคคีภัยบ้านได้ไหม" [level=3] [ref=e166]
+          - img [ref=e168]
+        - button "ทำประกันบ้านทั้งที ควรทำกี่ปี" [ref=e173] [cursor=pointer]:
+          - heading "ทำประกันบ้านทั้งที ควรทำกี่ปี" [level=3] [ref=e175]
+          - img [ref=e177]
+        - button "ทำประกันอัคคีภัยบ้านแล้ว ข้อมูลที่อยู่ในกรมธรรม์ผิด ต้องทำอย่างไร" [ref=e182] [cursor=pointer]:
+          - heading "ทำประกันอัคคีภัยบ้านแล้ว ข้อมูลที่อยู่ในกรมธรรม์ผิด ต้องทำอย่างไร" [level=3] [ref=e184]
+          - img [ref=e186]
+    - article [ref=e188]:
+      - heading "เคลมประกันบ้าน อัคคีภัย" [level=2] [ref=e189]
+      - paragraph [ref=e190]: ลูกค้าที่ทำประกันบ้านกับ TQM หากต้องการเคลมประกันอัคคีภัยเราช่วยประสานงานและพิจารณาค่าสินไหมทดแทนอย่างเป็นธรรมกับทางบริษัทประกันภัย เพื่อให้ผู้เอาประกันได้รับเงินค่าสินไหมโดยเร็วที่สุด
+      - generic [ref=e191]:
+        - generic [ref=e193]:
+          - heading "ไฟไหม้ ฟ้าผ่า" [level=3] [ref=e194]
+          - paragraph [ref=e195]: ดำเนินการแจ้งความเสียหายกับทาง TQM ได้ทันทีเพื่อประสานงานกับทางบริษัทประกันภัย จัดเตรียมเอกสารและหลักฐานทั้งหมด ส่งให้ทาง TQM ผ่านอีเมลที่ทางเจ้าหน้าที่ได้แจ้งไว้ เมื่อบริษัทประกันภัยพิจารณาการเคลมเรียบร้อยแล้วรอรับค่าสินไหมทดแทน
+        - generic [ref=e197]:
+          - heading "น้ำท่วม อุทกภัย น้ำรั่วซึม" [level=3] [ref=e198]
+          - paragraph [ref=e199]: ถ่ายรูปที่อยู่อาศัย ขณะน้ำท่วม และหลังจากน้ำลดแล้ว เมื่อเกิดเหตุให้รีบโทรแจ้งให้บริษัทประกันภัยเตรียมหลักฐานและส่งเอกสารเพื่อขอยื่นเคลมประกันบ้าน บริษัทประกันภัยพิจารณา ดำเนินการชดใช้ค่าสินไหมทดแทน
+        - generic [ref=e201]:
+          - heading "โจรกรรม ขโมย โจรขึ้นบ้าน" [level=3] [ref=e202]
+          - paragraph [ref=e203]: โทรแจ้งเจ้าหน้าที่ตำรวจเพื่อลงบันทึกประจำวันรวมถึงตรวจสอบความเสียหายที่เกิดขึ้น โทรแจ้งประกันประเมินค่าความเสียหายภายใน 24 ชั่วโมง ส่งหลักฐานอธิบายเหตุการณ์เอกสารให้ทางบริษัทประกันพิจารณาเคลมต่อไป
+      - generic [ref=e204]: "หมายเหตุ : เป็นไปตามเงื่อนไขกรมธรรม์"
+      - generic [ref=e206]:
+        - heading "ช่องทางการเคลมประกันบ้าน อัคคีภัย" [level=2] [ref=e207]
+        - generic [ref=e208]:
+          - generic [ref=e210] [cursor=pointer]: สายด่วน 1737
+          - generic [ref=e212] [cursor=pointer]: App TQM24
+          - generic [ref=e214] [cursor=pointer]: Line TQM
+      - button "ดูข้อมูลการเคลมเพิ่มเติม" [ref=e216] [cursor=pointer]
+  - contentinfo [ref=e217]:
+    - link [ref=e219] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e220]:
+      - button "ผลิตภัณฑ์ประกันภัย" [ref=e223] [cursor=pointer]:
+        - generic [ref=e225]: ผลิตภัณฑ์ประกันภัย
+        - img [ref=e227]
+      - button "บริการลูกค้า" [ref=e231] [cursor=pointer]:
+        - generic [ref=e233]: บริการลูกค้า
+        - img [ref=e235]
+      - button "ติดต่อสอบถาม" [ref=e239] [cursor=pointer]:
+        - generic [ref=e241]: ติดต่อสอบถาม
+        - img [ref=e243]
+      - button "บริษัท" [ref=e247] [cursor=pointer]:
+        - generic [ref=e249]: บริษัท
+        - img [ref=e251]
+      - generic [ref=e253]:
+        - generic:
+          - generic:
+            - link:
+              - /url: https://lin.ee/Ds7qY7v
+          - generic:
+            - link:
+              - /url: https://www.facebook.com/TqmBroker
+          - generic:
+            - link:
+              - /url: https://www.instagram.com/tqminsurancebroker
+          - generic:
+            - link:
+              - /url: http://www.tiktok.com/@tqmmorelove
+          - generic:
+            - link:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+          - generic:
+            - link:
+              - /url: https://x.com/Tqmbeside
+        - link "1737" [ref=e255] [cursor=pointer]:
+          - /url: tel:1737
+          - img [ref=e256]
+          - text: "1737"
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - link:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+        - generic:
+          - link:
+            - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+          - link:
+            - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+          - link:
+            - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+      - generic [ref=e261]:
+        - paragraph [ref=e262]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+        - generic [ref=e263]:
+          - paragraph [ref=e264]:
+            - link "แผนผังเว็บไซต์" [ref=e265] [cursor=pointer]:
+              - /url: https://devweb.tqm.co.th/sitemap
+          - paragraph [ref=e266]:
+            - link "ข้อกำหนดและเงื่อนไข" [ref=e267] [cursor=pointer]:
+              - /url: /terms-and-conditions
+          - paragraph [ref=e268]:
+            - link "นโยบายข้อมูลส่วนบุคคล" [ref=e269] [cursor=pointer]:
+              - /url: /tqm/privacy
+```

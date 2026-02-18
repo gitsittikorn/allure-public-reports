@@ -1,0 +1,146 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "เข้าสู่ระบบ" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - img [ref=e21]
+          - img "Thankyou" [ref=e23]
+        - paragraph [ref=e24]
+        - paragraph [ref=e26]
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: ตรวจสอบกรมธรรม์อิเล็คทรอนิกส์และสิทธิพิเศษได้ที่
+          - paragraph [ref=e31]: ส่งโดยบริษัท TQM ภายใน 15 นาที
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: รายละเอียดการซื้อสินค้า
+          - generic [ref=e34]:
+            - generic [ref=e35]: บริษัทประกันภัย
+            - generic [ref=e37]: แบบประกัน
+            - generic [ref=e39]: พ.ร.บ.
+            - generic [ref=e41]: เบี้ยประกันภัยที่ชำระ
+            - generic [ref=e43]: วันที่ซื้อ
+            - generic [ref=e45]: หมายเลขคำสั่งซื้อ
+          - separator [ref=e47]
+        - generic [ref=e48]:
+          - button "ดูสถานะการสั่งซื้อ" [ref=e49] [cursor=pointer]
+          - button "กลับสู่หน้าหลัก" [ref=e50] [cursor=pointer]
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: จากการสั่งซื้อนี้! คุณสามารถเข้าใช้สิทธิประโยชน์ใน TQM24 แอปได้เลย!
+          - link "TQM24 Banner" [ref=e53] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM24 Banner" [ref=e55]
+    - contentinfo [ref=e56]:
+      - link "TQM Logo" [ref=e58] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e59]
+      - generic [ref=e60]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e63] [cursor=pointer]:
+          - generic [ref=e65]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e67]
+        - button "บริการลูกค้า" [ref=e71] [cursor=pointer]:
+          - generic [ref=e73]: บริการลูกค้า
+          - img [ref=e75]
+        - button "ติดต่อสอบถาม" [ref=e79] [cursor=pointer]:
+          - generic [ref=e81]: ติดต่อสอบถาม
+          - img [ref=e83]
+        - button "บริษัท" [ref=e87] [cursor=pointer]:
+          - generic [ref=e89]: บริษัท
+          - img [ref=e91]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - link "line" [ref=e96] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e97]
+            - link "facebook" [ref=e99] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e100]
+            - link "instagram" [ref=e102] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e103]
+            - link "tiktok" [ref=e105] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e106]
+            - link "youtube" [ref=e108] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e109]
+            - link "x" [ref=e111] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e112]
+          - link "1737" [ref=e114] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e115]
+            - text: "1737"
+        - generic [ref=e118]:
+          - link "TQM Application" [ref=e120] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e121]
+          - generic [ref=e122]:
+            - link "TQM IOS Application" [ref=e123] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e124]
+            - link "TQM Android Application" [ref=e125] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e126]
+            - link "TQM APK Download" [ref=e127] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e128]
+        - generic [ref=e129]:
+          - paragraph [ref=e130]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e131]:
+            - paragraph [ref=e132]:
+              - link "แผนผังเว็บไซต์" [ref=e133] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e134]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e135] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e136]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e137] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e138]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: ชำระเงินสำเร็จแล้ว 🎉 คุณสามารถดูสถานะการสั่งซื้อได้ที่ TQM24
+      - button "Toggle chat" [ref=e139] [cursor=pointer]:
+        - img "chat-on-web" [ref=e140]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e141]
+```

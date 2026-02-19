@@ -1,0 +1,248 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e13]
+          - button [ref=e14] [cursor=pointer]: เข้าสู่ระบบ
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e20]: ค้นหาแผนประกัน
+        - progressbar [ref=e22]
+        - generic [ref=e24]:
+          - img [ref=e25]
+          - generic [ref=e26]: เลือก แผนประกัน
+        - progressbar [ref=e28]
+        - generic [ref=e30]:
+          - img [ref=e31]
+          - generic [ref=e32]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e34]
+        - generic [ref=e36]:
+          - img [ref=e37]
+          - generic [ref=e38]: ชำระเงิน
+      - generic [ref=e41]:
+        - generic [ref=e44]: ใกล้เสร็จแล้ว 👏🏻
+        - generic [ref=e46]:
+          - generic [ref=e48]: ชำระเงิน
+          - generic [ref=e50]:
+            - generic [ref=e51]: เลือกวิธีการชำระเงิน
+            - radiogroup [ref=e52]:
+              - generic [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]:
+                  - radio [checked] [ref=e56]
+                  - generic [ref=e57]:
+                    - img [ref=e58]
+                    - img [ref=e60]
+                - generic [ref=e64]: ชำระเต็มจำนวน
+              - generic [ref=e66]:
+                - generic:
+                  - radio [disabled]
+                - generic [ref=e69]:
+                  - text: ผ่อนชำระ
+                  - img [ref=e71]
+            - generic [ref=e72]: เลือกช่องทางการชำระเงิน
+            - navigation [ref=e73]:
+              - button [ref=e74] [cursor=pointer]:
+                - listitem [ref=e75]:
+                  - img [ref=e77]
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: บัตรเครดิต/บัตรเดบิต
+                    - generic [ref=e80]:
+                      - img [ref=e82]
+                      - img [ref=e84]
+                  - generic [ref=e86]:
+                    - radio [checked] [ref=e87]
+                    - generic [ref=e88]:
+                      - img [ref=e89]
+                      - img [ref=e91]
+              - button [ref=e93] [cursor=pointer]:
+                - listitem [ref=e94]:
+                  - img [ref=e96]
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: QR Code
+                    - img [ref=e101]
+                  - generic [ref=e103]:
+                    - radio [ref=e104]
+                    - img [ref=e106]
+              - button [ref=e108] [cursor=pointer]:
+                - listitem [ref=e109]:
+                  - img [ref=e111]
+                  - generic [ref=e113]: เคาน์เตอร์
+                  - generic [ref=e115]:
+                    - radio [ref=e116]
+                    - img [ref=e118]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - img [ref=e125]
+              - generic [ref=e126]:
+                - generic [ref=e127]: เอฟดับบลิวดีประกันภัย
+                - generic [ref=e128]: Product P
+                - generic [ref=e129]: Description Product P
+            - separator [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e132]: ยอดเงินที่ต้องชำระ
+              - generic [ref=e133]: 0.00 บาท
+            - separator [ref=e134]
+          - generic [ref=e135]:
+            - button [ref=e136] [cursor=pointer]: ชำระเงิน
+            - button [ref=e137] [cursor=pointer]: ย้อนกลับ
+    - contentinfo [ref=e138]:
+      - link [ref=e140] [cursor=pointer]:
+        - /url: /
+        - img [ref=e141]
+      - generic [ref=e142]:
+        - button [ref=e145] [cursor=pointer]:
+          - generic [ref=e147]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e149]
+        - button [ref=e153] [cursor=pointer]:
+          - generic [ref=e155]: บริการลูกค้า
+          - img [ref=e157]
+        - button [ref=e161] [cursor=pointer]:
+          - generic [ref=e163]: ติดต่อสอบถาม
+          - img [ref=e165]
+        - button [ref=e169] [cursor=pointer]:
+          - generic [ref=e171]: บริษัท
+          - img [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - link [ref=e178] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img [ref=e179]
+            - link [ref=e181] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img [ref=e182]
+            - link [ref=e184] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img [ref=e185]
+            - link [ref=e187] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img [ref=e188]
+            - link [ref=e190] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img [ref=e191]
+            - link [ref=e193] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img [ref=e194]
+          - link [ref=e196] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e197]
+            - text: "1737"
+        - generic [ref=e200]:
+          - link [ref=e202] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img [ref=e203]
+          - generic [ref=e204]:
+            - link [ref=e205] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img [ref=e206]
+            - link [ref=e207] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img [ref=e208]
+            - link [ref=e209] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img [ref=e210]
+        - generic [ref=e211]:
+          - paragraph [ref=e212]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e213]:
+            - paragraph [ref=e214]:
+              - link [ref=e215] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+                - text: แผนผังเว็บไซต์
+            - paragraph [ref=e216]:
+              - link [ref=e217] [cursor=pointer]:
+                - /url: /terms-and-conditions
+                - text: ข้อกำหนดและเงื่อนไข
+            - paragraph [ref=e218]:
+              - link [ref=e219] [cursor=pointer]:
+                - /url: /tqm/privacy
+                - text: นโยบายข้อมูลส่วนบุคคล
+    - generic [ref=e220]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button:
+            - img
+          - generic:
+            - paragraph: เลือกช่องทางชำระเงิน ได้เลยครับ ทุกช่องทาง ปลอดภัยแน่นอน ✅
+      - button [ref=e221] [cursor=pointer]:
+        - img [ref=e222]
+      - generic:
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button:
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button:
+                  - img
+            - generic:
+              - generic:
+                - generic:
+                  - textbox:
+                    - /placeholder: พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย...
+            - button [disabled]:
+              - img
+  - alert [ref=e223]: เลือกช่องทางการชำระเงิน | TQM ทีคิวเอ็ม
+  - generic [ref=e227]:
+    - img [ref=e229] [cursor=pointer]
+    - generic [ref=e232]: ข้อมูลบัตรเครดิต/เดบิต
+    - generic [ref=e233]:
+      - img [ref=e234]
+      - paragraph [ref=e236]: มาตราการคุ้มครองการชำระเงินจาก ทีคิวเอ็ม อินชัวร์รันส์ โบรคเกอร์
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - img [ref=e241]
+        - img [ref=e242]
+      - generic [ref=e243]:
+        - generic [ref=e245]:
+          - paragraph [ref=e246]: หมายเลขบัตร *
+          - textbox [ref=e248]:
+            - /placeholder: หมายเลขบัตร
+            - text: "4111111111111111"
+        - generic [ref=e250]:
+          - paragraph [ref=e251]: ชื่อผู้ถือบัตร *
+          - textbox [ref=e253]:
+            - /placeholder: ชื่อผู้ถือบัตร
+            - text: TQM Credit Card
+        - generic [ref=e255]:
+          - paragraph [ref=e256]: วันหมดอายุบัตร *
+          - textbox [ref=e258]:
+            - /placeholder: ดด/ปป
+            - text: 12/27
+        - generic [ref=e260]:
+          - paragraph [ref=e261]:
+            - text: CVV *
+            - img [ref=e264]
+          - generic [ref=e265]:
+            - textbox [ref=e266]:
+              - /placeholder: CVV
+              - text: "123"
+            - img [ref=e268] [cursor=pointer]
+    - button [ref=e272] [cursor=pointer]: ชำระเงิน
+  - dialog [ref=e275]:
+    - generic [ref=e276]:
+      - img "Warning Icon" [ref=e278]
+      - paragraph [ref=e279]: ขออภัย เกิดข้อผิดพลาดขึ้น
+      - paragraph [ref=e280]: ระบบยังไม่สามารถดำเนินการชำระเงินได้ กรุณากด ลองใหม่อีกครั้ง หรือ ติดต่อเจ้าหน้าที่ โทร. 1737
+      - button "ลองใหม่อีกครั้ง" [ref=e282] [cursor=pointer]
+```

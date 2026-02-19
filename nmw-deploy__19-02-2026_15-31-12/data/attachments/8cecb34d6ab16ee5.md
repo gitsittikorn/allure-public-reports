@@ -1,0 +1,314 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e42]:
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]:
+            - img "ประกันภัยอุบัติเหตุระยะสั้น 30 วัน Logo" [ref=e47]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: แผนประกันภัยที่คุณเลือก
+              - paragraph [ref=e50]: ประกันภัยอุบัติเหตุระยะสั้น 30 วัน
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: ดูรายละเอียด >
+            - paragraph [ref=e53]: ฿ 18
+            - paragraph [ref=e54]: คุ้มครอง 1 ปี 30 วัน
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: กรอกข้อมูลอีกนิดเดียวก็สั่งซื้อได้แล้ว 🙌🏻
+                - button "ล้างข้อมูล" [ref=e61] [cursor=pointer]
+              - generic [ref=e62]:
+                - img "ISO" [ref=e63]
+                - generic [ref=e64]: รับรองความปลอดภัยข้อมูล ด้วยมาตรฐาน ISO 27001
+            - generic [ref=e65]:
+              - generic [ref=e66] [cursor=pointer]:
+                - generic [ref=e67]:
+                  - img "ข้อมูลกรมธรรม์" [ref=e69]
+                  - generic [ref=e71]: ข้อมูลกรมธรรม์
+                - generic [ref=e72]:
+                  - generic [ref=e73]: 1/3
+                  - img [ref=e74]
+                  - img [ref=e76]
+              - generic [ref=e79]:
+                - generic [ref=e81]:
+                  - paragraph [ref=e82]: คำนำหน้า *
+                  - generic [ref=e84]:
+                    - combobox [ref=e85] [cursor=pointer]:
+                      - generic [ref=e86]: นาย
+                    - textbox: นาย
+                    - img
+                    - group
+                - generic [ref=e87]:
+                  - paragraph [ref=e88]: ชื่อ *
+                  - textbox "ชื่อ" [ref=e90]: best
+                - generic [ref=e91]:
+                  - paragraph [ref=e92]: นามสกุล *
+                  - textbox "นามสกุล" [ref=e94]: insurance
+                - generic [ref=e96]:
+                  - paragraph [ref=e97]: วัน/เดือน/ปีเกิด *
+                  - generic [ref=e100]:
+                    - textbox "Choose date, selected date is 19 ก.พ. 2001" [ref=e101]:
+                      - /placeholder: DD/MM/YYYY
+                      - text: 19/02/2001
+                    - button [ref=e102] [cursor=pointer]:
+                      - img [ref=e103]
+                    - group
+                - generic [ref=e105]:
+                  - paragraph [ref=e106]: หมายเลขบัตรประชาชน *
+                  - textbox "หมายเลขบัตรประชาชน" [ref=e108]: "0695853633125"
+                - generic [ref=e109]:
+                  - paragraph [ref=e110]: เบอร์โทรศัพท์มือถือ (สำหรับรับ OTP) *
+                  - textbox "เบอร์โทรศัพท์มือถือ 10 หลัก" [ref=e112]: "0946828529"
+                - generic [ref=e113]:
+                  - paragraph [ref=e114]: อีเมล (สำหรับรับกรมธรรม์อิเล็กทรอนิกส์) *
+                  - textbox "อีเมล" [ref=e116]: qatqm480@gmail.com
+                - generic [ref=e117]:
+                  - paragraph [ref=e118]: น้ำหนัก (กิโลกรัม) *
+                  - textbox "น้ำหนัก (กิโลกรัม)" [ref=e120]: "80"
+                - generic [ref=e121]:
+                  - paragraph [ref=e122]: ส่วนสูง (เซนติเมตร) *
+                  - textbox "ส่วนสูง (เซนติเมตร)" [ref=e124]: "178"
+                - generic [ref=e125]:
+                  - paragraph [ref=e126]: ผลคำนวนดัชนีมวลกาย (ฺBMI)
+                  - textbox "ผลคำนวนดัชนีมวลกาย (ฺBMI)" [ref=e128]: "25.25"
+                  - generic [ref=e129]: BMI ของท่านอยู่ในเงื่อนไขที่สามารถรับประกันภัยได้
+                - generic [ref=e130]: "การหาค่าดัชนีมวลกาย (Body Mass Index : BMI) คือ มาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ ตั้งแต่ อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัว (กก.) และวัดส่วนสูง (ซม.) แล้วนำมาหาดัชนีมวลกายโดยใช้โปรแกรมวัดค่าความอ้วนข้างต้น"
+                - generic [ref=e132]:
+                  - paragraph [ref=e133]: ผู้รับผลประโยชน์ *
+                  - generic [ref=e135]:
+                    - combobox [ref=e136] [cursor=pointer]:
+                      - generic [ref=e137]: สามี
+                    - textbox: สามี
+                    - img
+                    - group
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: ชื่อ *
+                  - textbox "ชื่อผู้รับผลประโยชน์" [ref=e141]: สามีหยุดกั๊ก
+                - generic [ref=e142]:
+                  - paragraph [ref=e143]: นามสกุล *
+                  - textbox "นามสกุลผู้รับผลประโยชน์" [ref=e145]: แล้วรักก่อน
+            - generic [ref=e147]:
+              - generic [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]:
+                  - img "ที่อยู่บนกรมธรรม์" [ref=e151]
+                  - generic [ref=e153]: ที่อยู่บนกรมธรรม์
+                - generic [ref=e154]:
+                  - generic [ref=e155]: 2/3
+                  - img [ref=e156]
+                  - img [ref=e158]
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - paragraph [ref=e163]: เลขที่บ้าน/เลขที่อาคาร *
+                  - textbox "เลขที่บ้าน/เลขที่อาคาร" [ref=e165]: "123"
+                - generic [ref=e166]:
+                  - paragraph [ref=e167]: หมู่/หมู่บ้าน/อาคาร
+                  - textbox "หมู่/หมู่บ้าน/อาคาร" [ref=e169]: home
+                - generic [ref=e170]:
+                  - paragraph [ref=e171]: ตรอก/ซอย
+                  - textbox "ตรอก/ซอย" [ref=e173]: alley
+                - generic [ref=e174]:
+                  - paragraph [ref=e175]: ถนน
+                  - textbox "ถนน" [ref=e177]: road
+                - generic [ref=e178]:
+                  - paragraph [ref=e179]: รหัสไปรษณีย์ *
+                  - textbox "รหัสไปรษณีย์" [ref=e181]: "10550"
+                - generic [ref=e183]:
+                  - paragraph [ref=e184]: จังหวัด *
+                  - generic [ref=e188]:
+                    - combobox [ref=e189]: สมุทรปราการ
+                    - button "Open" [ref=e191] [cursor=pointer]:
+                      - img [ref=e192]
+                    - group
+                - generic [ref=e195]:
+                  - paragraph [ref=e196]: เขต/อำเภอ *
+                  - generic [ref=e198]:
+                    - combobox [ref=e199] [cursor=pointer]:
+                      - generic [ref=e200]: บางบ่อ
+                    - textbox: "52"
+                    - img
+                    - group
+                - generic [ref=e202]:
+                  - paragraph [ref=e203]: แขวง/ตำบล *
+                  - generic [ref=e205]:
+                    - combobox [ref=e206] [cursor=pointer]:
+                      - generic [ref=e207]: คลองด่าน
+                    - textbox: "198"
+                    - img
+                    - group
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - img "แบบสอบถาม" [ref=e212]
+                  - generic [ref=e214]: แบบสอบถาม
+                - generic [ref=e216]: 3/3
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - generic [ref=e221]: 1. ในช่วงระยะเวลา 5 ปีที่ผ่านมา ผู้ขอเอาประกันภัยเคยได้รับการผ่าตัดหรือไม่ ?
+                  - generic [ref=e223]:
+                    - radiogroup [ref=e225]:
+                      - generic [ref=e227] [cursor=pointer]:
+                        - generic [ref=e228]:
+                          - radio "ไม่เคย" [ref=e229]
+                          - img [ref=e231]
+                        - generic [ref=e235]: ไม่เคย
+                      - generic [ref=e237] [cursor=pointer]:
+                        - generic [ref=e238]:
+                          - radio "เคย" [ref=e239]
+                          - img [ref=e241]
+                        - generic [ref=e245]: เคย
+                    - generic [ref=e246]: กรุณาเลือกคำตอบ
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 2. ผู้ขอเอาประกันภัยเคยป่วย หรือได้รับการรักษาจากแพทย์ด้วยโรคต่อไปนี้ หรือได้รับเชื้อต่อไปนี้หรือไม่? โรคไวรัสตับอักเสบ ชนิด B,C (ไม่ว่าจะเป็นพาหะหรือเคยเป็น), โรคเอดส์ หรือมีเลือดบวกต่อไวรัส HIV, ปอดอักเสบเรื้อรัง (ยังต้องรักษาต่อเนื่อง), ตับแข็ง ตับอักเสบ, ลำไส้ใหญ่อักเสบเรื้อรัง (ยังต้องรักษาต่อเนื่อง), โรคมะเร็ง, ปากมดลูก หรือช่องคลอดอักเสบเรื้อรัง (ยังต้องรักษาต่อเนื่อง), ริดสีดวงทวารอักเสบเรื้อรัง, เนื้องอก ก้อนเนื้อ ตุ่มเนื้อ ซีสต์
+                  - generic [ref=e250]:
+                    - radiogroup [ref=e252]:
+                      - generic [ref=e254] [cursor=pointer]:
+                        - generic [ref=e255]:
+                          - radio "ไม่เคย" [ref=e256]
+                          - img [ref=e258]
+                        - generic [ref=e262]: ไม่เคย
+                      - generic [ref=e264] [cursor=pointer]:
+                        - generic [ref=e265]:
+                          - radio "เคย" [ref=e266]
+                          - img [ref=e268]
+                        - generic [ref=e272]: เคย
+                    - generic [ref=e273]: กรุณาเลือกคำตอบ
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - button "บันทึกข้อมูล" [ref=e276] [cursor=pointer]
+              - button "ยืนยันข้อมูล" [ref=e277] [cursor=pointer]
+            - generic [ref=e278]: ต้องการความช่วยเหลือในการดำเนินการ โทร.1737
+    - contentinfo [ref=e279]:
+      - link "TQM Logo" [ref=e281] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e282]
+      - generic [ref=e283]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e286] [cursor=pointer]:
+          - generic [ref=e288]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e290]
+        - button "บริการลูกค้า" [ref=e294] [cursor=pointer]:
+          - generic [ref=e296]: บริการลูกค้า
+          - img [ref=e298]
+        - button "ติดต่อสอบถาม" [ref=e302] [cursor=pointer]:
+          - generic [ref=e304]: ติดต่อสอบถาม
+          - img [ref=e306]
+        - button "บริษัท" [ref=e310] [cursor=pointer]:
+          - generic [ref=e312]: บริษัท
+          - img [ref=e314]
+        - generic [ref=e316]:
+          - generic [ref=e317]:
+            - link "line" [ref=e319] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e320]
+            - link "facebook" [ref=e322] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e323]
+            - link "instagram" [ref=e325] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e326]
+            - link "tiktok" [ref=e328] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e329]
+            - link "youtube" [ref=e331] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e332]
+            - link "x" [ref=e334] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e335]
+          - link "1737" [ref=e337] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e338]
+            - text: "1737"
+        - generic [ref=e341]:
+          - link "TQM Application" [ref=e343] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e344]
+          - generic [ref=e345]:
+            - link "TQM IOS Application" [ref=e346] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e347]
+            - link "TQM Android Application" [ref=e348] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e349]
+            - link "TQM APK Download" [ref=e350] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e351]
+        - generic [ref=e352]:
+          - paragraph [ref=e353]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e354]:
+            - paragraph [ref=e355]:
+              - link "แผนผังเว็บไซต์" [ref=e356] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e357]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e358] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e359]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e360] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e361]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: กรอกข้อมูลตรงไหน แล้วยังไม่ชัวร์ไหมครับ? เดี๋ยวพี่หมีช่วยแนะนำให้แบบทีละขั้นตอนเลย
+      - button "Toggle chat" [ref=e362] [cursor=pointer]:
+        - img "chat-on-web" [ref=e363]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e364]: แบบฟอร์มข้อมูลผู้เอาประกัน | TQM ทีคิวเอ็ม
+```

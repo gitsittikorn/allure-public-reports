@@ -1,0 +1,360 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e42]:
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]:
+            - img "ประกันสุขภาพ Health Top Up (ห้ามแก้ ทดสอบ Health Flow 4) สุขภาพทั่วไป แผน1 Logo" [ref=e47]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: แผนประกันภัยที่คุณเลือก
+              - paragraph [ref=e50]: ประกันสุขภาพ Health Top Up (ห้ามแก้ ทดสอบ Health Flow 4) สุขภาพทั่วไป แผน1
+              - paragraph [ref=e51]: ประกันสุขภาพ + โควิด-19 ทดสอบ
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: ดูรายละเอียด >
+            - paragraph [ref=e54]: ฿ 1,000.25
+            - paragraph [ref=e55]: คุ้มครอง 1 ปี
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: กรอกข้อมูลอีกนิดเดียวก็สั่งซื้อได้แล้ว 🙌🏻
+                - button "ล้างข้อมูล" [ref=e62] [cursor=pointer]
+              - generic [ref=e63]:
+                - img "ISO" [ref=e64]
+                - generic [ref=e65]: รับรองความปลอดภัยข้อมูล ด้วยมาตรฐาน ISO 27001
+            - generic [ref=e66]:
+              - generic [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]:
+                  - img "ข้อมูลกรมธรรม์" [ref=e70]
+                  - generic [ref=e72]: ข้อมูลกรมธรรม์
+                - generic [ref=e73]:
+                  - generic [ref=e74]: 1/4
+                  - img [ref=e75]
+                  - img [ref=e77]
+              - generic [ref=e80]:
+                - generic [ref=e82]:
+                  - paragraph [ref=e83]: คำนำหน้า *
+                  - generic [ref=e85]:
+                    - combobox [ref=e86] [cursor=pointer]:
+                      - generic [ref=e87]: นาย
+                    - textbox: นาย
+                    - img
+                    - group
+                - generic [ref=e88]:
+                  - paragraph [ref=e89]: ชื่อ *
+                  - textbox "ชื่อ" [ref=e91]: best
+                - generic [ref=e92]:
+                  - paragraph [ref=e93]: นามสกุล *
+                  - textbox "นามสกุล" [ref=e95]: insurance
+                - generic [ref=e97]:
+                  - paragraph [ref=e98]: วัน/เดือน/ปีเกิด *
+                  - generic [ref=e101]:
+                    - textbox "Choose date, selected date is 19 ก.พ. 2001" [ref=e102]:
+                      - /placeholder: DD/MM/YYYY
+                      - text: 19/02/2001
+                    - button [ref=e103] [cursor=pointer]:
+                      - img [ref=e104]
+                    - group
+                - generic [ref=e106]:
+                  - paragraph [ref=e107]: หมายเลขบัตรประชาชน *
+                  - textbox "หมายเลขบัตรประชาชน" [ref=e109]: "2793487142104"
+                - generic [ref=e110]:
+                  - paragraph [ref=e111]: เบอร์โทรศัพท์มือถือ (สำหรับรับ OTP) *
+                  - textbox "เบอร์โทรศัพท์มือถือ 10 หลัก" [ref=e113]: "0946828529"
+                - generic [ref=e114]:
+                  - paragraph [ref=e115]: อีเมล (สำหรับรับกรมธรรม์อิเล็กทรอนิกส์) *
+                  - textbox "อีเมล" [ref=e117]: qatqm480@gmail.com
+                - generic [ref=e118]:
+                  - paragraph [ref=e119]: น้ำหนัก (กิโลกรัม) *
+                  - textbox "น้ำหนัก (กิโลกรัม)" [ref=e121]: "80"
+                - generic [ref=e122]:
+                  - paragraph [ref=e123]: ส่วนสูง (เซนติเมตร) *
+                  - textbox "ส่วนสูง (เซนติเมตร)" [ref=e125]: "178"
+                - generic [ref=e126]:
+                  - paragraph [ref=e127]: ผลคำนวนดัชนีมวลกาย (ฺBMI)
+                  - textbox "ผลคำนวนดัชนีมวลกาย (ฺBMI)" [ref=e129]: "25.25"
+                  - generic [ref=e130]: BMI ของท่านอยู่ในเงื่อนไขที่สามารถรับประกันภัยได้
+                - generic [ref=e131]: "การหาค่าดัชนีมวลกาย (Body Mass Index : BMI) คือ มาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ ตั้งแต่ อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัว (กก.) และวัดส่วนสูง (ซม.) แล้วนำมาหาดัชนีมวลกายโดยใช้โปรแกรมวัดค่าความอ้วนข้างต้น"
+                - generic [ref=e133]:
+                  - paragraph [ref=e134]: ผู้รับผลประโยชน์ *
+                  - generic [ref=e136]:
+                    - combobox [ref=e137] [cursor=pointer]:
+                      - generic [ref=e138]: สามี
+                    - textbox: สามี
+                    - img
+                    - group
+                - generic [ref=e139]:
+                  - paragraph [ref=e140]: ชื่อ *
+                  - textbox "ชื่อผู้รับผลประโยชน์" [ref=e142]: สามีหยุดกั๊ก
+                - generic [ref=e143]:
+                  - paragraph [ref=e144]: นามสกุล *
+                  - textbox "นามสกุลผู้รับผลประโยชน์" [ref=e146]: แล้วรักก่อน
+            - generic [ref=e148]:
+              - generic [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]:
+                  - img "ที่อยู่บนกรมธรรม์" [ref=e152]
+                  - generic [ref=e154]: ที่อยู่บนกรมธรรม์
+                - generic [ref=e155]:
+                  - generic [ref=e156]: 2/4
+                  - img [ref=e157]
+                  - img [ref=e159]
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - paragraph [ref=e164]: เลขที่บ้าน/เลขที่อาคาร *
+                  - textbox "เลขที่บ้าน/เลขที่อาคาร" [ref=e166]: "123"
+                - generic [ref=e167]:
+                  - paragraph [ref=e168]: หมู่/หมู่บ้าน/อาคาร
+                  - textbox "หมู่/หมู่บ้าน/อาคาร" [ref=e170]: home
+                - generic [ref=e171]:
+                  - paragraph [ref=e172]: ตรอก/ซอย
+                  - textbox "ตรอก/ซอย" [ref=e174]: alley
+                - generic [ref=e175]:
+                  - paragraph [ref=e176]: ถนน
+                  - textbox "ถนน" [ref=e178]: road
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: รหัสไปรษณีย์ *
+                  - textbox "รหัสไปรษณีย์" [ref=e182]: "10550"
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: จังหวัด *
+                  - generic [ref=e189]:
+                    - combobox [ref=e190]: สมุทรปราการ
+                    - button "Open" [ref=e192] [cursor=pointer]:
+                      - img [ref=e193]
+                    - group
+                - generic [ref=e196]:
+                  - paragraph [ref=e197]: เขต/อำเภอ *
+                  - generic [ref=e199]:
+                    - combobox [ref=e200] [cursor=pointer]:
+                      - generic [ref=e201]: บางบ่อ
+                    - textbox: "52"
+                    - img
+                    - group
+                - generic [ref=e203]:
+                  - paragraph [ref=e204]: แขวง/ตำบล *
+                  - generic [ref=e206]:
+                    - combobox [ref=e207] [cursor=pointer]:
+                      - generic [ref=e208]: คลองด่าน
+                    - textbox: "198"
+                    - img
+                    - group
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - img "แบบสอบถาม" [ref=e213]
+                  - generic [ref=e215]: แบบสอบถาม
+                - generic [ref=e217]: 3/4
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - generic [ref=e222]: 1. ท่านเคยถูกปฏิเสธการขอเอาประกันชีวิต หรือประกันสุขภาพ หรือประกันภัยโรคร้ายแรง หรือถูกปฏิเสธการต่ออายุสัญญา หรือถูกบอกเลิกสัญญาประกันภัย หรือถูกเรียกเก็บเบี้ยประกันภัยเพิ่ม หรือเปลี่ยนแปลงเงื่อนไขสำหรับการประกันภัยดังกล่าวหรือไม่ ?
+                  - generic [ref=e224]:
+                    - radiogroup [ref=e226]:
+                      - generic [ref=e228] [cursor=pointer]:
+                        - generic [ref=e229]:
+                          - radio "ไม่เคย" [ref=e230]
+                          - img [ref=e232]
+                        - generic [ref=e236]: ไม่เคย
+                      - generic [ref=e238] [cursor=pointer]:
+                        - generic [ref=e239]:
+                          - radio "เคย" [ref=e240]
+                          - img [ref=e242]
+                        - generic [ref=e246]: เคย
+                    - generic [ref=e247]: กรุณาเลือกคำตอบ
+                - generic [ref=e248]:
+                  - generic [ref=e249]: 2. ท่านเคยเป็น หรือมีอาการที่รับรู้ได้ด้วยตนเอง หรือเคยได้รับการวินิจฉัย หรือการตรวจรักษา หรือคำแนะนำจากแพทย์ เกี่ยวกับโรคหืด ถุงลมโป่งพอง โรคหัวใจ อาการเจ็บหน้าอก โรคความดันโลหิต โรคทางสมอง โรคปอด โรคเนื้องอก ซีสท์ หรือมะเร็ง โรคเบาหวาน โรคไต โรคตับ ภูมิคุ้มกันบกพร่อง (เอดส์) โรคลมชัก ไข้รูมาติค โรคเก๊าท์ โรคกระดูก ข้อต่อ/กล้ามเนื้อ หมอนรองกระดูก โรคที่เกี่ยวกับเลือด โรคเกี่ยวกับระบบทางเดินปัสสาวะและระบบสืบพันธุ์ โรคที่เกี่ยวกับต่อมไทรอยด์ หรือ ต่อมไร้ท่ออื่นๆ โรคเกี่ยวกับระบบประสาท โรคที่เกี่ยวกับทางเดินหายใจ โรคที่เกี่ยวกับทางเดินอาหาร โรคพิษสุราเรื้อรัง โรคหรือความผิดปกติอื่นๆ หรือมีส่วนใดส่วนหนึ่งพิการ หรือทุพพลภาพ หรือไม่ ?
+                  - generic [ref=e251]:
+                    - radiogroup [ref=e253]:
+                      - generic [ref=e255] [cursor=pointer]:
+                        - generic [ref=e256]:
+                          - radio "ไม่เคย" [ref=e257]
+                          - img [ref=e259]
+                        - generic [ref=e263]: ไม่เคย
+                      - generic [ref=e265] [cursor=pointer]:
+                        - generic [ref=e266]:
+                          - radio "เคย" [ref=e267]
+                          - img [ref=e269]
+                        - generic [ref=e273]: เคย
+                    - generic [ref=e274]: กรุณาเลือกคำตอบ
+                - generic [ref=e275]:
+                  - generic [ref=e276]: 3. ระยะเวลา 5 ปีที่ผ่านมา ท่านเคยเจ็บป่วย หรือได้รับบาดเจ็บร้ายแรงที่ต้องได้รับการผ่าตัด หรือแนะนำให้ผ่าตัด หรือตรวจสอบด้วยวิธีการอัลตร้าซาวด์ เอ็กซ์เรย์ การตรวจชิ้นเนื้อ หรือวิธีการตรวจพิเศษที่ไม่ใช่การตรวจวินิจฉัยตามปกติ หรือเคยเข้าพักรักษาตัวเป็นคนไข้ในของโรงพยาบาล หรือสถานพยาบาลเวชกรรม หรือคลินิก หรือไม่ ?
+                  - generic [ref=e278]:
+                    - radiogroup [ref=e280]:
+                      - generic [ref=e282] [cursor=pointer]:
+                        - generic [ref=e283]:
+                          - radio "ไม่เคย" [ref=e284]
+                          - img [ref=e286]
+                        - generic [ref=e290]: ไม่เคย
+                      - generic [ref=e292] [cursor=pointer]:
+                        - generic [ref=e293]:
+                          - radio "เคย" [ref=e294]
+                          - img [ref=e296]
+                        - generic [ref=e300]: เคย
+                    - generic [ref=e301]: กรุณาเลือกคำตอบ
+                - generic [ref=e302]:
+                  - generic [ref=e303]: 4. ปัจจุบันท่านใช้ หรือเคยใช้ยาเสพติดให้โทษ หรือดื่มสุรา หรือสิ่งมึนเมา หรือเครื่องดื่มที่มีแอลกอฮอล์เป็นประจำ หรือเคยรับการรักษาเกี่ยวกับโรคพิษสุราเรื้อรังหรือยาเสพติดให้โทษ หรือไม่ ?
+                  - generic [ref=e305]:
+                    - radiogroup [ref=e307]:
+                      - generic [ref=e309] [cursor=pointer]:
+                        - generic [ref=e310]:
+                          - radio "ไม่เคย" [ref=e311]
+                          - img [ref=e313]
+                        - generic [ref=e317]: ไม่เคย
+                      - generic [ref=e319] [cursor=pointer]:
+                        - generic [ref=e320]:
+                          - radio "เคย" [ref=e321]
+                          - img [ref=e323]
+                        - generic [ref=e327]: เคย
+                    - generic [ref=e328]: กรุณาเลือกคำตอบ
+                - generic [ref=e329]:
+                  - generic [ref=e330]: 5. บิดาหรือมารดาท่านเคยเป็นหรือเสียชีวิตเกี่ยวกับมะเร็งลำไส้ หรือมะเร็งที่เกี่ยวกับระบบสืบพันธุ์ หรือโรคทางกรรมพันธุ์อื่นๆ หรือไม่ ?
+                  - generic [ref=e332]:
+                    - radiogroup [ref=e334]:
+                      - generic [ref=e336] [cursor=pointer]:
+                        - generic [ref=e337]:
+                          - radio "ไม่เคย" [ref=e338]
+                          - img [ref=e340]
+                        - generic [ref=e344]: ไม่เคย
+                      - generic [ref=e346] [cursor=pointer]:
+                        - generic [ref=e347]:
+                          - radio "เคย" [ref=e348]
+                          - img [ref=e350]
+                        - generic [ref=e354]: เคย
+                    - generic [ref=e355]: กรุณาเลือกคำตอบ
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - button "บันทึกข้อมูล" [ref=e358] [cursor=pointer]
+              - button "ยืนยันข้อมูล" [ref=e359] [cursor=pointer]
+            - generic [ref=e360]: ต้องการความช่วยเหลือในการดำเนินการ โทร.1737
+    - contentinfo [ref=e361]:
+      - link "TQM Logo" [ref=e363] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e364]
+      - generic [ref=e365]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e368] [cursor=pointer]:
+          - generic [ref=e370]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e372]
+        - button "บริการลูกค้า" [ref=e376] [cursor=pointer]:
+          - generic [ref=e378]: บริการลูกค้า
+          - img [ref=e380]
+        - button "ติดต่อสอบถาม" [ref=e384] [cursor=pointer]:
+          - generic [ref=e386]: ติดต่อสอบถาม
+          - img [ref=e388]
+        - button "บริษัท" [ref=e392] [cursor=pointer]:
+          - generic [ref=e394]: บริษัท
+          - img [ref=e396]
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - link "line" [ref=e401] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e402]
+            - link "facebook" [ref=e404] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e405]
+            - link "instagram" [ref=e407] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e408]
+            - link "tiktok" [ref=e410] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e411]
+            - link "youtube" [ref=e413] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e414]
+            - link "x" [ref=e416] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e417]
+          - link "1737" [ref=e419] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e420]
+            - text: "1737"
+        - generic [ref=e423]:
+          - link "TQM Application" [ref=e425] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e426]
+          - generic [ref=e427]:
+            - link "TQM IOS Application" [ref=e428] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e429]
+            - link "TQM Android Application" [ref=e430] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e431]
+            - link "TQM APK Download" [ref=e432] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e433]
+        - generic [ref=e434]:
+          - paragraph [ref=e435]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e436]:
+            - paragraph [ref=e437]:
+              - link "แผนผังเว็บไซต์" [ref=e438] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e439]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e440] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e441]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e442] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e443]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: กรอกข้อมูลตรงไหน แล้วยังไม่ชัวร์ไหมครับ? เดี๋ยวพี่หมีช่วยแนะนำให้แบบทีละขั้นตอนเลย
+      - button "Toggle chat" [ref=e444] [cursor=pointer]:
+        - img "chat-on-web" [ref=e445]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e446]: แบบฟอร์มข้อมูลผู้เอาประกัน | TQM ทีคิวเอ็ม
+```

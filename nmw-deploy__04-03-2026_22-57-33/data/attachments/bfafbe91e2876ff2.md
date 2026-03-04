@@ -1,0 +1,156 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - img "step0" [ref=e22]
+            - generic [ref=e23]: ข้อมูล การเดินทาง
+          - progressbar [ref=e25]
+          - generic [ref=e27]:
+            - img "step1" [ref=e28]
+            - generic [ref=e29]: เลือก แผนประกัน
+          - progressbar [ref=e31]
+          - generic [ref=e33]:
+            - img "step2" [ref=e34]
+            - generic [ref=e35]: ข้อมูล กรมธรรม์
+          - progressbar [ref=e37]
+          - generic [ref=e39]:
+            - img "step3" [ref=e40]
+            - generic [ref=e41]: ชำระเงิน
+        - generic [ref=e42]:
+          - generic [ref=e45]: ใกล้เสร็จแล้ว 👏🏻
+          - generic [ref=e46]:
+            - generic [ref=e48]: รายละเอียดการสั่งซื้อ
+            - generic [ref=e49]:
+              - separator [ref=e100]
+              - generic [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+                - text: แก้ไขข้อมูล
+          - generic [ref=e114]:
+            - separator [ref=e124]
+            - separator [ref=e137]
+          - generic [ref=e141]:
+            - button "ย้อนกลับ" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+              - text: ย้อนกลับ
+            - button [disabled] [ref=e146]:
+              - status [ref=e147]
+    - contentinfo [ref=e150]:
+      - link "TQM Logo" [ref=e152] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e153]
+      - generic [ref=e154]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e157] [cursor=pointer]:
+          - generic [ref=e159]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e161]
+        - button "บริการลูกค้า" [ref=e165] [cursor=pointer]:
+          - generic [ref=e167]: บริการลูกค้า
+          - img [ref=e169]
+        - button "ติดต่อสอบถาม" [ref=e173] [cursor=pointer]:
+          - generic [ref=e175]: ติดต่อสอบถาม
+          - img [ref=e177]
+        - button "บริษัท" [ref=e181] [cursor=pointer]:
+          - generic [ref=e183]: บริษัท
+          - img [ref=e185]
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - link "line" [ref=e190] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e191]
+            - link "facebook" [ref=e193] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e194]
+            - link "instagram" [ref=e196] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e197]
+            - link "tiktok" [ref=e199] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e200]
+            - link "youtube" [ref=e202] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e203]
+            - link "x" [ref=e205] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e206]
+          - link "1737" [ref=e208] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e209]
+            - text: "1737"
+        - generic [ref=e212]:
+          - link "TQM Application" [ref=e214] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e215]
+          - generic [ref=e216]:
+            - link "TQM IOS Application" [ref=e217] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e218]
+            - link "TQM Android Application" [ref=e219] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e220]
+            - link "TQM APK Download" [ref=e221] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e222]
+        - generic [ref=e223]:
+          - paragraph [ref=e224]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "แผนผังเว็บไซต์" [ref=e227] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e228]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e229] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e230]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e231] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e232]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: ข้อมูลถูกต้องไหมครับ
+      - button "Toggle chat" [ref=e233] [cursor=pointer]:
+        - img "chat-on-web" [ref=e234]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e235]: สรุปรายการสั่งซื้อประกันเดินทาง | TQM ทีคิวเอ็ม
+```

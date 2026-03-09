@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","85282","travel-normal-ต่างประเทศ-รายเที่ยว-เครื่องบิน 2 คน","Mobile Chrome","2026-03-04","broken","2026-03-04","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","44068","travel-campaign-exclude-รายเที่ยว-ในประเทศ-1คน","Mobile Chrome","2026-03-04","failed","2026-03-04","","main-web/travel/travel-normal-flow.spec.ts","",""
-"","80583","travel-normal-ในประเทศ-รายเที่ยว-เครื่องบิน 1 คน","Mobile Chrome","2026-03-04","passed","2026-03-04","","main-web/travel/travel-normal-flow.spec.ts","",""

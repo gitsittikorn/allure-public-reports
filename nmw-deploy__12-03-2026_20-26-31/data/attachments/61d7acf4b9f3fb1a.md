@@ -1,0 +1,1067 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: แผนประกันที่เหมาะกับคุณ
+          - generic [ref=e46]: พบทั้งหมด 37 รายการ
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: ข้อมูลบ้าน
+            - generic [ref=e52]:
+              - img "ข้อมูลบ้าน" [ref=e54]
+              - generic [ref=e56]: ประกันบ้าน / บ้านเดี่ยว / ปูนทั้งหมด / 2 ชั้น / ใช้สำหรับที่อยู่อาศัย / กระบี่
+              - generic [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - text: แก้ไข
+          - generic [ref=e63]:
+            - generic [ref=e65] [cursor=pointer]:
+              - img "slider_badge" [ref=e67]
+              - generic [ref=e68]: ตัวกรองข้อมูล
+            - img "Sort Icon" [ref=e72] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]:
+              - img [ref=e80]
+              - paragraph [ref=e82]: ซื้อประกันระบุมูลค่าทรัพย์สิน ค้นหาแผนประกันตรงใจ!
+            - button "คลิกเลย" [ref=e83]:
+              - text: คลิกเลย
+              - img [ref=e85]
+          - generic [ref=e88]:
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - img "Company Logo - เมืองไทยประกันชีวิต" [ref=e94]
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: เมืองไทยประกันชีวิต
+                    - generic [ref=e97]: ประกันบ้าน First Lost
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - img "fire" [ref=e101]
+                    - generic [ref=e102]: ไฟไหม้
+                  - generic [ref=e103]:
+                    - img "earthquake" [ref=e105]
+                    - generic [ref=e106]: แผ่นดินไหว
+                  - generic [ref=e107]:
+                    - img "flood" [ref=e109]
+                    - generic [ref=e110]: น้ำท่วม
+                  - generic [ref=e111]:
+                    - img "robbery" [ref=e113]
+                    - generic [ref=e114]: โจรกรรม
+              - generic [ref=e116]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: ทุนประกันภัย
+                      - generic [ref=e124]: ฿ 150,000
+                    - generic [ref=e125]:
+                      - generic [ref=e126]: แผ่นดินไหว
+                      - generic [ref=e127]: "-"
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: เบี้ยประกัน/3ปี
+                    - button "฿ 500" [ref=e131] [cursor=pointer]:
+                      - text: ฿ 500
+                      - img [ref=e133]
+                    - generic [ref=e135]: เฉลี่ยปีละ 167 บาท
+                  - button "compare เปรียบเทียบ" [ref=e138] [cursor=pointer]:
+                    - img "compare" [ref=e139]
+                    - text: เปรียบเทียบ
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - generic [ref=e145]:
+                      - generic [ref=e146]: ทุนประกันภัย
+                      - generic [ref=e147]: ฿ 250,000
+                    - generic [ref=e148]:
+                      - generic [ref=e149]: แผ่นดินไหว
+                      - generic [ref=e150]: "-"
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: เบี้ยประกัน/4ปี
+                    - button "฿ 2,800" [ref=e154] [cursor=pointer]:
+                      - text: ฿ 2,800
+                      - img [ref=e156]
+                    - generic [ref=e158]: เฉลี่ยปีละ 700 บาท
+                  - button "compare เปรียบเทียบ" [ref=e161] [cursor=pointer]:
+                    - img "compare" [ref=e162]
+                    - text: เปรียบเทียบ
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: ทุนประกันภัย
+                      - generic [ref=e170]: ฿ 450,000
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: แผ่นดินไหว
+                      - generic [ref=e173]: "-"
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: เบี้ยประกัน/ปี
+                    - button "฿ 3,800" [ref=e177] [cursor=pointer]:
+                      - text: ฿ 3,800
+                      - img [ref=e179]
+                    - generic [ref=e181]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e184] [cursor=pointer]:
+                    - img "compare" [ref=e185]
+                    - text: เปรียบเทียบ
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - img "Company Logo - เมืองไทยประกันชีวิต" [ref=e191]
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: เมืองไทยประกันชีวิต
+                    - generic [ref=e194]: ประกันบ้าน First Lost
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - img "fire" [ref=e198]
+                    - generic [ref=e199]: ไฟไหม้
+                  - generic [ref=e200]:
+                    - img "earthquake" [ref=e202]
+                    - generic [ref=e203]: แผ่นดินไหว
+                  - generic [ref=e204]:
+                    - img "flood" [ref=e206]
+                    - generic [ref=e207]: น้ำท่วม
+                  - generic [ref=e208]:
+                    - img "robbery" [ref=e210]
+                    - generic [ref=e211]: โจรกรรม
+              - generic [ref=e213]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: ทุนประกันภัย
+                      - generic [ref=e221]: ฿ 650,000
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: แผ่นดินไหว
+                      - generic [ref=e224]: "-"
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: เบี้ยประกัน/ปี
+                    - button "฿ 4,500" [ref=e228] [cursor=pointer]:
+                      - text: ฿ 4,500
+                      - img [ref=e230]
+                    - generic [ref=e232]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e235] [cursor=pointer]:
+                    - img "compare" [ref=e236]
+                    - text: เปรียบเทียบ
+                - generic [ref=e240]:
+                  - generic [ref=e241]:
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: ทุนประกันภัย
+                      - generic [ref=e244]: ฿ 850,000
+                    - generic [ref=e245]:
+                      - generic [ref=e246]: แผ่นดินไหว
+                      - generic [ref=e247]: "-"
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: เบี้ยประกัน/ปี
+                    - button "฿ 7,001" [ref=e251] [cursor=pointer]:
+                      - text: ฿ 7,001
+                      - img [ref=e253]
+                    - generic [ref=e255]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e258] [cursor=pointer]:
+                    - img "compare" [ref=e259]
+                    - text: เปรียบเทียบ
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]:
+                      - generic [ref=e266]: ทุนประกันภัย
+                      - generic [ref=e267]: ฿ 1,500,000
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: แผ่นดินไหว
+                      - generic [ref=e270]: "-"
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: เบี้ยประกัน/ปี
+                    - button "฿ 9,500" [ref=e274] [cursor=pointer]:
+                      - text: ฿ 9,500
+                      - img [ref=e276]
+                    - generic [ref=e278]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e281] [cursor=pointer]:
+                    - img "compare" [ref=e282]
+                    - text: เปรียบเทียบ
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - img "Company Logo - เมืองไทยประกันชีวิต" [ref=e288]
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: เมืองไทยประกันชีวิต
+                    - generic [ref=e291]: ประกันบ้าน First Lost
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - img "fire" [ref=e295]
+                    - generic [ref=e296]: ไฟไหม้
+                  - generic [ref=e297]:
+                    - img "earthquake" [ref=e299]
+                    - generic [ref=e300]: แผ่นดินไหว
+                  - generic [ref=e301]:
+                    - img "flood" [ref=e303]
+                    - generic [ref=e304]: น้ำท่วม
+                  - generic [ref=e305]:
+                    - img "robbery" [ref=e307]
+                    - generic [ref=e308]: โจรกรรม
+              - generic [ref=e310]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: ทุนประกันภัย
+                      - generic [ref=e318]: ฿ 2,500,000
+                    - generic [ref=e319]:
+                      - generic [ref=e320]: แผ่นดินไหว
+                      - generic [ref=e321]: "-"
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: เบี้ยประกัน/ปี
+                    - button "฿ 9,601" [ref=e325] [cursor=pointer]:
+                      - text: ฿ 9,601
+                      - img [ref=e327]
+                    - generic [ref=e329]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e332] [cursor=pointer]:
+                    - img "compare" [ref=e333]
+                    - text: เปรียบเทียบ
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - generic [ref=e340]: ทุนประกันภัย
+                      - generic [ref=e341]: ฿ 3,500,000
+                    - generic [ref=e342]:
+                      - generic [ref=e343]: แผ่นดินไหว
+                      - generic [ref=e344]: "-"
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: เบี้ยประกัน/ปี
+                    - button "฿ 9,701" [ref=e348] [cursor=pointer]:
+                      - text: ฿ 9,701
+                      - img [ref=e350]
+                    - generic [ref=e352]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e355] [cursor=pointer]:
+                    - img "compare" [ref=e356]
+                    - text: เปรียบเทียบ
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]:
+                      - generic [ref=e363]: ทุนประกันภัย
+                      - generic [ref=e364]: ฿ 4,500,000
+                    - generic [ref=e365]:
+                      - generic [ref=e366]: แผ่นดินไหว
+                      - generic [ref=e367]: "-"
+                  - generic [ref=e368]:
+                    - generic [ref=e369]: เบี้ยประกัน/3ปี
+                    - button "฿ 9,901" [ref=e371] [cursor=pointer]:
+                      - text: ฿ 9,901
+                      - img [ref=e373]
+                    - generic [ref=e375]: เฉลี่ยปีละ 3,300 บาท
+                  - button "compare เปรียบเทียบ" [ref=e378] [cursor=pointer]:
+                    - img "compare" [ref=e379]
+                    - text: เปรียบเทียบ
+          - generic [ref=e381]:
+            - generic [ref=e384]:
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - img "Company Logo - ทิพยประกันภัย" [ref=e387]
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: ทิพยประกันภัย
+                    - generic [ref=e390]: ประกันบ้านแสนรัก
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - img "fire" [ref=e394]
+                    - generic [ref=e395]: ไฟไหม้
+                  - generic [ref=e396]:
+                    - img "earthquake" [ref=e398]
+                    - generic [ref=e399]: แผ่นดินไหว
+                  - generic [ref=e400]:
+                    - img "flood" [ref=e402]
+                    - generic [ref=e403]: น้ำท่วม
+                  - generic [ref=e404]:
+                    - img "robbery" [ref=e406]
+                    - generic [ref=e407]: โจรกรรม
+              - generic [ref=e409]:
+                - generic [ref=e413]:
+                  - generic [ref=e414]:
+                    - generic [ref=e415]:
+                      - generic [ref=e416]: ทุนประกันภัย
+                      - generic [ref=e417]: ฿ 1,000,000
+                    - generic [ref=e418]:
+                      - generic [ref=e419]: แผ่นดินไหว
+                      - generic [ref=e420]: "-"
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: เบี้ยประกัน/ปี
+                    - button "฿ 1,799" [ref=e424] [cursor=pointer]:
+                      - text: ฿ 1,799
+                      - img [ref=e426]
+                    - generic [ref=e428]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e431] [cursor=pointer]:
+                    - img "compare" [ref=e432]
+                    - text: เปรียบเทียบ
+                - generic [ref=e436]:
+                  - generic [ref=e437]:
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: ทุนประกันภัย
+                      - generic [ref=e440]: ฿ 1,500,000
+                    - generic [ref=e441]:
+                      - generic [ref=e442]: แผ่นดินไหว
+                      - generic [ref=e443]: "-"
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: เบี้ยประกัน/ปี
+                    - button "฿ 2,799" [ref=e447] [cursor=pointer]:
+                      - text: ฿ 2,799
+                      - img [ref=e449]
+                    - generic [ref=e451]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e454] [cursor=pointer]:
+                    - img "compare" [ref=e455]
+                    - text: เปรียบเทียบ
+                - generic [ref=e459]:
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - generic [ref=e462]: ทุนประกันภัย
+                      - generic [ref=e463]: ฿ 2,200,000
+                    - generic [ref=e464]:
+                      - generic [ref=e465]: แผ่นดินไหว
+                      - generic [ref=e466]: "-"
+                  - generic [ref=e467]:
+                    - generic [ref=e468]: เบี้ยประกัน/ปี
+                    - button "฿ 3,799" [ref=e470] [cursor=pointer]:
+                      - text: ฿ 3,799
+                      - img [ref=e472]
+                    - generic [ref=e474]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e477] [cursor=pointer]:
+                    - img "compare" [ref=e478]
+                    - text: เปรียบเทียบ
+            - generic [ref=e481]:
+              - generic [ref=e482]:
+                - generic [ref=e483]:
+                  - img "Company Logo - ทิพยประกันภัย" [ref=e484]
+                  - generic [ref=e485]:
+                    - generic [ref=e486]: ทิพยประกันภัย
+                    - generic [ref=e487]: ประกันบ้านแสนรัก
+                - generic [ref=e488]:
+                  - generic [ref=e489]:
+                    - img "fire" [ref=e491]
+                    - generic [ref=e492]: ไฟไหม้
+                  - generic [ref=e493]:
+                    - img "earthquake" [ref=e495]
+                    - generic [ref=e496]: แผ่นดินไหว
+                  - generic [ref=e497]:
+                    - img "flood" [ref=e499]
+                    - generic [ref=e500]: น้ำท่วม
+                  - generic [ref=e501]:
+                    - img "robbery" [ref=e503]
+                    - generic [ref=e504]: โจรกรรม
+              - generic [ref=e506]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - generic [ref=e512]:
+                      - generic [ref=e513]: ทุนประกันภัย
+                      - generic [ref=e514]: ฿ 2,500,000
+                    - generic [ref=e515]:
+                      - generic [ref=e516]: แผ่นดินไหว
+                      - generic [ref=e517]: "-"
+                  - generic [ref=e518]:
+                    - generic [ref=e519]: เบี้ยประกัน/ปี
+                    - button "฿ 4,399" [ref=e521] [cursor=pointer]:
+                      - text: ฿ 4,399
+                      - img [ref=e523]
+                    - generic [ref=e525]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e528] [cursor=pointer]:
+                    - img "compare" [ref=e529]
+                    - text: เปรียบเทียบ
+                - generic [ref=e533]:
+                  - generic [ref=e534]:
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: ทุนประกันภัย
+                      - generic [ref=e537]: ฿ 1,000,000
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: แผ่นดินไหว
+                      - generic [ref=e540]: "-"
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: เบี้ยประกัน/3ปี
+                    - button "฿ 4,499" [ref=e544] [cursor=pointer]:
+                      - text: ฿ 4,499
+                      - img [ref=e546]
+                    - generic [ref=e548]: เฉลี่ยปีละ 1,500 บาท
+                  - button "compare เปรียบเทียบ" [ref=e551] [cursor=pointer]:
+                    - img "compare" [ref=e552]
+                    - text: เปรียบเทียบ
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]:
+                      - generic [ref=e559]: ทุนประกันภัย
+                      - generic [ref=e560]: ฿ 3,000,000
+                    - generic [ref=e561]:
+                      - generic [ref=e562]: แผ่นดินไหว
+                      - generic [ref=e563]: "-"
+                  - generic [ref=e564]:
+                    - generic [ref=e565]: เบี้ยประกัน/ปี
+                    - button "฿ 5,199" [ref=e567] [cursor=pointer]:
+                      - text: ฿ 5,199
+                      - img [ref=e569]
+                    - generic [ref=e571]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e574] [cursor=pointer]:
+                    - img "compare" [ref=e575]
+                    - text: เปรียบเทียบ
+            - generic [ref=e578]:
+              - generic [ref=e579]:
+                - generic [ref=e580]:
+                  - img "Company Logo - ทิพยประกันภัย" [ref=e581]
+                  - generic [ref=e582]:
+                    - generic [ref=e583]: ทิพยประกันภัย
+                    - generic [ref=e584]: ประกันบ้านแสนรัก
+                - generic [ref=e585]:
+                  - generic [ref=e586]:
+                    - img "fire" [ref=e588]
+                    - generic [ref=e589]: ไฟไหม้
+                  - generic [ref=e590]:
+                    - img "earthquake" [ref=e592]
+                    - generic [ref=e593]: แผ่นดินไหว
+                  - generic [ref=e594]:
+                    - img "flood" [ref=e596]
+                    - generic [ref=e597]: น้ำท่วม
+                  - generic [ref=e598]:
+                    - img "robbery" [ref=e600]
+                    - generic [ref=e601]: โจรกรรม
+              - generic [ref=e603]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - generic [ref=e610]: ทุนประกันภัย
+                      - generic [ref=e611]: ฿ 1,500,000
+                    - generic [ref=e612]:
+                      - generic [ref=e613]: แผ่นดินไหว
+                      - generic [ref=e614]: "-"
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: เบี้ยประกัน/3ปี
+                    - button "฿ 6,999" [ref=e618] [cursor=pointer]:
+                      - text: ฿ 6,999
+                      - img [ref=e620]
+                    - generic [ref=e622]: เฉลี่ยปีละ 2,333 บาท
+                  - button "compare เปรียบเทียบ" [ref=e625] [cursor=pointer]:
+                    - img "compare" [ref=e626]
+                    - text: เปรียบเทียบ
+                - generic [ref=e630]:
+                  - generic [ref=e631]:
+                    - generic [ref=e632]:
+                      - generic [ref=e633]: ทุนประกันภัย
+                      - generic [ref=e634]: ฿ 2,200,000
+                    - generic [ref=e635]:
+                      - generic [ref=e636]: แผ่นดินไหว
+                      - generic [ref=e637]: "-"
+                  - generic [ref=e638]:
+                    - generic [ref=e639]: เบี้ยประกัน/3ปี
+                    - button "฿ 9,499" [ref=e641] [cursor=pointer]:
+                      - text: ฿ 9,499
+                      - img [ref=e643]
+                    - generic [ref=e645]: เฉลี่ยปีละ 3,166 บาท
+                  - button "compare เปรียบเทียบ" [ref=e648] [cursor=pointer]:
+                    - img "compare" [ref=e649]
+                    - text: เปรียบเทียบ
+                - generic [ref=e653]:
+                  - generic [ref=e654]:
+                    - generic [ref=e655]:
+                      - generic [ref=e656]: ทุนประกันภัย
+                      - generic [ref=e657]: ฿ 2,500,000
+                    - generic [ref=e658]:
+                      - generic [ref=e659]: แผ่นดินไหว
+                      - generic [ref=e660]: "-"
+                  - generic [ref=e661]:
+                    - generic [ref=e662]: เบี้ยประกัน/3ปี
+                    - button "฿ 10,999" [ref=e664] [cursor=pointer]:
+                      - text: ฿ 10,999
+                      - img [ref=e666]
+                    - generic [ref=e668]: เฉลี่ยปีละ 3,667 บาท
+                  - button "compare เปรียบเทียบ" [ref=e671] [cursor=pointer]:
+                    - img "compare" [ref=e672]
+                    - text: เปรียบเทียบ
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - img "Company Logo - ทิพยประกันภัย" [ref=e678]
+                  - generic [ref=e679]:
+                    - generic [ref=e680]: ทิพยประกันภัย
+                    - generic [ref=e681]: ประกันบ้านแสนรัก
+                - generic [ref=e682]:
+                  - generic [ref=e683]:
+                    - img "fire" [ref=e685]
+                    - generic [ref=e686]: ไฟไหม้
+                  - generic [ref=e687]:
+                    - img "earthquake" [ref=e689]
+                    - generic [ref=e690]: แผ่นดินไหว
+                  - generic [ref=e691]:
+                    - img "flood" [ref=e693]
+                    - generic [ref=e694]: น้ำท่วม
+                  - generic [ref=e695]:
+                    - img "robbery" [ref=e697]
+                    - generic [ref=e698]: โจรกรรม
+              - generic [ref=e704]:
+                - generic [ref=e705]:
+                  - generic [ref=e706]:
+                    - generic [ref=e707]: ทุนประกันภัย
+                    - generic [ref=e708]: ฿ 3,000,000
+                  - generic [ref=e709]:
+                    - generic [ref=e710]: แผ่นดินไหว
+                    - generic [ref=e711]: "-"
+                - generic [ref=e712]:
+                  - generic [ref=e713]: เบี้ยประกัน/3ปี
+                  - button "฿ 12,999" [ref=e715] [cursor=pointer]:
+                    - text: ฿ 12,999
+                    - img [ref=e717]
+                  - generic [ref=e719]: เฉลี่ยปีละ 4,333 บาท
+                - button "compare เปรียบเทียบ" [ref=e722] [cursor=pointer]:
+                  - img "compare" [ref=e723]
+                  - text: เปรียบเทียบ
+          - generic [ref=e725]:
+            - generic [ref=e728]:
+              - generic [ref=e729]:
+                - generic [ref=e730]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e731]
+                  - generic [ref=e732]:
+                    - generic [ref=e733]: เมืองไทยประกันภัย
+                    - generic [ref=e734]: ประกันบ้านเติมรัก
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - img "fire" [ref=e738]
+                    - generic [ref=e739]: ไฟไหม้
+                  - generic [ref=e740]:
+                    - img "earthquake" [ref=e742]
+                    - generic [ref=e743]: แผ่นดินไหว
+                  - generic [ref=e744]:
+                    - img "flood" [ref=e746]
+                    - generic [ref=e747]: น้ำท่วม
+                  - generic [ref=e748]:
+                    - img "robbery" [ref=e750]
+                    - generic [ref=e751]: โจรกรรม
+              - generic [ref=e753]:
+                - generic [ref=e757]:
+                  - generic [ref=e758]:
+                    - generic [ref=e759]:
+                      - generic [ref=e760]: ทุนประกันภัย
+                      - generic [ref=e761]: ฿ 1,000,000
+                    - generic [ref=e762]:
+                      - generic [ref=e763]: แผ่นดินไหว
+                      - generic [ref=e764]: ฿ 50,000
+                  - generic [ref=e765]:
+                    - generic [ref=e766]: เบี้ยประกัน/2ปี
+                    - button "฿ 1,800" [ref=e768] [cursor=pointer]:
+                      - text: ฿ 1,800
+                      - img [ref=e770]
+                    - generic [ref=e772]: เฉลี่ยปีละ 900 บาท
+                  - button "compare เปรียบเทียบ" [ref=e775] [cursor=pointer]:
+                    - img "compare" [ref=e776]
+                    - text: เปรียบเทียบ
+                - generic [ref=e780]:
+                  - generic [ref=e781]:
+                    - generic [ref=e782]:
+                      - generic [ref=e783]: ทุนประกันภัย
+                      - generic [ref=e784]: ฿ 1,500,000
+                    - generic [ref=e785]:
+                      - generic [ref=e786]: แผ่นดินไหว
+                      - generic [ref=e787]: ฿ 60,000
+                  - generic [ref=e788]:
+                    - generic [ref=e789]: เบี้ยประกัน/ปี
+                    - button "฿ 2,800" [ref=e791] [cursor=pointer]:
+                      - text: ฿ 2,800
+                      - img [ref=e793]
+                    - generic [ref=e795]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e798] [cursor=pointer]:
+                    - img "compare" [ref=e799]
+                    - text: เปรียบเทียบ
+                - generic [ref=e803]:
+                  - generic [ref=e804]:
+                    - generic [ref=e805]:
+                      - generic [ref=e806]: ทุนประกันภัย
+                      - generic [ref=e807]: ฿ 2,200,000
+                    - generic [ref=e808]:
+                      - generic [ref=e809]: แผ่นดินไหว
+                      - generic [ref=e810]: ฿ 70,000
+                  - generic [ref=e811]:
+                    - generic [ref=e812]: เบี้ยประกัน/ปี
+                    - button "฿ 3,800" [ref=e814] [cursor=pointer]:
+                      - text: ฿ 3,800
+                      - img [ref=e816]
+                    - generic [ref=e818]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e821] [cursor=pointer]:
+                    - img "compare" [ref=e822]
+                    - text: เปรียบเทียบ
+            - generic [ref=e825]:
+              - generic [ref=e826]:
+                - generic [ref=e827]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e828]
+                  - generic [ref=e829]:
+                    - generic [ref=e830]: เมืองไทยประกันภัย
+                    - generic [ref=e831]: ประกันบ้านเติมรัก
+                - generic [ref=e832]:
+                  - generic [ref=e833]:
+                    - img "fire" [ref=e835]
+                    - generic [ref=e836]: ไฟไหม้
+                  - generic [ref=e837]:
+                    - img "earthquake" [ref=e839]
+                    - generic [ref=e840]: แผ่นดินไหว
+                  - generic [ref=e841]:
+                    - img "flood" [ref=e843]
+                    - generic [ref=e844]: น้ำท่วม
+                  - generic [ref=e845]:
+                    - img "robbery" [ref=e847]
+                    - generic [ref=e848]: โจรกรรม
+              - generic [ref=e850]:
+                - generic [ref=e854]:
+                  - generic [ref=e855]:
+                    - generic [ref=e856]:
+                      - generic [ref=e857]: ทุนประกันภัย
+                      - generic [ref=e858]: ฿ 2,500,000
+                    - generic [ref=e859]:
+                      - generic [ref=e860]: แผ่นดินไหว
+                      - generic [ref=e861]: ฿ 80,000
+                  - generic [ref=e862]:
+                    - generic [ref=e863]: เบี้ยประกัน/ปี
+                    - button "฿ 4,400" [ref=e865] [cursor=pointer]:
+                      - text: ฿ 4,400
+                      - img [ref=e867]
+                    - generic [ref=e869]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e872] [cursor=pointer]:
+                    - img "compare" [ref=e873]
+                    - text: เปรียบเทียบ
+                - generic [ref=e877]:
+                  - generic [ref=e878]:
+                    - generic [ref=e879]:
+                      - generic [ref=e880]: ทุนประกันภัย
+                      - generic [ref=e881]: ฿ 1,000,000
+                    - generic [ref=e882]:
+                      - generic [ref=e883]: แผ่นดินไหว
+                      - generic [ref=e884]: ฿ 120,000
+                  - generic [ref=e885]:
+                    - generic [ref=e886]: เบี้ยประกัน/3ปี
+                    - button "฿ 4,500" [ref=e888] [cursor=pointer]:
+                      - text: ฿ 4,500
+                      - img [ref=e890]
+                    - generic [ref=e892]: เฉลี่ยปีละ 1,500 บาท
+                  - button "compare เปรียบเทียบ" [ref=e895] [cursor=pointer]:
+                    - img "compare" [ref=e896]
+                    - text: เปรียบเทียบ
+                - generic [ref=e900]:
+                  - generic [ref=e901]:
+                    - generic [ref=e902]:
+                      - generic [ref=e903]: ทุนประกันภัย
+                      - generic [ref=e904]: ฿ 3,000,000
+                    - generic [ref=e905]:
+                      - generic [ref=e906]: แผ่นดินไหว
+                      - generic [ref=e907]: ฿ 90,000
+                  - generic [ref=e908]:
+                    - generic [ref=e909]: เบี้ยประกัน/ปี
+                    - button "฿ 5,200" [ref=e911] [cursor=pointer]:
+                      - text: ฿ 5,200
+                      - img [ref=e913]
+                    - generic [ref=e915]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e918] [cursor=pointer]:
+                    - img "compare" [ref=e919]
+                    - text: เปรียบเทียบ
+            - generic [ref=e922]:
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e925]
+                  - generic [ref=e926]:
+                    - generic [ref=e927]: เมืองไทยประกันภัย
+                    - generic [ref=e928]: ประกันบ้านเติมรัก
+                - generic [ref=e929]:
+                  - generic [ref=e930]:
+                    - img "fire" [ref=e932]
+                    - generic [ref=e933]: ไฟไหม้
+                  - generic [ref=e934]:
+                    - img "earthquake" [ref=e936]
+                    - generic [ref=e937]: แผ่นดินไหว
+                  - generic [ref=e938]:
+                    - img "flood" [ref=e940]
+                    - generic [ref=e941]: น้ำท่วม
+                  - generic [ref=e942]:
+                    - img "robbery" [ref=e944]
+                    - generic [ref=e945]: โจรกรรม
+              - generic [ref=e947]:
+                - generic [ref=e951]:
+                  - generic [ref=e952]:
+                    - generic [ref=e953]:
+                      - generic [ref=e954]: ทุนประกันภัย
+                      - generic [ref=e955]: ฿ 3,500,000
+                    - generic [ref=e956]:
+                      - generic [ref=e957]: แผ่นดินไหว
+                      - generic [ref=e958]: ฿ 100,000
+                  - generic [ref=e959]:
+                    - generic [ref=e960]: เบี้ยประกัน/ปี
+                    - button "฿ 6,000" [ref=e962] [cursor=pointer]:
+                      - text: ฿ 6,000
+                      - img [ref=e964]
+                    - generic [ref=e966]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e969] [cursor=pointer]:
+                    - img "compare" [ref=e970]
+                    - text: เปรียบเทียบ
+                - generic [ref=e974]:
+                  - generic [ref=e975]:
+                    - generic [ref=e976]:
+                      - generic [ref=e977]: ทุนประกันภัย
+                      - generic [ref=e978]: ฿ 4,000,000
+                    - generic [ref=e979]:
+                      - generic [ref=e980]: แผ่นดินไหว
+                      - generic [ref=e981]: ฿ 110,000
+                  - generic [ref=e982]:
+                    - generic [ref=e983]: เบี้ยประกัน/ปี
+                    - button "฿ 6,800" [ref=e985] [cursor=pointer]:
+                      - text: ฿ 6,800
+                      - img [ref=e987]
+                    - generic [ref=e989]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e992] [cursor=pointer]:
+                    - img "compare" [ref=e993]
+                    - text: เปรียบเทียบ
+                - generic [ref=e997]:
+                  - generic [ref=e998]:
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]: ทุนประกันภัย
+                      - generic [ref=e1001]: ฿ 1,500,000
+                    - generic [ref=e1002]:
+                      - generic [ref=e1003]: แผ่นดินไหว
+                      - generic [ref=e1004]: ฿ 120,000
+                  - generic [ref=e1005]:
+                    - generic [ref=e1006]: เบี้ยประกัน/3ปี
+                    - button "฿ 7,000" [ref=e1008] [cursor=pointer]:
+                      - text: ฿ 7,000
+                      - img [ref=e1010]
+                    - generic [ref=e1012]: เฉลี่ยปีละ 2,333 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1015] [cursor=pointer]:
+                    - img "compare" [ref=e1016]
+                    - text: เปรียบเทียบ
+            - generic [ref=e1019]:
+              - generic [ref=e1020]:
+                - generic [ref=e1021]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e1022]
+                  - generic [ref=e1023]:
+                    - generic [ref=e1024]: เมืองไทยประกันภัย
+                    - generic [ref=e1025]: ประกันบ้านเติมรัก
+                - generic [ref=e1026]:
+                  - generic [ref=e1027]:
+                    - img "fire" [ref=e1029]
+                    - generic [ref=e1030]: ไฟไหม้
+                  - generic [ref=e1031]:
+                    - img "earthquake" [ref=e1033]
+                    - generic [ref=e1034]: แผ่นดินไหว
+                  - generic [ref=e1035]:
+                    - img "flood" [ref=e1037]
+                    - generic [ref=e1038]: น้ำท่วม
+                  - generic [ref=e1039]:
+                    - img "robbery" [ref=e1041]
+                    - generic [ref=e1042]: โจรกรรม
+              - generic [ref=e1044]:
+                - generic [ref=e1048]:
+                  - generic [ref=e1049]:
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: ทุนประกันภัย
+                      - generic [ref=e1052]: ฿ 4,500,000
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]: แผ่นดินไหว
+                      - generic [ref=e1055]: ฿ 120,000
+                  - generic [ref=e1056]:
+                    - generic [ref=e1057]: เบี้ยประกัน/ปี
+                    - button "฿ 7,600" [ref=e1059] [cursor=pointer]:
+                      - text: ฿ 7,600
+                      - img [ref=e1061]
+                    - generic [ref=e1063]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e1066] [cursor=pointer]:
+                    - img "compare" [ref=e1067]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1071]:
+                  - generic [ref=e1072]:
+                    - generic [ref=e1073]:
+                      - generic [ref=e1074]: ทุนประกันภัย
+                      - generic [ref=e1075]: ฿ 5,000,000
+                    - generic [ref=e1076]:
+                      - generic [ref=e1077]: แผ่นดินไหว
+                      - generic [ref=e1078]: ฿ 120,000
+                  - generic [ref=e1079]:
+                    - generic [ref=e1080]: เบี้ยประกัน/ปี
+                    - button "฿ 8,400" [ref=e1082] [cursor=pointer]:
+                      - text: ฿ 8,400
+                      - img [ref=e1084]
+                    - generic [ref=e1086]: ต่อปี
+                  - button "compare เปรียบเทียบ" [ref=e1089] [cursor=pointer]:
+                    - img "compare" [ref=e1090]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1094]:
+                  - generic [ref=e1095]:
+                    - generic [ref=e1096]:
+                      - generic [ref=e1097]: ทุนประกันภัย
+                      - generic [ref=e1098]: ฿ 2,200,000
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: แผ่นดินไหว
+                      - generic [ref=e1101]: ฿ 130,000
+                  - generic [ref=e1102]:
+                    - generic [ref=e1103]: เบี้ยประกัน/3ปี
+                    - button "฿ 9,500" [ref=e1105] [cursor=pointer]:
+                      - text: ฿ 9,500
+                      - img [ref=e1107]
+                    - generic [ref=e1109]: เฉลี่ยปีละ 3,167 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1112] [cursor=pointer]:
+                    - img "compare" [ref=e1113]
+                    - text: เปรียบเทียบ
+            - generic [ref=e1116]:
+              - generic [ref=e1117]:
+                - generic [ref=e1118]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e1119]
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: เมืองไทยประกันภัย
+                    - generic [ref=e1122]: ประกันบ้านเติมรัก
+                - generic [ref=e1123]:
+                  - generic [ref=e1124]:
+                    - img "fire" [ref=e1126]
+                    - generic [ref=e1127]: ไฟไหม้
+                  - generic [ref=e1128]:
+                    - img "earthquake" [ref=e1130]
+                    - generic [ref=e1131]: แผ่นดินไหว
+                  - generic [ref=e1132]:
+                    - img "flood" [ref=e1134]
+                    - generic [ref=e1135]: น้ำท่วม
+                  - generic [ref=e1136]:
+                    - img "robbery" [ref=e1138]
+                    - generic [ref=e1139]: โจรกรรม
+              - generic [ref=e1141]:
+                - generic [ref=e1145]:
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]:
+                      - generic [ref=e1148]: ทุนประกันภัย
+                      - generic [ref=e1149]: ฿ 2,500,000
+                    - generic [ref=e1150]:
+                      - generic [ref=e1151]: แผ่นดินไหว
+                      - generic [ref=e1152]: ฿ 130,000
+                  - generic [ref=e1153]:
+                    - generic [ref=e1154]: เบี้ยประกัน/3ปี
+                    - button "฿ 11,000" [ref=e1156] [cursor=pointer]:
+                      - text: ฿ 11,000
+                      - img [ref=e1158]
+                    - generic [ref=e1160]: เฉลี่ยปีละ 3,667 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1163] [cursor=pointer]:
+                    - img "compare" [ref=e1164]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]:
+                    - generic [ref=e1170]:
+                      - generic [ref=e1171]: ทุนประกันภัย
+                      - generic [ref=e1172]: ฿ 3,000,000
+                    - generic [ref=e1173]:
+                      - generic [ref=e1174]: แผ่นดินไหว
+                      - generic [ref=e1175]: ฿ 130,000
+                  - generic [ref=e1176]:
+                    - generic [ref=e1177]: เบี้ยประกัน/3ปี
+                    - button "฿ 13,000" [ref=e1179] [cursor=pointer]:
+                      - text: ฿ 13,000
+                      - img [ref=e1181]
+                    - generic [ref=e1183]: เฉลี่ยปีละ 4,333 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1186] [cursor=pointer]:
+                    - img "compare" [ref=e1187]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1191]:
+                  - generic [ref=e1192]:
+                    - generic [ref=e1193]:
+                      - generic [ref=e1194]: ทุนประกันภัย
+                      - generic [ref=e1195]: ฿ 3,500,000
+                    - generic [ref=e1196]:
+                      - generic [ref=e1197]: แผ่นดินไหว
+                      - generic [ref=e1198]: ฿ 140,000
+                  - generic [ref=e1199]:
+                    - generic [ref=e1200]: เบี้ยประกัน/3ปี
+                    - button "฿ 15,000" [ref=e1202] [cursor=pointer]:
+                      - text: ฿ 15,000
+                      - img [ref=e1204]
+                    - generic [ref=e1206]: เฉลี่ยปีละ 5,000 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1209] [cursor=pointer]:
+                    - img "compare" [ref=e1210]
+                    - text: เปรียบเทียบ
+            - generic [ref=e1213]:
+              - generic [ref=e1214]:
+                - generic [ref=e1215]:
+                  - img "Company Logo - เมืองไทยประกันภัย" [ref=e1216]
+                  - generic [ref=e1217]:
+                    - generic [ref=e1218]: เมืองไทยประกันภัย
+                    - generic [ref=e1219]: ประกันบ้านเติมรัก
+                - generic [ref=e1220]:
+                  - generic [ref=e1221]:
+                    - img "fire" [ref=e1223]
+                    - generic [ref=e1224]: ไฟไหม้
+                  - generic [ref=e1225]:
+                    - img "earthquake" [ref=e1227]
+                    - generic [ref=e1228]: แผ่นดินไหว
+                  - generic [ref=e1229]:
+                    - img "flood" [ref=e1231]
+                    - generic [ref=e1232]: น้ำท่วม
+                  - generic [ref=e1233]:
+                    - img "robbery" [ref=e1235]
+                    - generic [ref=e1236]: โจรกรรม
+              - generic [ref=e1238]:
+                - generic [ref=e1242]:
+                  - generic [ref=e1243]:
+                    - generic [ref=e1244]:
+                      - generic [ref=e1245]: ทุนประกันภัย
+                      - generic [ref=e1246]: ฿ 4,000,000
+                    - generic [ref=e1247]:
+                      - generic [ref=e1248]: แผ่นดินไหว
+                      - generic [ref=e1249]: ฿ 140,000
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]: เบี้ยประกัน/3ปี
+                    - button "฿ 17,000" [ref=e1253] [cursor=pointer]:
+                      - text: ฿ 17,000
+                      - img [ref=e1255]
+                    - generic [ref=e1257]: เฉลี่ยปีละ 5,667 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1260] [cursor=pointer]:
+                    - img "compare" [ref=e1261]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1265]:
+                  - generic [ref=e1266]:
+                    - generic [ref=e1267]:
+                      - generic [ref=e1268]: ทุนประกันภัย
+                      - generic [ref=e1269]: ฿ 4,500,000
+                    - generic [ref=e1270]:
+                      - generic [ref=e1271]: แผ่นดินไหว
+                      - generic [ref=e1272]: ฿ 150,000
+                  - generic [ref=e1273]:
+                    - generic [ref=e1274]: เบี้ยประกัน/3ปี
+                    - button "฿ 19,000" [ref=e1276] [cursor=pointer]:
+                      - text: ฿ 19,000
+                      - img [ref=e1278]
+                    - generic [ref=e1280]: เฉลี่ยปีละ 6,333 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1283] [cursor=pointer]:
+                    - img "compare" [ref=e1284]
+                    - text: เปรียบเทียบ
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]: ทุนประกันภัย
+                      - generic [ref=e1292]: ฿ 5,000,000
+                    - generic [ref=e1293]:
+                      - generic [ref=e1294]: แผ่นดินไหว
+                      - generic [ref=e1295]: ฿ 12
+                  - generic [ref=e1296]:
+                    - generic [ref=e1297]: เบี้ยประกัน/3ปี
+                    - button "฿ 21,000" [ref=e1299] [cursor=pointer]:
+                      - text: ฿ 21,000
+                      - img [ref=e1301]
+                    - generic [ref=e1303]: เฉลี่ยปีละ 7,000 บาท
+                  - button "compare เปรียบเทียบ" [ref=e1306] [cursor=pointer]:
+                    - img "compare" [ref=e1307]
+                    - text: เปรียบเทียบ
+    - contentinfo [ref=e1308]:
+      - link "TQM Logo" [ref=e1310] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e1311]
+      - generic [ref=e1312]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e1315] [cursor=pointer]:
+          - generic [ref=e1317]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e1319]
+        - button "บริการลูกค้า" [ref=e1323] [cursor=pointer]:
+          - generic [ref=e1325]: บริการลูกค้า
+          - img [ref=e1327]
+        - button "ติดต่อสอบถาม" [ref=e1331] [cursor=pointer]:
+          - generic [ref=e1333]: ติดต่อสอบถาม
+          - img [ref=e1335]
+        - button "บริษัท" [ref=e1339] [cursor=pointer]:
+          - generic [ref=e1341]: บริษัท
+          - img [ref=e1343]
+        - generic [ref=e1345]:
+          - generic [ref=e1346]:
+            - link "line" [ref=e1348] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e1349]
+            - link "facebook" [ref=e1351] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e1352]
+            - link "instagram" [ref=e1354] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e1355]
+            - link "tiktok" [ref=e1357] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e1358]
+            - link "youtube" [ref=e1360] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e1361]
+            - link "x" [ref=e1363] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e1364]
+          - link "1737" [ref=e1366] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e1367]
+            - text: "1737"
+        - generic [ref=e1370]:
+          - link "TQM Application" [ref=e1372] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e1373]
+          - generic [ref=e1374]:
+            - link "TQM IOS Application" [ref=e1375] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e1376]
+            - link "TQM Android Application" [ref=e1377] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e1378]
+            - link "TQM APK Download" [ref=e1379] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e1380]
+        - generic [ref=e1381]:
+          - paragraph [ref=e1382]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e1383]:
+            - paragraph [ref=e1384]:
+              - link "แผนผังเว็บไซต์" [ref=e1385] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e1386]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e1387] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e1388]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e1389] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e1390]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: ติดปัญหาตรงไหนแจ้งพี่หมีได้เลยครับผม 😊
+      - button "Toggle chat" [ref=e1391] [cursor=pointer]:
+        - img "chat-on-web" [ref=e1392]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e1393]: ผลการค้นหาประกันอัคคีภัย บ้าน | TQM ทีคิวเอ็ม
+```

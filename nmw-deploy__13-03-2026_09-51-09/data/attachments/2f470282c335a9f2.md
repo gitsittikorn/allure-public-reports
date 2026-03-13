@@ -1,0 +1,325 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e42]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: ข้อมูลการเดินทาง
+          - generic [ref=e48]:
+            - img "ข้อมูลการเดินทาง" [ref=e50]
+            - generic [ref=e52]: เชียงใหม่ / เครื่องบิน / 6 วัน
+            - generic [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - text: แก้ไข
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "เมืองไทยประกันภัย" [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]: เมืองไทยประกันภัย
+              - generic [ref=e64]: MTI Travel Inbound Daily
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - paragraph [ref=e68]: ค่ารักษาพยาบาล
+              - paragraph [ref=e69]: "-"
+              - paragraph [ref=e70]: เสียชีวิตจากอุบัติเหตุ
+              - paragraph [ref=e71]: ฿ 200,000
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: อายุระหว่าง 1-85 ปี
+              - paragraph [ref=e74]: ฿ 79
+              - paragraph [ref=e75]: ราคาต่อคน
+          - generic [ref=e76]:
+            - heading "ความคุ้มครองชีวิตและค่ารักษาพยาบาล" [level=3] [ref=e77]:
+              - button "ความคุ้มครองชีวิตและค่ารักษาพยาบาล" [expanded] [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: ความคุ้มครองชีวิตและค่ารักษาพยาบาล
+                - img [ref=e81]
+            - region [ref=e86]:
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: การสูญเสียชีวิต หรืออวัยวะ สายตา หรือทุพพลภาพถาวรสิ้นเชิง เนื่องจากการขับขี่หรือโดยสารรถจักรยานยนต์
+                    - generic "การสูญเสียชีวิต หรืออวัยวะ สายตา หรือทุพพลภาพถาวรสิ้นเชิง เนื่องจากการขับขี่หรือโดยสารรถจักรยานยนต์" [ref=e93]:
+                      - img "การสูญเสียชีวิต หรืออวัยวะ สายตา หรือทุพพลภาพถาวรสิ้นเชิง เนื่องจากการขับขี่หรือโดยสารรถจักรยานยนต์" [ref=e94]
+                  - generic [ref=e95] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e96]: 200,000 บาท
+                - generic [ref=e100]: ค่ารักษาพยาบาลระหว่างการเดินทาง จ่ายตามจริงสูงสุด
+                - generic [ref=e101]: "-"
+                - generic [ref=e105]: ค่ารักษาพยาบาลต่อเนื่องหลังจากกลับถึงประเทศไทย จ่ายตามจริงสูงสุด
+                - generic [ref=e106]: "-"
+                - generic [ref=e110]: ค่าเดินทางเพื่อรักษาพยาบาลแบบผู้ป่วยนอกในต่างประเทศ
+                - generic [ref=e111]: "-"
+                - generic [ref=e115]: ค่ายาผู้ป่วยนอกจากการรักษาผ่านการแพทย์ทางไกล (Telemedicine)
+                - generic [ref=e116]: "-"
+                - generic [ref=e120]: การรับการรักษาพยาบาลในประเทศไทย จ่ายตามจริงสูงสุด
+                - generic [ref=e121]: "-"
+                - generic [ref=e125]: การเคลื่อนย้ายเพื่อการรักษาพยาบาลฉุกเฉินหรือการเคลื่อนย้ายกลับสู่ประเทศไทย จ่ายสูงสุดไม่เกิน
+                - generic [ref=e126]: "-"
+                - generic [ref=e130]: กรณีตรวจสอบพบว่าเกิดจากการบาดเจ็บหรือเจ็บป่วยที่ไม่ใช่สภาพที่เป็นมาก่อนการเอาประกันภัย
+                - generic [ref=e131]: "-"
+                - generic [ref=e135]: กรณีตรวจสอบพบว่าเกิดจากการบาดเจ็บหรือเจ็บป่วยจากสภาพที่เป็นมาก่อนการเอาประกันภัย
+                - generic [ref=e136]: "-"
+                - generic [ref=e140]: เงินชดเชยรายวันระหว่างรักษาตัวในโรงพยาบาล ในฐานะผู้ป่วยใน
+                - generic [ref=e141]: "-"
+                - generic [ref=e145]: ค่าศัลยกรรมอันเนื่องมาจากอุบัติเหตุ
+                - generic [ref=e146]: "-"
+                - generic [ref=e150]: การเคลื่อนย้ายเพื่อการรักษาพยาบาลฉุกเฉิน
+                - generic [ref=e151]: "-"
+                - generic [ref=e152]:
+                  - generic [ref=e155]: การเสียชีวิต การสูญเสียอวัยวะ และสายตา หรือทุพพลภาพถาวรจาก อุบัติเหตุขณะเข้าร่วมเทศกาล ประจำปี
+                  - generic [ref=e156] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e157]: "-"
+                - generic [ref=e161]: ค่ารักษาพยาบาลเนื่องจากอุบัติเหตุขณะเข้าร่วมเทศกาลประจำปี
+                - generic [ref=e162]: "-"
+                - generic [ref=e166]: ค่ารักษาพยาบาล อาหารเป็นพิษขณะเดินทาง (IPD only)
+                - generic [ref=e167]: "-"
+                - generic [ref=e171]: ค่ารักษาพยาบาลเนื่องจากอุบัติเหตุ
+                - generic [ref=e172]: 100,000 บาท
+                - generic [ref=e175]:
+                  - generic [ref=e176]: การเสียชีวิต การสูญเสียอวัยวะ สายตา หรือ ทุพพลภาพถาวรสิ้นเชิงเนื่องจากอุบัติเหตุ
+                  - generic "เมืองไทย" [ref=e177]:
+                    - img "เมืองไทย" [ref=e178]
+                - generic [ref=e179]: 200,000 บาท
+                - generic [ref=e183]: การประกันภัยโจรกรรม
+                - generic [ref=e184]: "-"
+          - generic [ref=e185]:
+            - heading "ความคุ้มครองสัมภาระและทรัพย์สิน" [level=3] [ref=e186]:
+              - button "ความคุ้มครองสัมภาระและทรัพย์สิน" [expanded] [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: ความคุ้มครองสัมภาระและทรัพย์สิน
+                - img [ref=e190]
+            - region [ref=e195]:
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - generic [ref=e201]: การสูญหายหรือเสียหายของกระเป๋าเดินทางและ/หรือทรัพย์สินส่วนตัว ภายในกระเป๋าเดินทาง จ่ายตามจริงสูงสุด
+                  - generic [ref=e202] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e203]: 5,000 บาท
+                - generic [ref=e207]: การล่าช้าของกระเป๋าเดินทาง จ่ายสูงสุดไม่เกิน
+                - generic [ref=e208]: "-"
+                - generic [ref=e212]: การสูญหายหรือเสียหายของเงินสด
+                - generic [ref=e213]: "-"
+                - generic [ref=e217]: การสูญหายหรือเสียหายของเอกสารที่เกี่ยวข้องกับการเดินทาง จ่ายตามจริงสูงสุด
+                - generic [ref=e218]: "-"
+                - generic [ref=e222]: ความสูญเสียหรือความเสียหายของคอมพิวเตอร์โน้ตบุ๊ค จ่ายตามจริงสูงสุด
+                - generic [ref=e223]: "-"
+                - generic [ref=e224]:
+                  - generic [ref=e227]: การสูญเสียหรือความเสียหายของ กระเป๋าเดินทาง ทรัพย์สิน รวมถึงคอมพิวเตอร์โน้ตบุ๊คอันเนื่องมาจากภัยธรรมชาติ จ่ายตามจริงสูงสุด
+                  - generic [ref=e228] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e229]: "-"
+          - generic [ref=e230]:
+            - heading "ความคุ้มครองในการเดินทาง" [level=3] [ref=e231]:
+              - button "ความคุ้มครองในการเดินทาง" [expanded] [ref=e232] [cursor=pointer]:
+                - generic [ref=e233]: ความคุ้มครองในการเดินทาง
+                - img [ref=e235]
+            - region [ref=e240]:
+              - generic [ref=e242]:
+                - generic [ref=e246]: การยกเลิกการเดินทาง จ่ายตามจริงสูงสุด
+                - generic [ref=e247]: 5,000 บาท
+                - generic [ref=e251]: การลดจำนวนวันเดินทาง จ่ายตามจริงสูงสุด
+                - generic [ref=e252]: 2,000 บาท
+                - generic [ref=e256]: ความล่าช้าในการเดินทาง จ่ายสูงสุดไม่เกิน
+                - generic [ref=e257]: "-"
+                - generic [ref=e261]: การพลาดการต่อเที่ยวบิน จ่ายสูงสุดไม่เกิน
+                - generic [ref=e262]: "-"
+                - generic [ref=e266]: การจี้เครื่องบิน
+                - generic [ref=e267]: "-"
+                - generic [ref=e268]:
+                  - generic [ref=e271]: การล่าช้าของเที่ยวบินแบบออนไทม์การันตี สำหรับเที่ยวบินขาออกจากประเทศไทย (จ่าย ไม่เกิน 1 ครั้ง กรณีขาเข้าหรือขาออก ขาใดขาหนึ่งเท่านั้น)
+                  - generic [ref=e272] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e273]: "-"
+                - generic [ref=e274]:
+                  - generic [ref=e277]: การล่าช้าของเที่ยวบินแบบออนไทม์การันตี สำหรับเที่ยวบินขาเข้าประเทศไทย (จ่าย ไม่เกิน 1 ครั้ง กรณีขาเข้าหรือขาออก ขาใดขาหนึ่งเท่านั้น)
+                  - generic [ref=e278] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e279]: "-"
+                - generic [ref=e283]: การล่าช้าของระบบขนส่งมวลชน
+                - generic [ref=e284]: "-"
+          - generic [ref=e285]:
+            - heading "ความคุ้มครองเพิ่มเติม" [level=3] [ref=e286]:
+              - button "ความคุ้มครองเพิ่มเติม" [expanded] [ref=e287] [cursor=pointer]:
+                - generic [ref=e288]: ความคุ้มครองเพิ่มเติม
+                - img [ref=e290]
+            - region [ref=e295]:
+              - generic [ref=e297]:
+                - generic [ref=e301]: ค่าใช้จ่ายในการส่งศพ หรืออัฐิกลับประเทศ จ่ายสูงสุดไม่เกิน
+                - generic [ref=e302]: "-"
+                - generic [ref=e306]: กรณีตรวจสอบพบว่าเกิดจากการบาดเจ็บหรือเจ็บป่วยที่ไม่ใช่สภาพที่เป็นมาก่อนการเอาประกันภัย
+                - generic [ref=e307]: "-"
+                - generic [ref=e311]: กรณีตรวจสอบพบว่าเกิดจากการบาดเจ็บหรือเจ็บป่วยจากสภาพที่เป็นมาก่อนการเอาประกันภัย
+                - generic [ref=e312]: "-"
+                - generic [ref=e316]: ความรับผิดตามกฏหมายต่อบุคคลภายนอก จ่ายตามจริงสูงสุด
+                - generic [ref=e317]: 200,000 บาท
+                - generic [ref=e321]: การเดินทางเพื่อเยี่ยมผู้ป่วยที่โรงพยาบาล จ่ายตามจริงสูงสุด
+                - generic [ref=e322]: "-"
+                - generic [ref=e326]: รางวัลพิเศษสำหรับ โฮล-อิน-วัน
+                - generic [ref=e327]: "-"
+                - generic [ref=e331]: ความเสียหายส่วนแรกสำหรับรถเช่า จ่ายตามจริงสูงสุด
+                - generic [ref=e332]: "-"
+                - generic [ref=e336]: ชดเชยค่าโทรศัพท์ในกรณีฉุกเฉิน จ่ายตามจริงสูงสุด
+                - generic [ref=e337]: "-"
+                - generic [ref=e341]: ผลประโยชน์การขยายระยะเวลาโดยอัตโนมัติ
+                - generic [ref=e342]: "-"
+                - generic [ref=e346]: ผลประโยชน์การสูญเสียหรือความเสียหายของทรัพย์สินภายในบ้าน
+                - generic [ref=e347]: "-"
+                - generic [ref=e351]: การบริการให้ความช่วยเหลือในการเดินทาง
+                - generic [ref=e352]: "-"
+                - generic [ref=e356]: บริการการปรึกษาแพทย์ทางไกล
+                - generic [ref=e357]: "-"
+                - generic [ref=e361]: การไปเยี่ยมผู้เอาประกันภัย จ่ายตามจริงสูงสุด
+                - generic [ref=e362]: "-"
+                - generic [ref=e366]: การส่งผู้เยาว์เพื่อเดินทางกลับประเทศ จ่ายตามจริงสูงสุด
+                - generic [ref=e367]: "-"
+                - generic [ref=e371]: ผลประโยชน์ความรับผิดต่อบัตรเครดิต
+                - generic [ref=e372]: "-"
+                - generic [ref=e376]: โฮล-อิน-วัน / การสูญหายหรือ ความเสียหายของอุปกรณ์กอล์ฟ / การชดเชยค่าธรรมเนียมสนามกอล์ฟ
+                - generic [ref=e377]: "-"
+                - generic [ref=e381]: การค้นหา การช่วยชีวิต และการกู้ภัย
+                - generic [ref=e382]: "-"
+                - generic [ref=e386]: การสูญหายของหนังสือเดินทาง จ่ายตามจริงสูงสุด
+                - generic [ref=e387]: "-"
+                - generic [ref=e391]: การถูกปฏิเสธการขอวีซ่า (Visa Refusal)
+                - generic [ref=e392]: "-"
+                - generic [ref=e396]: คุ้มครองอุบัติเหตุจากการเล่นกีฬาเสี่ยงภัย
+                - generic [ref=e397]: "-"
+        - generic [ref=e398]:
+          - generic [ref=e399]: เงื่อนไขการรับประกัน
+          - paragraph [ref=e400]:
+            - paragraph [ref=e401]: เงื่อนไขการรับประกัน
+            - paragraph [ref=e402]: เงื่อนไขการรับประกัน
+            - paragraph [ref=e403]: เงื่อนไขการรับประกัน
+        - generic [ref=e404]:
+          - button "ย้อนกลับ" [ref=e405] [cursor=pointer]:
+            - img [ref=e407]
+            - text: ย้อนกลับ
+          - button "เลือกแผนนี้" [ref=e409] [cursor=pointer]:
+            - text: เลือกแผนนี้
+            - img [ref=e411]
+    - contentinfo [ref=e413]:
+      - link "TQM Logo" [ref=e415] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e416]
+      - generic [ref=e417]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e420] [cursor=pointer]:
+          - generic [ref=e422]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e424]
+        - button "บริการลูกค้า" [ref=e428] [cursor=pointer]:
+          - generic [ref=e430]: บริการลูกค้า
+          - img [ref=e432]
+        - button "ติดต่อสอบถาม" [ref=e436] [cursor=pointer]:
+          - generic [ref=e438]: ติดต่อสอบถาม
+          - img [ref=e440]
+        - button "บริษัท" [ref=e444] [cursor=pointer]:
+          - generic [ref=e446]: บริษัท
+          - img [ref=e448]
+        - generic [ref=e450]:
+          - generic [ref=e451]:
+            - link "line" [ref=e453] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e454]
+            - link "facebook" [ref=e456] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e457]
+            - link "instagram" [ref=e459] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e460]
+            - link "tiktok" [ref=e462] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e463]
+            - link "youtube" [ref=e465] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e466]
+            - link "x" [ref=e468] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e469]
+          - link "1737" [ref=e471] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e472]
+            - text: "1737"
+        - generic [ref=e475]:
+          - link "TQM Application" [ref=e477] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e478]
+          - generic [ref=e479]:
+            - link "TQM IOS Application" [ref=e480] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e481]
+            - link "TQM Android Application" [ref=e482] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e483]
+            - link "TQM APK Download" [ref=e484] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e485]
+        - generic [ref=e486]:
+          - paragraph [ref=e487]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e488]:
+            - paragraph [ref=e489]:
+              - link "แผนผังเว็บไซต์" [ref=e490] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e491]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e492] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e493]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e494] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e495]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: สนใจแผนนี้อยู่รึเปล่า? สงสัยถามพี่หมีได้เลย
+      - button "Toggle chat" [ref=e496] [cursor=pointer]:
+        - img "chat-on-web" [ref=e497]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e498]: รายละเอียดประกันเดินทาง | TQM ทีคิวเอ็ม
+```

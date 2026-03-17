@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e42]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: แผนประกัน
+          - generic [ref=e48]:
+            - img "แผนประกัน" [ref=e50]
+            - generic [ref=e52]: สุขภาพ
+            - generic [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - text: แก้ไข
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "เอฟดับบลิวดีประกันภัย" [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]: เอฟดับบลิวดีประกันภัย
+              - generic [ref=e64]: Product P
+              - generic [ref=e65]: Description Product P
+          - generic [ref=e66]:
+            - generic [ref=e68]:
+              - img "coupon" [ref=e69]
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: ส่วนลด 100 บาท
+                - paragraph [ref=e72]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: ผู้ป่วยใน IPD
+                - paragraph [ref=e76]: "-"
+                - paragraph [ref=e77]: ผู้ป่วยนอก OPD
+                - paragraph [ref=e78]: "-"
+              - generic [ref=e79]:
+                - paragraph
+                - paragraph [ref=e80]:
+                  - text: ฿ 0
+                  - generic [ref=e81]: ฿ 0
+          - generic [ref=e82]:
+            - heading "Section P สุขภาพ 2" [level=3] [ref=e83]:
+              - button "Section P สุขภาพ 2" [expanded] [ref=e84] [cursor=pointer]:
+                - generic [ref=e85]: Section P สุขภาพ 2
+                - img [ref=e87]
+            - region [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e98]: สุขภาพ P รายวัน
+                - generic [ref=e99]: "-"
+                - generic [ref=e103]: สุขภาพ P รายเดือน
+                - generic [ref=e104]: "-"
+        - generic [ref=e105]:
+          - button "ย้อนกลับ" [ref=e106] [cursor=pointer]:
+            - img [ref=e108]
+            - text: ย้อนกลับ
+          - button "เลือกแผนนี้" [ref=e110] [cursor=pointer]:
+            - text: เลือกแผนนี้
+            - img [ref=e112]
+    - contentinfo [ref=e114]:
+      - link "TQM Logo" [ref=e116] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e117]
+      - generic [ref=e118]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e121] [cursor=pointer]:
+          - generic [ref=e123]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e125]
+        - button "บริการลูกค้า" [ref=e129] [cursor=pointer]:
+          - generic [ref=e131]: บริการลูกค้า
+          - img [ref=e133]
+        - button "ติดต่อสอบถาม" [ref=e137] [cursor=pointer]:
+          - generic [ref=e139]: ติดต่อสอบถาม
+          - img [ref=e141]
+        - button "บริษัท" [ref=e145] [cursor=pointer]:
+          - generic [ref=e147]: บริษัท
+          - img [ref=e149]
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - link "line" [ref=e154] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e155]
+            - link "facebook" [ref=e157] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e158]
+            - link "instagram" [ref=e160] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e161]
+            - link "tiktok" [ref=e163] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e164]
+            - link "youtube" [ref=e166] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e167]
+            - link "x" [ref=e169] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e170]
+          - link "1737" [ref=e172] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e173]
+            - text: "1737"
+        - generic [ref=e176]:
+          - link "TQM Application" [ref=e178] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e179]
+          - generic [ref=e180]:
+            - link "TQM IOS Application" [ref=e181] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e182]
+            - link "TQM Android Application" [ref=e183] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e184]
+            - link "TQM APK Download" [ref=e185] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e186]
+        - generic [ref=e187]:
+          - paragraph [ref=e188]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e189]:
+            - paragraph [ref=e190]:
+              - link "แผนผังเว็บไซต์" [ref=e191] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e192]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e193] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e194]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e195] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e196]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: สนใจแผนนี้อยู่รึเปล่า? สงสัยถามพี่หมีได้เลย
+      - button "Toggle chat" [ref=e197] [cursor=pointer]:
+        - img "chat-on-web" [ref=e198]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e199]: รายละเอียดประกันสุขภาพ | TQM ทีคิวเอ็ม
+```

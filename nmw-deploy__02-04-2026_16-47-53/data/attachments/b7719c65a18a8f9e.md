@@ -1,0 +1,356 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: main-web/health/health-normal-flow.spec.ts >> health-normal-flow-no-tax-deduction
+- Location: tests/main-web/health/health-normal-flow.spec.ts:52:5
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('price')
+Expected: visible
+Timeout: 30000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 30000ms
+  - waiting for getByTestId('price')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ค้นหา แผนประกัน
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e42]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: แผนประกัน
+          - generic [ref=e48]:
+            - img "แผนประกัน" [ref=e50]
+            - generic [ref=e52]: สุขภาพ
+            - generic [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - text: แก้ไข
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "กรุงเทพประกันภัย" [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]: กรุงเทพประกันภัย
+              - generic [ref=e64]: ประกันสุขภาพ Health Top Up (ห้ามแก้ ทดสอบ Health Flow 4) สุขภาพทั่วไป แผน1
+              - generic [ref=e65]: ประกันสุขภาพ + โควิด-19 ทดสอบ
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: ผู้ป่วยใน IPD
+              - paragraph [ref=e70]: ฿ 10,000
+              - paragraph [ref=e71]: ผู้ป่วยนอก OPD
+              - paragraph [ref=e72]: ฿ 19,999
+            - generic [ref=e73]:
+              - paragraph [ref=e74]: สุขภาพทั่วไป
+              - paragraph [ref=e75]: ฿ 1,000.25
+              - generic [ref=e76]: ลดหย่อนภาษีได้
+          - generic [ref=e77]:
+            - heading "1. ผลประโยชน์กรณีเป็นผู้ป่วยใน" [level=3] [ref=e78]:
+              - button "1. ผลประโยชน์กรณีเป็นผู้ป่วยใน" [expanded] [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]: 1. ผลประโยชน์กรณีเป็นผู้ป่วยใน
+                - img [ref=e82]
+            - region [ref=e87]:
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - generic [ref=e92]:
+                    - generic [ref=e93]: หมวดที่ 1 ค่าห้อง และค่าอาหารค่าบริการในโรงพยาบาล (ผู้ป่วยใน) ต่อการเข้าพักรักษาเป็นผู้ป่วยในครั้งใดครั้งหนึ่ง ในกรณีที่ผู้เอาประกันภัยได้รับการรักษาในห้องผู้ป่วยวิกฤติ (Intensive Care Inpatient Room) จะจ่ายค่าห้อง และค่าอาหาร ค่าบริการในโรงพยาบาล (ผู้ป่วยใน) ให้เป็นจำนวนจ่ายตามจริง ของผลประโยชน์สำหรับค่าห้องและค่าอาหารผู้ป่วยในสูงสุดไม่เกิน จ่ายตามจริงต่อวัน
+                    - generic "หมวดที่1" [ref=e94]:
+                      - img "หมวดที่1" [ref=e95]
+                  - generic [ref=e96] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e97]: 1000 บาท
+                - generic [ref=e98]:
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: หมวดที่ 2 ค่าบริการทางการแพทย์เพื่อการตรวจวินิจฉัยหรือบำบัดรักษา ค่าบริการโลหิตและส่วนประกอบของโลหิต ค่าบริการทางการพยาบาล ค่ายา ค่าสารอาหารทางหลอดเลือด และค่าเวชภัณฑ์ ต่อการเข้าพักรักษาเป็นผู้ป่วยในครั้งใดครั้งหนึ่ง
+                    - generic "หมวดที่2" [ref=e102]:
+                      - img "หมวดที่2" [ref=e103]
+                  - generic [ref=e104] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e105]: 1,001 บาท
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 2.1 ค่าบริการทางการแพทย์เพื่อการตรวจวินิจฉัย
+                  - generic "ค่าบริการทางการแพทย์เพื่อการตรวจวินิจฉัย" [ref=e110]:
+                    - img "ค่าบริการทางการแพทย์เพื่อการตรวจวินิจฉัย" [ref=e111]
+                - generic [ref=e112]: 1,005 บาท
+                - generic [ref=e113]:
+                  - generic [ref=e115]:
+                    - generic [ref=e116]: 2.2 ค่าบริการทางการแพทย์เพื่อการบำบัดรักษา ค่าบริการโลหิตและส่วนประกอบของโลหิต และค่าบริการทางการพยาบาล
+                    - generic "ค่าบริการทางการแพทย์เพื่อการบำบัดรักษา" [ref=e117]:
+                      - img "ค่าบริการทางการแพทย์เพื่อการบำบัดรักษา" [ref=e118]
+                  - generic [ref=e119] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e120]: 1,009 บาท
+          - generic [ref=e121]:
+            - heading "ผลประโยชน์ชดเชยรายวัน" [level=3] [ref=e122]:
+              - button "ผลประโยชน์ชดเชยรายวัน" [expanded] [ref=e123] [cursor=pointer]:
+                - generic [ref=e124]: ผลประโยชน์ชดเชยรายวัน
+                - img [ref=e126]
+            - region [ref=e131]:
+              - generic [ref=e133]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]: ชดเชยรายได้ระหว่างเข้าพักรักษาตัวในโรงพยาบาลในฐานะผู้ป่วยใน
+                  - generic "compensate" [ref=e138]:
+                    - img "compensate" [ref=e139]
+                - generic [ref=e140]: 11,111 บาท
+                - generic [ref=e143]:
+                  - generic [ref=e144]: ผู้ป่วยนอก opd
+                  - generic "ไม่ใช้อันนี้แล้ว 2" [ref=e145]:
+                    - img "ไม่ใช้อันนี้แล้ว 2" [ref=e146]
+                - generic [ref=e147]: "-"
+                - generic [ref=e150]:
+                  - generic [ref=e151]: ผู้ป่วยใน ipd
+                  - generic "ไม่ใช้อันนี้แล้ว 2" [ref=e152]:
+                    - img "ไม่ใช้อันนี้แล้ว 2" [ref=e153]
+                - generic [ref=e154]: "-"
+          - generic [ref=e155]:
+            - heading "ผลประโยชน์กรณีเป็นผู้ป่วยใน" [level=3] [ref=e156]:
+              - button "ผลประโยชน์กรณีเป็นผู้ป่วยใน" [expanded] [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]: ผลประโยชน์กรณีเป็นผู้ป่วยใน
+                - img [ref=e160]
+            - region [ref=e165]:
+              - generic [ref=e167]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]: ผลประโยชน์สูงสุดต่อการรักษาแต่ละครั้ง
+                  - generic "ipd" [ref=e172]:
+                    - img "ipd" [ref=e173]
+                - generic [ref=e174]: 10,000 บาท
+          - generic [ref=e175]:
+            - heading "ผลประโยชน์กรณีไม่ต้องเข้าพักรักษาตัวเป็นผู้ป่วยใน" [level=3] [ref=e176]:
+              - button "ผลประโยชน์กรณีไม่ต้องเข้าพักรักษาตัวเป็นผู้ป่วยใน" [expanded] [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: ผลประโยชน์กรณีไม่ต้องเข้าพักรักษาตัวเป็นผู้ป่วยใน
+                - img [ref=e180]
+            - region [ref=e185]:
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: หมวดที่ 6 ค่าบริการทางการแพทย์เพื่อตรวจวินิจฉัยที่เกี่ยวข้องโดยตรงก่อนและหลังการเข้าพักรักษาตัวเป็นผู้ป่วยใน หรือค่ารักษาพยาบาลผู้ป่วยนอกที่ต่อเนื่องที่เกี่ยวข้องโดยตรงหลังการเข้าพักรักษาตัวเป็นผู้ป่วยในต่อการเข้าพักรักษาตัวเป็นผู้ป่วยในครั้งใดครั้งหนึ่ง
+                    - generic "opd" [ref=e192]:
+                      - img "opd" [ref=e193]
+                  - generic [ref=e194] [cursor=pointer]: ดูเพิ่มเติม
+                - generic [ref=e195]: 19,999 บาท
+        - generic [ref=e196]:
+          - generic [ref=e197]: เงื่อนไขการรับประกัน
+          - paragraph [ref=e198]:
+            - paragraph [ref=e199]:
+              - emphasis [ref=e200]: 1. สำหรับผู้ทำประกันภัยอายุระหว่าง 21 - 55 ปี
+              - strong [ref=e201]: ที่มีสัญชาติไทย
+            - paragraph [ref=e202]: 2. ไม่คุ้มครองโรคหรือสภาพที่เป็นมาการก่อนการรับประกัน (Pre-Existing Condition)
+            - paragraph [ref=e203]: 3. ผู้ทำประกันจะต้องมีสุขภาพร่างการแข็งแรงสมบูรณ์ ณ วันที่ขอทำประกัน
+            - paragraph [ref=e204]: 4. ผู้เอาประกันภัย 1 คน สามารถทำได้ 1 ฉบับ เท่านั้น
+            - paragraph [ref=e205]: 5. ระยะเวลารอคอย 30 วันสำหรับการเจ็บป่วยทั่วไป และ ระยะเวลารอคอย 180 วัน สำหรับการเจ็บป่วยเฉพาะโรค ได้แก่ เนื้องอกหรือมะเร็งทุกชนิด ริดสีดวงทวาร ไส้เลื่อน ต้อเนื้อ ต้อลม หรือต้อกระจก การตัดทอนซิลหรืออดีนอยด์ นิ่วทุกระบบ และเยื่อบุโพรงมดลูกเจริญผิดที่
+            - list [ref=e206]:
+              - listitem [ref=e207]: aaaa
+              - listitem [ref=e208]: bbbb
+        - generic [ref=e209]:
+          - button "ย้อนกลับ" [ref=e210] [cursor=pointer]:
+            - img [ref=e212]
+            - text: ย้อนกลับ
+          - button "เลือกแผนนี้" [ref=e214] [cursor=pointer]:
+            - text: เลือกแผนนี้
+            - img [ref=e216]
+    - contentinfo [ref=e218]:
+      - link "TQM Logo" [ref=e220] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e221]
+      - generic [ref=e222]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e225] [cursor=pointer]:
+          - generic [ref=e227]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e229]
+        - button "บริการลูกค้า" [ref=e233] [cursor=pointer]:
+          - generic [ref=e235]: บริการลูกค้า
+          - img [ref=e237]
+        - button "ติดต่อสอบถาม" [ref=e241] [cursor=pointer]:
+          - generic [ref=e243]: ติดต่อสอบถาม
+          - img [ref=e245]
+        - button "บริษัท" [ref=e249] [cursor=pointer]:
+          - generic [ref=e251]: บริษัท
+          - img [ref=e253]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - link "line" [ref=e258] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e259]
+            - link "facebook" [ref=e261] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e262]
+            - link "instagram" [ref=e264] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e265]
+            - link "tiktok" [ref=e267] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e268]
+            - link "youtube" [ref=e270] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e271]
+            - link "x" [ref=e273] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e274]
+          - link "1737" [ref=e276] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e277]
+            - text: "1737"
+        - generic [ref=e280]:
+          - link "TQM Application" [ref=e282] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e283]
+          - generic [ref=e284]:
+            - link "TQM IOS Application" [ref=e285] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e286]
+            - link "TQM Android Application" [ref=e287] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e288]
+            - link "TQM APK Download" [ref=e289] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e290]
+        - generic [ref=e291]:
+          - paragraph [ref=e292]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e293]:
+            - paragraph [ref=e294]:
+              - link "แผนผังเว็บไซต์" [ref=e295] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e296]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e297] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e298]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e299] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e300]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: สนใจแผนนี้อยู่รึเปล่า? สงสัยถามพี่หมีได้เลย
+      - button "Toggle chat" [ref=e301] [cursor=pointer]:
+        - img "chat-on-web" [ref=e302]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e303]: รายละเอียดประกันสุขภาพ | TQM ทีคิวเอ็ม
+```
+
+# Test source
+
+```ts
+  1  | import { Page, expect } from "@playwright/test";
+  2  | import { commonLocator } from "../../../../locator/nmw/nmw-common-locator";
+  3  | import { HealthProductDetailType } from "../../../../types/health.type";
+  4  | import CommonTQM from "../../../../utils/common-tqm";
+  5  | 
+  6  | export default class HealthProductDetailTypePage {
+  7  |   constructor(public page: Page) {}
+  8  | 
+  9  |   async checkProductData(healthProductDetail: HealthProductDetailType) {
+  10 |     await expect(this.page.getByTestId(commonLocator.TEXT_ID_PRODUCT_DATA)).toBeVisible();
+  11 |     const productData = await this.page
+  12 |       .getByTestId(commonLocator.TEXT_ID_PRODUCT_DATA)
+  13 |       .textContent();
+  14 |     expect(productData?.trim()).toBe(healthProductDetail.productData);
+  15 |   }
+  16 | 
+  17 |   async getInsurePrice(healthProductDetail: HealthProductDetailType) {
+  18 |     const commonTQM = new CommonTQM(this.page);
+  19 |     await commonTQM.initDevice();
+  20 | 
+  21 |     if (commonTQM.isDeviceMobile()) {
+  22 |       await expect(this.page.getByTestId(commonLocator.IMG_ID_COMPANY_LOGO)).toBeVisible();
+> 23 |       await expect(this.page.getByTestId(commonLocator.TEXT_ID_PRICE)).toBeVisible();
+     |                                                                        ^ Error: expect(locator).toBeVisible() failed
+  24 |       const insureNetAmount = await this.page
+  25 |         .getByTestId(commonLocator.TEXT_ID_PRICE)
+  26 |         .textContent();
+  27 |       expect(insureNetAmount?.trim()).not.toBe("");
+  28 |       healthProductDetail.insurePrice = await CommonTQM.getInsurePrice(
+  29 |         this.page,
+  30 |         commonLocator.TEXT_ID_PRICE
+  31 |       );
+  32 |     } else {
+  33 |       await expect(this.page.getByTestId(commonLocator.IMG_ID_COMPANY_LOGO)).toBeVisible();
+  34 |       await expect(this.page.getByTestId(commonLocator.TEXT_ID_INSURE_PRICE)).toBeVisible();
+  35 |       const insurePrice = await this.page
+  36 |         .getByTestId(commonLocator.TEXT_ID_INSURE_PRICE)
+  37 |         .textContent();
+  38 |       expect(insurePrice?.trim()).not.toBe("");
+  39 |       healthProductDetail.insurePrice = await CommonTQM.getInsurePrice(
+  40 |         this.page,
+  41 |         commonLocator.TEXT_ID_INSURE_PRICE
+  42 |       );
+  43 |     }
+  44 |   }
+  45 | 
+  46 |   async getInsureName(healthProductDetail: HealthProductDetailType) {
+  47 |     await expect(this.page.getByTestId(commonLocator.TEXT_ID_COMPANY_NAME)).toBeVisible();
+  48 |     const companyNameText = await this.page
+  49 |       .getByTestId(commonLocator.TEXT_ID_COMPANY_NAME)
+  50 |       .textContent();
+  51 |     expect(companyNameText?.trim()).not.toBe("0");
+  52 |     healthProductDetail.insureName = await CommonTQM.getInsureName(
+  53 |       this.page,
+  54 |       commonLocator.TEXT_ID_COMPANY_NAME
+  55 |     );
+  56 |     await this.page.getByTestId(commonLocator.BUTTON_ID_NEXT_STEP).click();
+  57 |   }
+  58 | }
+  59 | 
+```

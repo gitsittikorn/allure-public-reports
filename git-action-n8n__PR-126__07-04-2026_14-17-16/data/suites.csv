@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","20898","health-normal-flow-with-tax-deduction","Mobile Chrome","2026-04-07","passed","2026-04-07","","n8n/health-normal-flow-n8n.spec.ts","",""

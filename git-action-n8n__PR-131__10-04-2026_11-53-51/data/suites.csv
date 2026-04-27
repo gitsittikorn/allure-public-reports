@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","13938","health-normal-flow-passed","Mobile Chrome","2026-04-10","passed","2026-04-10","","n8n/health-normal-flow-n8n.spec.ts","",""
-"","42918","health-normal-flow-falied","Mobile Chrome","2026-04-10","failed","2026-04-10","","n8n/health-normal-flow-n8n.spec.ts","",""

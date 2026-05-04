@@ -1,0 +1,2400 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: main-web/travel/travel-normal-flow.spec.ts >> travel-normal-ต่างประเทศ-รายเที่ยว-America-3คน
+- Location: tests/main-web/travel/travel-normal-flow.spec.ts:190:5
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected: "https://tqm-main-web-qa.tqm-app-beta.comundefined/"
+Received: "https://tqm-main-web-qa.tqm-app-beta.com/travel-insurance/search"
+Timeout:  40000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 40000ms
+    5 × unexpected value "https://tqm-main-web-qa.tqm-app-beta.com/travel-insurance/filter"
+    39 × unexpected value "https://tqm-main-web-qa.tqm-app-beta.com/travel-insurance/search"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - button "open drawer" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+        - generic [ref=e11]:
+          - link "TQM Logo" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "TQM Logo" [ref=e13]
+          - button "login เข้าสู่ระบบ/สมัครสมาชิก" [ref=e14] [cursor=pointer]:
+            - img "login" [ref=e16]
+            - text: เข้าสู่ระบบ/สมัครสมาชิก
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "step0" [ref=e21]
+          - generic [ref=e22]: ข้อมูล การเดินทาง
+        - progressbar [ref=e24]
+        - generic [ref=e26]:
+          - img "step1" [ref=e27]
+          - generic [ref=e28]: เลือก แผนประกัน
+        - progressbar [ref=e30]
+        - generic [ref=e32]:
+          - img "step2" [ref=e33]
+          - generic [ref=e34]: ข้อมูล กรมธรรม์
+        - progressbar [ref=e36]
+        - generic [ref=e38]:
+          - img "step3" [ref=e39]
+          - generic [ref=e40]: ชำระเงิน
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: แผนประกันที่เหมาะกับคุณ
+          - generic [ref=e46]: พบทั้งหมด 56 รายการ
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: ข้อมูลการเดินทาง
+            - generic [ref=e52]:
+              - img "ข้อมูลการเดินทาง" [ref=e54]
+              - generic [ref=e56]: United States of America / เครื่องบิน / 6 วัน
+              - generic [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - text: แก้ไข
+          - generic [ref=e63]:
+            - generic [ref=e65] [cursor=pointer]:
+              - img "Slider Icon" [ref=e67]
+              - generic [ref=e68]: ตัวกรองข้อมูล
+            - img "Sort Icon" [ref=e72] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - img "กรุงเทพประกันภัย" [ref=e82]
+                - generic [ref=e83]:
+                  - paragraph [ref=e84]: กรุงเทพประกันภัย
+                  - paragraph [ref=e85]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - paragraph [ref=e90]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e91]: ฿ 1,000,000
+                  - generic [ref=e92]:
+                    - paragraph [ref=e93]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e94]: ฿ 1,000,000
+                  - generic [ref=e96]:
+                    - img [ref=e97]
+                    - generic [ref=e99]: เที่ยวบินล่าช้า
+                - generic [ref=e100]:
+                  - generic [ref=e102]:
+                    - paragraph [ref=e103]: อายุ 1-75 ปี
+                    - paragraph [ref=e104]: ฿ 260
+                  - generic [ref=e105]:
+                    - button "ดูรายละเอียด" [ref=e106] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e107] [cursor=pointer]:
+                      - img "compare" [ref=e109]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e111] [cursor=pointer]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - img "กรุงเทพประกันภัย" [ref=e116]
+                - generic [ref=e117]:
+                  - paragraph [ref=e118]: กรุงเทพประกันภัย
+                  - paragraph [ref=e119]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e120]
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - paragraph [ref=e124]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e125]: ฿ 1,000,000
+                  - generic [ref=e126]:
+                    - paragraph [ref=e127]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e128]: ฿ 1,000,000
+                  - generic [ref=e130]:
+                    - img [ref=e131]
+                    - generic [ref=e133]: เที่ยวบินล่าช้า
+                - generic [ref=e134]:
+                  - generic [ref=e136]:
+                    - paragraph [ref=e137]: อายุ 76-90 ปี
+                    - paragraph [ref=e138]: ฿ 390
+                  - generic [ref=e139]:
+                    - button "ดูรายละเอียด" [ref=e140] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e141] [cursor=pointer]:
+                      - img "compare" [ref=e143]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e145] [cursor=pointer]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - img "กรุงเทพประกันภัย" [ref=e150]
+                - generic [ref=e151]:
+                  - paragraph [ref=e152]: กรุงเทพประกันภัย
+                  - paragraph [ref=e153]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e154]
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - paragraph [ref=e158]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e159]: ฿ 1,500,000
+                  - generic [ref=e160]:
+                    - paragraph [ref=e161]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e162]: ฿ 1,500,000
+                  - generic [ref=e163]:
+                    - generic [ref=e164]:
+                      - img [ref=e165]
+                      - generic [ref=e167]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e168]:
+                      - img [ref=e169]
+                      - generic [ref=e171]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e172]:
+                      - img [ref=e173]
+                      - generic [ref=e175]: เที่ยวบินล่าช้า
+                - generic [ref=e176]:
+                  - generic [ref=e178]:
+                    - paragraph [ref=e179]: อายุ 1-75 ปี
+                    - paragraph [ref=e180]: ฿ 460
+                  - generic [ref=e181]:
+                    - button "ดูรายละเอียด" [ref=e182] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e183] [cursor=pointer]:
+                      - img "compare" [ref=e185]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e187] [cursor=pointer]
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - img "กรุงเทพประกันภัย" [ref=e192]
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: กรุงเทพประกันภัย
+                  - paragraph [ref=e195]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e196]
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - paragraph [ref=e200]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e201]: ฿ 1,500,000
+                  - generic [ref=e202]:
+                    - paragraph [ref=e203]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e204]: ฿ 1,500,000
+                  - generic [ref=e205]:
+                    - generic [ref=e206]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e210]:
+                      - img [ref=e211]
+                      - generic [ref=e213]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e214]:
+                      - img [ref=e215]
+                      - generic [ref=e217]: เที่ยวบินล่าช้า
+                - generic [ref=e218]:
+                  - generic [ref=e220]:
+                    - paragraph [ref=e221]: อายุ 76-90 ปี
+                    - paragraph [ref=e222]: ฿ 690
+                  - generic [ref=e223]:
+                    - button "ดูรายละเอียด" [ref=e224] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e225] [cursor=pointer]:
+                      - img "compare" [ref=e227]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e229] [cursor=pointer]
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - img "กรุงเทพประกันภัย" [ref=e234]
+                - generic [ref=e235]:
+                  - paragraph [ref=e236]: กรุงเทพประกันภัย
+                  - paragraph [ref=e237]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e238]
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]:
+                    - paragraph [ref=e242]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e243]: ฿ 2,000,000
+                  - generic [ref=e244]:
+                    - paragraph [ref=e245]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e246]: ฿ 2,000,000
+                  - generic [ref=e247]:
+                    - generic [ref=e248]:
+                      - img [ref=e249]
+                      - generic [ref=e251]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e252]:
+                      - img [ref=e253]
+                      - generic [ref=e255]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e256]:
+                      - img [ref=e257]
+                      - generic [ref=e259]: เที่ยวบินล่าช้า
+                - generic [ref=e260]:
+                  - generic [ref=e262]:
+                    - paragraph [ref=e263]: อายุ 1-75 ปี
+                    - paragraph [ref=e264]: ฿ 710
+                  - generic [ref=e265]:
+                    - button "ดูรายละเอียด" [ref=e266] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e267] [cursor=pointer]:
+                      - img "compare" [ref=e269]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e271] [cursor=pointer]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - img "กรุงเทพประกันภัย" [ref=e276]
+                - generic [ref=e277]:
+                  - paragraph [ref=e278]: กรุงเทพประกันภัย
+                  - paragraph [ref=e279]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e280]
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - paragraph [ref=e284]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e285]: ฿ 3,000,000
+                  - generic [ref=e286]:
+                    - paragraph [ref=e287]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e288]: ฿ 3,000,000
+                  - generic [ref=e289]:
+                    - generic [ref=e290]:
+                      - img [ref=e291]
+                      - generic [ref=e293]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e294]:
+                      - img [ref=e295]
+                      - generic [ref=e297]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e298]:
+                      - img [ref=e299]
+                      - generic [ref=e301]: เที่ยวบินล่าช้า
+                - generic [ref=e302]:
+                  - generic [ref=e304]:
+                    - paragraph [ref=e305]: อายุ 1-75 ปี
+                    - paragraph [ref=e306]: ฿ 1,000
+                  - generic [ref=e307]:
+                    - button "ดูรายละเอียด" [ref=e308] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e309] [cursor=pointer]:
+                      - img "compare" [ref=e311]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e313] [cursor=pointer]
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - img "กรุงเทพประกันภัย" [ref=e318]
+                - generic [ref=e319]:
+                  - paragraph [ref=e320]: กรุงเทพประกันภัย
+                  - paragraph [ref=e321]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e322]
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]:
+                    - paragraph [ref=e326]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e327]: ฿ 2,000,000
+                  - generic [ref=e328]:
+                    - paragraph [ref=e329]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e330]: ฿ 2,000,000
+                  - generic [ref=e331]:
+                    - generic [ref=e332]:
+                      - img [ref=e333]
+                      - generic [ref=e335]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e336]:
+                      - img [ref=e337]
+                      - generic [ref=e339]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e340]:
+                      - img [ref=e341]
+                      - generic [ref=e343]: เที่ยวบินล่าช้า
+                - generic [ref=e344]:
+                  - generic [ref=e346]:
+                    - paragraph [ref=e347]: อายุ 76-90 ปี
+                    - paragraph [ref=e348]: ฿ 1,065
+                  - generic [ref=e349]:
+                    - button "ดูรายละเอียด" [ref=e350] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e351] [cursor=pointer]:
+                      - img "compare" [ref=e353]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e355] [cursor=pointer]
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - img "กรุงเทพประกันภัย" [ref=e360]
+                - generic [ref=e361]:
+                  - paragraph [ref=e362]: กรุงเทพประกันภัย
+                  - paragraph [ref=e363]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e364]
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - generic [ref=e367]:
+                    - paragraph [ref=e368]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e369]: ฿ 3,000,000
+                  - generic [ref=e370]:
+                    - paragraph [ref=e371]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e372]: ฿ 3,000,000
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - img [ref=e375]
+                      - generic [ref=e377]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e378]:
+                      - img [ref=e379]
+                      - generic [ref=e381]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e382]:
+                      - img [ref=e383]
+                      - generic [ref=e385]: เที่ยวบินล่าช้า
+                - generic [ref=e386]:
+                  - generic [ref=e388]:
+                    - paragraph [ref=e389]: อายุ 76-90 ปี
+                    - paragraph [ref=e390]: ฿ 1,500
+                  - generic [ref=e391]:
+                    - button "ดูรายละเอียด" [ref=e392] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e393] [cursor=pointer]:
+                      - img "compare" [ref=e395]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e397] [cursor=pointer]
+          - generic [ref=e399]:
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - img "เมืองไทยประกันภัย" [ref=e404]
+                - generic [ref=e405]:
+                  - paragraph [ref=e406]: เมืองไทยประกันภัย
+                  - paragraph [ref=e407]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e408]:
+                - img "coupon-icon" [ref=e410]
+                - generic [ref=e411]:
+                  - paragraph [ref=e412]: ส่วนลด 5%
+                  - paragraph [ref=e413]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e414]:
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - paragraph [ref=e417]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e418]: ฿ 2,000,000
+                  - generic [ref=e419]:
+                    - paragraph [ref=e420]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e421]: ฿ 1,500,000
+                - generic [ref=e422]:
+                  - generic [ref=e424]:
+                    - paragraph [ref=e425]: อายุ 1-75 ปี
+                    - generic [ref=e426]:
+                      - img "discount" [ref=e427]
+                      - paragraph [ref=e428]: ฿ 282
+                    - paragraph [ref=e429]: ฿ 268
+                  - generic [ref=e430]:
+                    - button "ดูรายละเอียด" [ref=e431] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e432] [cursor=pointer]:
+                      - img "compare" [ref=e434]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e436] [cursor=pointer]
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - img "เมืองไทยประกันภัย" [ref=e441]
+                - generic [ref=e442]:
+                  - paragraph [ref=e443]: เมืองไทยประกันภัย
+                  - paragraph [ref=e444]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e445]:
+                - img "coupon-icon" [ref=e447]
+                - generic [ref=e448]:
+                  - paragraph [ref=e449]: ส่วนลด 5%
+                  - paragraph [ref=e450]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e451]:
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - paragraph [ref=e454]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e455]: ฿ 1,500,000
+                  - generic [ref=e456]:
+                    - paragraph [ref=e457]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e458]: ฿ 1,500,000
+                - generic [ref=e459]:
+                  - generic [ref=e461]:
+                    - paragraph [ref=e462]: อายุ 76-80 ปี
+                    - generic [ref=e463]:
+                      - img "discount" [ref=e464]
+                      - paragraph [ref=e465]: ฿ 282
+                    - paragraph [ref=e466]: ฿ 268
+                  - generic [ref=e467]:
+                    - button "ดูรายละเอียด" [ref=e468] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e469] [cursor=pointer]:
+                      - img "compare" [ref=e471]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e473] [cursor=pointer]
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - img "เมืองไทยประกันภัย" [ref=e478]
+                - generic [ref=e479]:
+                  - paragraph [ref=e480]: เมืองไทยประกันภัย
+                  - paragraph [ref=e481]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e482]:
+                - img "coupon-icon" [ref=e484]
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: ส่วนลด 5%
+                  - paragraph [ref=e487]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - paragraph [ref=e491]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e492]: ฿ 2,000,000
+                  - generic [ref=e493]:
+                    - paragraph [ref=e494]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e495]: ฿ 1,500,000
+                  - generic [ref=e496]:
+                    - generic [ref=e497]:
+                      - img [ref=e498]
+                      - generic [ref=e500]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e501]:
+                      - img [ref=e502]
+                      - generic [ref=e504]: เที่ยวบินล่าช้า
+                - generic [ref=e505]:
+                  - generic [ref=e507]:
+                    - paragraph [ref=e508]: อายุ 1-75 ปี
+                    - generic [ref=e509]:
+                      - img "discount" [ref=e510]
+                      - paragraph [ref=e511]: ฿ 303
+                    - paragraph [ref=e512]: ฿ 288
+                  - generic [ref=e513]:
+                    - button "ดูรายละเอียด" [ref=e514] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e515] [cursor=pointer]:
+                      - img "compare" [ref=e517]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e519] [cursor=pointer]
+            - generic [ref=e522]:
+              - generic [ref=e523]:
+                - img "เมืองไทยประกันภัย" [ref=e524]
+                - generic [ref=e525]:
+                  - paragraph [ref=e526]: เมืองไทยประกันภัย
+                  - paragraph [ref=e527]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e528]:
+                - img "coupon-icon" [ref=e530]
+                - generic [ref=e531]:
+                  - paragraph [ref=e532]: ส่วนลด 5%
+                  - paragraph [ref=e533]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - generic [ref=e536]:
+                    - paragraph [ref=e537]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e538]: ฿ 1,500,000
+                  - generic [ref=e539]:
+                    - paragraph [ref=e540]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e541]: ฿ 1,500,000
+                  - generic [ref=e542]:
+                    - generic [ref=e543]:
+                      - img [ref=e544]
+                      - generic [ref=e546]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e547]:
+                      - img [ref=e548]
+                      - generic [ref=e550]: เที่ยวบินล่าช้า
+                - generic [ref=e551]:
+                  - generic [ref=e553]:
+                    - paragraph [ref=e554]: อายุ 76-80 ปี
+                    - generic [ref=e555]:
+                      - img "discount" [ref=e556]
+                      - paragraph [ref=e557]: ฿ 303
+                    - paragraph [ref=e558]: ฿ 288
+                  - generic [ref=e559]:
+                    - button "ดูรายละเอียด" [ref=e560] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e561] [cursor=pointer]:
+                      - img "compare" [ref=e563]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e565] [cursor=pointer]
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - img "เมืองไทยประกันภัย" [ref=e570]
+                - generic [ref=e571]:
+                  - paragraph [ref=e572]: เมืองไทยประกันภัย
+                  - paragraph [ref=e573]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e574]:
+                - img "coupon-icon" [ref=e576]
+                - generic [ref=e577]:
+                  - paragraph [ref=e578]: ส่วนลด 5%
+                  - paragraph [ref=e579]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e580]:
+                - generic [ref=e581]:
+                  - generic [ref=e582]:
+                    - paragraph [ref=e583]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e584]: ฿ 2,000,000
+                  - generic [ref=e585]:
+                    - paragraph [ref=e586]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e587]: ฿ 1,500,000
+                  - generic [ref=e588]:
+                    - generic [ref=e589]:
+                      - img [ref=e590]
+                      - generic [ref=e592]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e593]:
+                      - img [ref=e594]
+                      - generic [ref=e596]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e597]:
+                      - img [ref=e598]
+                      - generic [ref=e600]: เที่ยวบินล่าช้า
+                - generic [ref=e601]:
+                  - generic [ref=e603]:
+                    - paragraph [ref=e604]: อายุ 1-75 ปี
+                    - generic [ref=e605]:
+                      - img "discount" [ref=e606]
+                      - paragraph [ref=e607]: ฿ 609
+                    - paragraph [ref=e608]: ฿ 580
+                  - generic [ref=e609]:
+                    - button "ดูรายละเอียด" [ref=e610] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e611] [cursor=pointer]:
+                      - img "compare" [ref=e613]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e615] [cursor=pointer]
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - img "เมืองไทยประกันภัย" [ref=e620]
+                - generic [ref=e621]:
+                  - paragraph [ref=e622]: เมืองไทยประกันภัย
+                  - paragraph [ref=e623]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e624]:
+                - img "coupon-icon" [ref=e626]
+                - generic [ref=e627]:
+                  - paragraph [ref=e628]: ส่วนลด 5%
+                  - paragraph [ref=e629]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e630]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]:
+                    - paragraph [ref=e633]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e634]: ฿ 1,500,000
+                  - generic [ref=e635]:
+                    - paragraph [ref=e636]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e637]: ฿ 1,500,000
+                  - generic [ref=e638]:
+                    - generic [ref=e639]:
+                      - img [ref=e640]
+                      - generic [ref=e642]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e643]:
+                      - img [ref=e644]
+                      - generic [ref=e646]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e647]:
+                      - img [ref=e648]
+                      - generic [ref=e650]: เที่ยวบินล่าช้า
+                - generic [ref=e651]:
+                  - generic [ref=e653]:
+                    - paragraph [ref=e654]: อายุ 76-80 ปี
+                    - generic [ref=e655]:
+                      - img "discount" [ref=e656]
+                      - paragraph [ref=e657]: ฿ 609
+                    - paragraph [ref=e658]: ฿ 580
+                  - generic [ref=e659]:
+                    - button "ดูรายละเอียด" [ref=e660] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e661] [cursor=pointer]:
+                      - img "compare" [ref=e663]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e665] [cursor=pointer]
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - img "เมืองไทยประกันภัย" [ref=e670]
+                - generic [ref=e671]:
+                  - paragraph [ref=e672]: เมืองไทยประกันภัย
+                  - paragraph [ref=e673]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e674]:
+                - img "coupon-icon" [ref=e676]
+                - generic [ref=e677]:
+                  - paragraph [ref=e678]: ส่วนลด 5%
+                  - paragraph [ref=e679]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e680]: For Lady
+              - generic [ref=e681]:
+                - generic [ref=e682]:
+                  - generic [ref=e683]:
+                    - paragraph [ref=e684]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e685]: ฿ 1,500,000
+                  - generic [ref=e686]:
+                    - paragraph [ref=e687]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e688]: ฿ 1,500,000
+                  - generic [ref=e689]:
+                    - generic [ref=e690]:
+                      - img [ref=e691]
+                      - generic [ref=e693]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e694]:
+                      - img [ref=e695]
+                      - generic [ref=e697]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e698]:
+                      - img [ref=e699]
+                      - generic [ref=e701]: เที่ยวบินล่าช้า
+                - generic [ref=e702]:
+                  - generic [ref=e704]:
+                    - paragraph [ref=e705]: อายุ 1-75 ปี
+                    - generic [ref=e706]:
+                      - img "discount" [ref=e707]
+                      - paragraph [ref=e708]: ฿ 650
+                    - paragraph [ref=e709]: ฿ 619
+                  - generic [ref=e710]:
+                    - button "ดูรายละเอียด" [ref=e711] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e712] [cursor=pointer]:
+                      - img "compare" [ref=e714]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e716] [cursor=pointer]
+            - generic [ref=e719]:
+              - generic [ref=e720]:
+                - img "เมืองไทยประกันภัย" [ref=e721]
+                - generic [ref=e722]:
+                  - paragraph [ref=e723]: เมืองไทยประกันภัย
+                  - paragraph [ref=e724]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e725]:
+                - img "coupon-icon" [ref=e727]
+                - generic [ref=e728]:
+                  - paragraph [ref=e729]: ส่วนลด 5%
+                  - paragraph [ref=e730]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e731]:
+                - generic [ref=e732]:
+                  - generic [ref=e733]:
+                    - paragraph [ref=e734]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e735]: ฿ 3,000,000
+                  - generic [ref=e736]:
+                    - paragraph [ref=e737]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e738]: ฿ 3,000,000
+                  - generic [ref=e739]:
+                    - generic [ref=e740]:
+                      - img [ref=e741]
+                      - generic [ref=e743]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e744]:
+                      - img [ref=e745]
+                      - generic [ref=e747]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e748]:
+                      - img [ref=e749]
+                      - generic [ref=e751]: เที่ยวบินล่าช้า
+                - generic [ref=e752]:
+                  - generic [ref=e754]:
+                    - paragraph [ref=e755]: อายุ 1-75 ปี
+                    - generic [ref=e756]:
+                      - img "discount" [ref=e757]
+                      - paragraph [ref=e758]: ฿ 807
+                    - paragraph [ref=e759]: ฿ 769
+                  - generic [ref=e760]:
+                    - button "ดูรายละเอียด" [ref=e761] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e762] [cursor=pointer]:
+                      - img "compare" [ref=e764]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e766] [cursor=pointer]
+            - generic [ref=e769]:
+              - generic [ref=e770]:
+                - img "เมืองไทยประกันภัย" [ref=e771]
+                - generic [ref=e772]:
+                  - paragraph [ref=e773]: เมืองไทยประกันภัย
+                  - paragraph [ref=e774]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e775]:
+                - img "coupon-icon" [ref=e777]
+                - generic [ref=e778]:
+                  - paragraph [ref=e779]: ส่วนลด 5%
+                  - paragraph [ref=e780]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e781]:
+                - generic [ref=e782]:
+                  - generic [ref=e783]:
+                    - paragraph [ref=e784]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e785]: ฿ 2,000,000
+                  - generic [ref=e786]:
+                    - paragraph [ref=e787]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e788]: ฿ 2,000,000
+                  - generic [ref=e789]:
+                    - generic [ref=e790]:
+                      - img [ref=e791]
+                      - generic [ref=e793]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e794]:
+                      - img [ref=e795]
+                      - generic [ref=e797]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e798]:
+                      - img [ref=e799]
+                      - generic [ref=e801]: เที่ยวบินล่าช้า
+                - generic [ref=e802]:
+                  - generic [ref=e804]:
+                    - paragraph [ref=e805]: อายุ 76-80 ปี
+                    - generic [ref=e806]:
+                      - img "discount" [ref=e807]
+                      - paragraph [ref=e808]: ฿ 807
+                    - paragraph [ref=e809]: ฿ 769
+                  - generic [ref=e810]:
+                    - button "ดูรายละเอียด" [ref=e811] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e812] [cursor=pointer]:
+                      - img "compare" [ref=e814]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e816] [cursor=pointer]
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - img "เมืองไทยประกันภัย" [ref=e821]
+                - generic [ref=e822]:
+                  - paragraph [ref=e823]: เมืองไทยประกันภัย
+                  - paragraph [ref=e824]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e825]:
+                - img "coupon-icon" [ref=e827]
+                - generic [ref=e828]:
+                  - paragraph [ref=e829]: ส่วนลด 5%
+                  - paragraph [ref=e830]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e831]: For Lady
+              - generic [ref=e832]:
+                - generic [ref=e833]:
+                  - generic [ref=e834]:
+                    - paragraph [ref=e835]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e836]: ฿ 2,000,000
+                  - generic [ref=e837]:
+                    - paragraph [ref=e838]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e839]: ฿ 2,000,000
+                  - generic [ref=e840]:
+                    - generic [ref=e841]:
+                      - img [ref=e842]
+                      - generic [ref=e844]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e845]:
+                      - img [ref=e846]
+                      - generic [ref=e848]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e849]:
+                      - img [ref=e850]
+                      - generic [ref=e852]: เที่ยวบินล่าช้า
+                - generic [ref=e853]:
+                  - generic [ref=e855]:
+                    - paragraph [ref=e856]: อายุ 1-75 ปี
+                    - generic [ref=e857]:
+                      - img "discount" [ref=e858]
+                      - paragraph [ref=e859]: ฿ 875
+                    - paragraph [ref=e860]: ฿ 834
+                  - generic [ref=e861]:
+                    - button "ดูรายละเอียด" [ref=e862] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e863] [cursor=pointer]:
+                      - img "compare" [ref=e865]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e867] [cursor=pointer]
+            - generic [ref=e870]:
+              - generic [ref=e871]:
+                - img "เมืองไทยประกันภัย" [ref=e872]
+                - generic [ref=e873]:
+                  - paragraph [ref=e874]: เมืองไทยประกันภัย
+                  - paragraph [ref=e875]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e876]:
+                - img "coupon-icon" [ref=e878]
+                - generic [ref=e879]:
+                  - paragraph [ref=e880]: ส่วนลด 5%
+                  - paragraph [ref=e881]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e882]: For Lady
+              - generic [ref=e883]:
+                - generic [ref=e884]:
+                  - generic [ref=e885]:
+                    - paragraph [ref=e886]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e887]: ฿ 3,000,000
+                  - generic [ref=e888]:
+                    - paragraph [ref=e889]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e890]: ฿ 3,000,000
+                  - generic [ref=e891]:
+                    - generic [ref=e892]:
+                      - img [ref=e893]
+                      - generic [ref=e895]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e896]:
+                      - img [ref=e897]
+                      - generic [ref=e899]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e900]:
+                      - img [ref=e901]
+                      - generic [ref=e903]: เที่ยวบินล่าช้า
+                - generic [ref=e904]:
+                  - generic [ref=e906]:
+                    - paragraph [ref=e907]: อายุ 1-75 ปี
+                    - generic [ref=e908]:
+                      - img "discount" [ref=e909]
+                      - paragraph [ref=e910]: ฿ 1,275
+                    - paragraph [ref=e911]: ฿ 1,215
+                  - generic [ref=e912]:
+                    - button "ดูรายละเอียด" [ref=e913] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e914] [cursor=pointer]:
+                      - img "compare" [ref=e916]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e918] [cursor=pointer]
+            - generic [ref=e921]:
+              - generic [ref=e922]:
+                - img "เมืองไทยประกันภัย" [ref=e923]
+                - generic [ref=e924]:
+                  - paragraph [ref=e925]: เมืองไทยประกันภัย
+                  - paragraph [ref=e926]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e927]:
+                - img "coupon-icon" [ref=e929]
+                - generic [ref=e930]:
+                  - paragraph [ref=e931]: ส่วนลด 5%
+                  - paragraph [ref=e932]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e933]:
+                - generic [ref=e934]:
+                  - generic [ref=e935]:
+                    - paragraph [ref=e936]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e937]: ฿ 5,000,000
+                  - generic [ref=e938]:
+                    - paragraph [ref=e939]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e940]: ฿ 5,000,000
+                  - generic [ref=e941]:
+                    - generic [ref=e942]:
+                      - img [ref=e943]
+                      - generic [ref=e945]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e946]:
+                      - img [ref=e947]
+                      - generic [ref=e949]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e950]:
+                      - img [ref=e951]
+                      - generic [ref=e953]: เที่ยวบินล่าช้า
+                - generic [ref=e954]:
+                  - generic [ref=e956]:
+                    - paragraph [ref=e957]: อายุ 1-75 ปี
+                    - generic [ref=e958]:
+                      - img "discount" [ref=e959]
+                      - paragraph [ref=e960]: ฿ 1,380
+                    - paragraph [ref=e961]: ฿ 1,315
+                  - generic [ref=e962]:
+                    - button "ดูรายละเอียด" [ref=e963] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e964] [cursor=pointer]:
+                      - img "compare" [ref=e966]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e968] [cursor=pointer]
+            - generic [ref=e971]:
+              - generic [ref=e972]:
+                - img "เมืองไทยประกันภัย" [ref=e973]
+                - generic [ref=e974]:
+                  - paragraph [ref=e975]: เมืองไทยประกันภัย
+                  - paragraph [ref=e976]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e977]:
+                - img "coupon-icon" [ref=e979]
+                - generic [ref=e980]:
+                  - paragraph [ref=e981]: ส่วนลด 5%
+                  - paragraph [ref=e982]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e983]:
+                - generic [ref=e984]:
+                  - generic [ref=e985]:
+                    - paragraph [ref=e986]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e987]: ฿ 3,000,000
+                  - generic [ref=e988]:
+                    - paragraph [ref=e989]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e990]: ฿ 3,000,000
+                  - generic [ref=e991]:
+                    - generic [ref=e992]:
+                      - img [ref=e993]
+                      - generic [ref=e995]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e996]:
+                      - img [ref=e997]
+                      - generic [ref=e999]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1000]:
+                      - img [ref=e1001]
+                      - generic [ref=e1003]: เที่ยวบินล่าช้า
+                - generic [ref=e1004]:
+                  - generic [ref=e1006]:
+                    - paragraph [ref=e1007]: อายุ 76-80 ปี
+                    - generic [ref=e1008]:
+                      - img "discount" [ref=e1009]
+                      - paragraph [ref=e1010]: ฿ 1,380
+                    - paragraph [ref=e1011]: ฿ 1,315
+                  - generic [ref=e1012]:
+                    - button "ดูรายละเอียด" [ref=e1013] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1014] [cursor=pointer]:
+                      - img "compare" [ref=e1016]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1018] [cursor=pointer]
+            - generic [ref=e1021]:
+              - generic [ref=e1022]:
+                - img "เมืองไทยประกันภัย" [ref=e1023]
+                - generic [ref=e1024]:
+                  - paragraph [ref=e1025]: เมืองไทยประกันภัย
+                  - paragraph [ref=e1026]: ประกันเดินทางรายเที่ยว
+              - generic [ref=e1027]:
+                - img "coupon-icon" [ref=e1029]
+                - generic [ref=e1030]:
+                  - paragraph [ref=e1031]: ส่วนลด 5%
+                  - paragraph [ref=e1032]: คูปอง (เฉพาะช่องทางออนไลน์เท่านั้น)
+              - generic [ref=e1033]: For Lady
+              - generic [ref=e1034]:
+                - generic [ref=e1035]:
+                  - generic [ref=e1036]:
+                    - paragraph [ref=e1037]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1038]: ฿ 5,000,000
+                  - generic [ref=e1039]:
+                    - paragraph [ref=e1040]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1041]: ฿ 5,000,000
+                  - generic [ref=e1042]:
+                    - generic [ref=e1043]:
+                      - img [ref=e1044]
+                      - generic [ref=e1046]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1047]:
+                      - img [ref=e1048]
+                      - generic [ref=e1050]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1051]:
+                      - img [ref=e1052]
+                      - generic [ref=e1054]: เที่ยวบินล่าช้า
+                - generic [ref=e1055]:
+                  - generic [ref=e1057]:
+                    - paragraph [ref=e1058]: อายุ 1-75 ปี
+                    - generic [ref=e1059]:
+                      - img "discount" [ref=e1060]
+                      - paragraph [ref=e1061]: ฿ 2,075
+                    - paragraph [ref=e1062]: ฿ 1,978
+                  - generic [ref=e1063]:
+                    - button "ดูรายละเอียด" [ref=e1064] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1065] [cursor=pointer]:
+                      - img "compare" [ref=e1067]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1069] [cursor=pointer]
+          - generic [ref=e1071]:
+            - generic [ref=e1074]:
+              - generic [ref=e1075]:
+                - img "ทูนประกันภัย" [ref=e1076]
+                - generic [ref=e1077]:
+                  - paragraph [ref=e1078]: ทูนประกันภัย
+                  - paragraph [ref=e1079]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1080]
+              - generic [ref=e1081]:
+                - generic [ref=e1082]:
+                  - generic [ref=e1083]:
+                    - paragraph [ref=e1084]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1085]: ฿ 600,000
+                  - generic [ref=e1086]:
+                    - paragraph [ref=e1087]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1088]: ฿ 1,000,000
+                  - generic [ref=e1089]:
+                    - generic [ref=e1090]:
+                      - img [ref=e1091]
+                      - generic [ref=e1093]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1094]:
+                      - img [ref=e1095]
+                      - generic [ref=e1097]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1098]:
+                      - img [ref=e1099]
+                      - generic [ref=e1101]: เที่ยวบินล่าช้า
+                - generic [ref=e1102]:
+                  - generic [ref=e1104]:
+                    - paragraph [ref=e1105]: อายุ 1-85 ปี
+                    - paragraph [ref=e1106]: ฿ 306
+                  - generic [ref=e1107]:
+                    - button "ดูรายละเอียด" [ref=e1108] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1109] [cursor=pointer]:
+                      - img "compare" [ref=e1111]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1113] [cursor=pointer]
+            - generic [ref=e1116]:
+              - generic [ref=e1117]:
+                - img "ทูนประกันภัย" [ref=e1118]
+                - generic [ref=e1119]:
+                  - paragraph [ref=e1120]: ทูนประกันภัย
+                  - paragraph [ref=e1121]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1122]
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]:
+                    - paragraph [ref=e1126]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1127]: ฿ 1,500,000
+                  - generic [ref=e1128]:
+                    - paragraph [ref=e1129]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1130]: ฿ 1,500,000
+                  - generic [ref=e1131]:
+                    - generic [ref=e1132]:
+                      - img [ref=e1133]
+                      - generic [ref=e1135]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1136]:
+                      - img [ref=e1137]
+                      - generic [ref=e1139]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1140]:
+                      - img [ref=e1141]
+                      - generic [ref=e1143]: เที่ยวบินล่าช้า
+                - generic [ref=e1144]:
+                  - generic [ref=e1146]:
+                    - paragraph [ref=e1147]: อายุ 1-85 ปี
+                    - paragraph [ref=e1148]: ฿ 685
+                  - generic [ref=e1149]:
+                    - button "ดูรายละเอียด" [ref=e1150] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1151] [cursor=pointer]:
+                      - img "compare" [ref=e1153]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1155] [cursor=pointer]
+            - generic [ref=e1158]:
+              - generic [ref=e1159]:
+                - img "ทูนประกันภัย" [ref=e1160]
+                - generic [ref=e1161]:
+                  - paragraph [ref=e1162]: ทูนประกันภัย
+                  - paragraph [ref=e1163]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1164]
+              - generic [ref=e1165]:
+                - generic [ref=e1166]:
+                  - generic [ref=e1167]:
+                    - paragraph [ref=e1168]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1169]: ฿ 3,000,000
+                  - generic [ref=e1170]:
+                    - paragraph [ref=e1171]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1172]: ฿ 4,000,000
+                  - generic [ref=e1173]:
+                    - generic [ref=e1174]:
+                      - img [ref=e1175]
+                      - generic [ref=e1177]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1178]:
+                      - img [ref=e1179]
+                      - generic [ref=e1181]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1182]:
+                      - img [ref=e1183]
+                      - generic [ref=e1185]: เที่ยวบินล่าช้า
+                    - generic [ref=e1186]:
+                      - img [ref=e1187]
+                      - generic [ref=e1189]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1190]:
+                  - generic [ref=e1192]:
+                    - paragraph [ref=e1193]: อายุ 1-85 ปี
+                    - paragraph [ref=e1194]: ฿ 1,090
+                  - generic [ref=e1195]:
+                    - button "ดูรายละเอียด" [ref=e1196] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1197] [cursor=pointer]:
+                      - img "compare" [ref=e1199]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1201] [cursor=pointer]
+            - generic [ref=e1204]:
+              - generic [ref=e1205]:
+                - img "ทูนประกันภัย" [ref=e1206]
+                - generic [ref=e1207]:
+                  - paragraph [ref=e1208]: ทูนประกันภัย
+                  - paragraph [ref=e1209]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1210]
+              - generic [ref=e1211]:
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]:
+                    - paragraph [ref=e1214]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1215]: ฿ 4,000,000
+                  - generic [ref=e1216]:
+                    - paragraph [ref=e1217]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1218]: ฿ 5,000,000
+                  - generic [ref=e1219]:
+                    - generic [ref=e1220]:
+                      - img [ref=e1221]
+                      - generic [ref=e1223]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1224]:
+                      - img [ref=e1225]
+                      - generic [ref=e1227]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1228]:
+                      - img [ref=e1229]
+                      - generic [ref=e1231]: เที่ยวบินล่าช้า
+                    - generic [ref=e1232]:
+                      - img [ref=e1233]
+                      - generic [ref=e1235]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1236]:
+                  - generic [ref=e1238]:
+                    - paragraph [ref=e1239]: อายุ 1-85 ปี
+                    - paragraph [ref=e1240]: ฿ 1,592
+                  - generic [ref=e1241]:
+                    - button "ดูรายละเอียด" [ref=e1242] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1243] [cursor=pointer]:
+                      - img "compare" [ref=e1245]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1247] [cursor=pointer]
+          - generic [ref=e1249]:
+            - generic [ref=e1252]:
+              - generic [ref=e1253]:
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e1254]
+                - generic [ref=e1255]:
+                  - paragraph [ref=e1256]: ประกันภัยไทยวิวัฒน์
+                  - paragraph [ref=e1257]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1258]
+              - generic [ref=e1259]:
+                - generic [ref=e1260]:
+                  - generic [ref=e1261]:
+                    - paragraph [ref=e1262]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1263]: ฿ 2,000,000
+                  - generic [ref=e1264]:
+                    - paragraph [ref=e1265]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1266]: ฿ 2,000,000
+                  - generic [ref=e1267]:
+                    - generic [ref=e1268]:
+                      - img [ref=e1269]
+                      - generic [ref=e1271]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1272]:
+                      - img [ref=e1273]
+                      - generic [ref=e1275]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1276]:
+                  - generic [ref=e1278]:
+                    - paragraph [ref=e1279]: อายุ 1-75 ปี
+                    - paragraph [ref=e1280]: ฿ 350
+                  - generic [ref=e1281]:
+                    - button "ดูรายละเอียด" [ref=e1282] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1283] [cursor=pointer]:
+                      - img "compare" [ref=e1285]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1287] [cursor=pointer]
+            - generic [ref=e1290]:
+              - generic [ref=e1291]:
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e1292]
+                - generic [ref=e1293]:
+                  - paragraph [ref=e1294]: ประกันภัยไทยวิวัฒน์
+                  - paragraph [ref=e1295]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1296]
+              - generic [ref=e1297]:
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]:
+                    - paragraph [ref=e1300]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1301]: ฿ 2,000,000
+                  - generic [ref=e1302]:
+                    - paragraph [ref=e1303]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1304]: ฿ 2,000,000
+                  - generic [ref=e1305]:
+                    - generic [ref=e1306]:
+                      - img [ref=e1307]
+                      - generic [ref=e1309]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1310]:
+                      - img [ref=e1311]
+                      - generic [ref=e1313]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1314]:
+                  - generic [ref=e1316]:
+                    - paragraph [ref=e1317]: อายุ 1-75 ปี
+                    - paragraph [ref=e1318]: ฿ 450
+                  - generic [ref=e1319]:
+                    - button "ดูรายละเอียด" [ref=e1320] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1321] [cursor=pointer]:
+                      - img "compare" [ref=e1323]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1325] [cursor=pointer]
+            - generic [ref=e1328]:
+              - generic [ref=e1329]:
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e1330]
+                - generic [ref=e1331]:
+                  - paragraph [ref=e1332]: ประกันภัยไทยวิวัฒน์
+                  - paragraph [ref=e1333]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1334]
+              - generic [ref=e1335]:
+                - generic [ref=e1336]:
+                  - generic [ref=e1337]:
+                    - paragraph [ref=e1338]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1339]: ฿ 2,000,000
+                  - generic [ref=e1340]:
+                    - paragraph [ref=e1341]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1342]: ฿ 2,000,000
+                  - generic [ref=e1343]:
+                    - generic [ref=e1344]:
+                      - img [ref=e1345]
+                      - generic [ref=e1347]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1348]:
+                      - img [ref=e1349]
+                      - generic [ref=e1351]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1352]:
+                  - generic [ref=e1354]:
+                    - paragraph [ref=e1355]: อายุ 76-85 ปี
+                    - paragraph [ref=e1356]: ฿ 698
+                  - generic [ref=e1357]:
+                    - button "ดูรายละเอียด" [ref=e1358] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1359] [cursor=pointer]:
+                      - img "compare" [ref=e1361]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1363] [cursor=pointer]
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e1368]
+                - generic [ref=e1369]:
+                  - paragraph [ref=e1370]: ประกันภัยไทยวิวัฒน์
+                  - paragraph [ref=e1371]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1372]
+              - generic [ref=e1373]:
+                - generic [ref=e1374]:
+                  - generic [ref=e1375]:
+                    - paragraph [ref=e1376]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1377]: ฿ 3,000,000
+                  - generic [ref=e1378]:
+                    - paragraph [ref=e1379]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1380]: ฿ 3,000,000
+                  - generic [ref=e1381]:
+                    - generic [ref=e1382]:
+                      - img [ref=e1383]
+                      - generic [ref=e1385]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1386]:
+                      - img [ref=e1387]
+                      - generic [ref=e1389]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1390]:
+                  - generic [ref=e1392]:
+                    - paragraph [ref=e1393]: อายุ 1-75 ปี
+                    - paragraph [ref=e1394]: ฿ 715
+                  - generic [ref=e1395]:
+                    - button "ดูรายละเอียด" [ref=e1396] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1397] [cursor=pointer]:
+                      - img "compare" [ref=e1399]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1401] [cursor=pointer]
+            - generic [ref=e1404]:
+              - generic [ref=e1405]:
+                - img "ประกันภัยไทยวิวัฒน์" [ref=e1406]
+                - generic [ref=e1407]:
+                  - paragraph [ref=e1408]: ประกันภัยไทยวิวัฒน์
+                  - paragraph [ref=e1409]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1410]
+              - generic [ref=e1411]:
+                - generic [ref=e1412]:
+                  - generic [ref=e1413]:
+                    - paragraph [ref=e1414]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1415]: ฿ 5,000,000
+                  - generic [ref=e1416]:
+                    - paragraph [ref=e1417]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1418]: ฿ 5,000,000
+                  - generic [ref=e1419]:
+                    - generic [ref=e1420]:
+                      - img [ref=e1421]
+                      - generic [ref=e1423]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1424]:
+                      - img [ref=e1425]
+                      - generic [ref=e1427]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1428]:
+                  - generic [ref=e1430]:
+                    - paragraph [ref=e1431]: อายุ 1-75 ปี
+                    - paragraph [ref=e1432]: ฿ 1,290
+                  - generic [ref=e1433]:
+                    - button "ดูรายละเอียด" [ref=e1434] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1435] [cursor=pointer]:
+                      - img "compare" [ref=e1437]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1439] [cursor=pointer]
+          - generic [ref=e1441]:
+            - generic [ref=e1444]:
+              - generic [ref=e1445]:
+                - img "ทิพยประกันภัย" [ref=e1446]
+                - generic [ref=e1447]:
+                  - paragraph [ref=e1448]: ทิพยประกันภัย
+                  - paragraph [ref=e1449]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1450]
+              - generic [ref=e1451]:
+                - generic [ref=e1452]:
+                  - generic [ref=e1453]:
+                    - paragraph [ref=e1454]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1455]: ฿ 500,000
+                  - generic [ref=e1456]:
+                    - paragraph [ref=e1457]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1458]: ฿ 1,000,000
+                  - generic [ref=e1460]:
+                    - img [ref=e1461]
+                    - generic [ref=e1463]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1464]:
+                  - generic [ref=e1466]:
+                    - paragraph [ref=e1467]: อายุ 1-85 ปี
+                    - paragraph [ref=e1468]: ฿ 381
+                  - generic [ref=e1469]:
+                    - button "ดูรายละเอียด" [ref=e1470] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1471] [cursor=pointer]:
+                      - img "compare" [ref=e1473]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1475] [cursor=pointer]
+            - generic [ref=e1478]:
+              - generic [ref=e1479]:
+                - img "ทิพยประกันภัย" [ref=e1480]
+                - generic [ref=e1481]:
+                  - paragraph [ref=e1482]: ทิพยประกันภัย
+                  - paragraph [ref=e1483]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1484]
+              - generic [ref=e1485]:
+                - generic [ref=e1486]:
+                  - generic [ref=e1487]:
+                    - paragraph [ref=e1488]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1489]: ฿ 1,500,000
+                  - generic [ref=e1490]:
+                    - paragraph [ref=e1491]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1492]: ฿ 2,000,000
+                  - generic [ref=e1493]:
+                    - generic [ref=e1494]:
+                      - img [ref=e1495]
+                      - generic [ref=e1497]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1498]:
+                      - img [ref=e1499]
+                      - generic [ref=e1501]: ยกเลิกเที่ยวบิน
+                - generic [ref=e1502]:
+                  - generic [ref=e1504]:
+                    - paragraph [ref=e1505]: อายุ 1-85 ปี
+                    - paragraph [ref=e1506]: ฿ 1,014
+                  - generic [ref=e1507]:
+                    - button "ดูรายละเอียด" [ref=e1508] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1509] [cursor=pointer]:
+                      - img "compare" [ref=e1511]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1513] [cursor=pointer]
+            - generic [ref=e1516]:
+              - generic [ref=e1517]:
+                - img "ทิพยประกันภัย" [ref=e1518]
+                - generic [ref=e1519]:
+                  - paragraph [ref=e1520]: ทิพยประกันภัย
+                  - paragraph [ref=e1521]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1522]
+              - generic [ref=e1523]:
+                - generic [ref=e1524]:
+                  - generic [ref=e1525]:
+                    - paragraph [ref=e1526]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1527]: ฿ 2,000,000
+                  - generic [ref=e1528]:
+                    - paragraph [ref=e1529]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1530]: ฿ 2,000,000
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]:
+                      - img [ref=e1533]
+                      - generic [ref=e1535]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1536]:
+                      - img [ref=e1537]
+                      - generic [ref=e1539]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1540]:
+                      - img [ref=e1541]
+                      - generic [ref=e1543]: เที่ยวบินล่าช้า
+                - generic [ref=e1544]:
+                  - generic [ref=e1546]:
+                    - paragraph [ref=e1547]: อายุ 1-85 ปี
+                    - paragraph [ref=e1548]: ฿ 1,224
+                  - generic [ref=e1549]:
+                    - button "ดูรายละเอียด" [ref=e1550] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1551] [cursor=pointer]:
+                      - img "compare" [ref=e1553]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1555] [cursor=pointer]
+            - generic [ref=e1558]:
+              - generic [ref=e1559]:
+                - img "ทิพยประกันภัย" [ref=e1560]
+                - generic [ref=e1561]:
+                  - paragraph [ref=e1562]: ทิพยประกันภัย
+                  - paragraph [ref=e1563]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1564]
+              - generic [ref=e1565]:
+                - generic [ref=e1566]:
+                  - generic [ref=e1567]:
+                    - paragraph [ref=e1568]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1569]: ฿ 3,000,000
+                  - generic [ref=e1570]:
+                    - paragraph [ref=e1571]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1572]: ฿ 3,000,000
+                  - generic [ref=e1573]:
+                    - generic [ref=e1574]:
+                      - img [ref=e1575]
+                      - generic [ref=e1577]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1578]:
+                      - img [ref=e1579]
+                      - generic [ref=e1581]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1582]:
+                      - img [ref=e1583]
+                      - generic [ref=e1585]: เที่ยวบินล่าช้า
+                - generic [ref=e1586]:
+                  - generic [ref=e1588]:
+                    - paragraph [ref=e1589]: อายุ 1-75 ปี
+                    - paragraph [ref=e1590]: ฿ 1,997
+                  - generic [ref=e1591]:
+                    - button "ดูรายละเอียด" [ref=e1592] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1593] [cursor=pointer]:
+                      - img "compare" [ref=e1595]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1597] [cursor=pointer]
+            - generic [ref=e1600]:
+              - generic [ref=e1601]:
+                - img "ทิพยประกันภัย" [ref=e1602]
+                - generic [ref=e1603]:
+                  - paragraph [ref=e1604]: ทิพยประกันภัย
+                  - paragraph [ref=e1605]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1606]
+              - generic [ref=e1607]:
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]:
+                    - paragraph [ref=e1610]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1611]: ฿ 5,000,000
+                  - generic [ref=e1612]:
+                    - paragraph [ref=e1613]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1614]: ฿ 5,000,000
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]:
+                      - img [ref=e1617]
+                      - generic [ref=e1619]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1620]:
+                      - img [ref=e1621]
+                      - generic [ref=e1623]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1624]:
+                      - img [ref=e1625]
+                      - generic [ref=e1627]: เที่ยวบินล่าช้า
+                - generic [ref=e1628]:
+                  - generic [ref=e1630]:
+                    - paragraph [ref=e1631]: อายุ 1-75 ปี
+                    - paragraph [ref=e1632]: ฿ 3,311
+                  - generic [ref=e1633]:
+                    - button "ดูรายละเอียด" [ref=e1634] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1635] [cursor=pointer]:
+                      - img "compare" [ref=e1637]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1639] [cursor=pointer]
+          - generic [ref=e1641]:
+            - generic [ref=e1644]:
+              - generic [ref=e1645]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1646]
+                - generic [ref=e1647]:
+                  - paragraph [ref=e1648]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1649]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1650]
+              - generic [ref=e1651]:
+                - generic [ref=e1652]:
+                  - generic [ref=e1653]:
+                    - paragraph [ref=e1654]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1655]: ฿ 2,000,000
+                  - generic [ref=e1656]:
+                    - paragraph [ref=e1657]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1658]: ฿ 1,500,000
+                  - generic [ref=e1660]:
+                    - img [ref=e1661]
+                    - generic [ref=e1663]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1664]:
+                  - generic [ref=e1666]:
+                    - paragraph [ref=e1667]: อายุ 15-70 ปี
+                    - paragraph [ref=e1668]: ฿ 400
+                  - generic [ref=e1669]:
+                    - button "ดูรายละเอียด" [ref=e1670] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1671] [cursor=pointer]:
+                      - img "compare" [ref=e1673]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1675] [cursor=pointer]
+            - generic [ref=e1678]:
+              - generic [ref=e1679]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1680]
+                - generic [ref=e1681]:
+                  - paragraph [ref=e1682]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1683]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1684]
+              - generic [ref=e1685]:
+                - generic [ref=e1686]:
+                  - generic [ref=e1687]:
+                    - paragraph [ref=e1688]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1689]: ฿ 2,000,000
+                  - generic [ref=e1690]:
+                    - paragraph [ref=e1691]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1692]: ฿ 1,500,000
+                  - generic [ref=e1694]:
+                    - img [ref=e1695]
+                    - generic [ref=e1697]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1698]:
+                  - generic [ref=e1700]:
+                    - paragraph [ref=e1701]: อายุ 1-14 ปี
+                    - paragraph [ref=e1702]: ฿ 400
+                  - generic [ref=e1703]:
+                    - button "ดูรายละเอียด" [ref=e1704] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1705] [cursor=pointer]:
+                      - img "compare" [ref=e1707]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1709] [cursor=pointer]
+            - generic [ref=e1712]:
+              - generic [ref=e1713]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1714]
+                - generic [ref=e1715]:
+                  - paragraph [ref=e1716]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1717]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1718]
+              - generic [ref=e1719]:
+                - generic [ref=e1720]:
+                  - generic [ref=e1721]:
+                    - paragraph [ref=e1722]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1723]: ฿ 2,000,000
+                  - generic [ref=e1724]:
+                    - paragraph [ref=e1725]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1726]: ฿ 2,000,000
+                  - generic [ref=e1727]:
+                    - generic [ref=e1728]:
+                      - img [ref=e1729]
+                      - generic [ref=e1731]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1732]:
+                      - img [ref=e1733]
+                      - generic [ref=e1735]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1736]:
+                      - img [ref=e1737]
+                      - generic [ref=e1739]: เที่ยวบินล่าช้า
+                    - generic [ref=e1740]:
+                      - img [ref=e1741]
+                      - generic [ref=e1743]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1744]:
+                  - generic [ref=e1746]:
+                    - paragraph [ref=e1747]: อายุ 15-70 ปี
+                    - paragraph [ref=e1748]: ฿ 594
+                  - generic [ref=e1749]:
+                    - button "ดูรายละเอียด" [ref=e1750] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1751] [cursor=pointer]:
+                      - img "compare" [ref=e1753]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1755] [cursor=pointer]
+            - generic [ref=e1758]:
+              - generic [ref=e1759]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1760]
+                - generic [ref=e1761]:
+                  - paragraph [ref=e1762]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1763]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1764]
+              - generic [ref=e1765]:
+                - generic [ref=e1766]:
+                  - generic [ref=e1767]:
+                    - paragraph [ref=e1768]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1769]: ฿ 2,000,000
+                  - generic [ref=e1770]:
+                    - paragraph [ref=e1771]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1772]: ฿ 1,500,000
+                  - generic [ref=e1773]:
+                    - generic [ref=e1774]:
+                      - img [ref=e1775]
+                      - generic [ref=e1777]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1778]:
+                      - img [ref=e1779]
+                      - generic [ref=e1781]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1782]:
+                      - img [ref=e1783]
+                      - generic [ref=e1785]: เที่ยวบินล่าช้า
+                    - generic [ref=e1786]:
+                      - img [ref=e1787]
+                      - generic [ref=e1789]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1790]:
+                  - generic [ref=e1792]:
+                    - paragraph [ref=e1793]: อายุ 1-14 ปี
+                    - paragraph [ref=e1794]: ฿ 594
+                  - generic [ref=e1795]:
+                    - button "ดูรายละเอียด" [ref=e1796] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1797] [cursor=pointer]:
+                      - img "compare" [ref=e1799]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1801] [cursor=pointer]
+            - generic [ref=e1804]:
+              - generic [ref=e1805]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1806]
+                - generic [ref=e1807]:
+                  - paragraph [ref=e1808]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1809]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1810]
+              - generic [ref=e1811]:
+                - generic [ref=e1812]:
+                  - generic [ref=e1813]:
+                    - paragraph [ref=e1814]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1815]: ฿ 2,000,000
+                  - generic [ref=e1816]:
+                    - paragraph [ref=e1817]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1818]: ฿ 1,500,000
+                  - generic [ref=e1820]:
+                    - img [ref=e1821]
+                    - generic [ref=e1823]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1824]:
+                  - generic [ref=e1826]:
+                    - paragraph [ref=e1827]: อายุ 71-75 ปี
+                    - paragraph [ref=e1828]: ฿ 600
+                  - generic [ref=e1829]:
+                    - button "ดูรายละเอียด" [ref=e1830] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1831] [cursor=pointer]:
+                      - img "compare" [ref=e1833]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1835] [cursor=pointer]
+            - generic [ref=e1838]:
+              - generic [ref=e1839]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1840]
+                - generic [ref=e1841]:
+                  - paragraph [ref=e1842]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1843]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1844]
+              - generic [ref=e1845]:
+                - generic [ref=e1846]:
+                  - generic [ref=e1847]:
+                    - paragraph [ref=e1848]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1849]: ฿ 1,500,000
+                  - generic [ref=e1850]:
+                    - paragraph [ref=e1851]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1852]: ฿ 750,000
+                  - generic [ref=e1854]:
+                    - img [ref=e1855]
+                    - generic [ref=e1857]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1858]:
+                  - generic [ref=e1860]:
+                    - paragraph [ref=e1861]: อายุ 76-80 ปี
+                    - paragraph [ref=e1862]: ฿ 600
+                  - generic [ref=e1863]:
+                    - button "ดูรายละเอียด" [ref=e1864] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1865] [cursor=pointer]:
+                      - img "compare" [ref=e1867]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1869] [cursor=pointer]
+            - generic [ref=e1872]:
+              - generic [ref=e1873]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1874]
+                - generic [ref=e1875]:
+                  - paragraph [ref=e1876]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1877]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1878]
+              - generic [ref=e1879]:
+                - generic [ref=e1880]:
+                  - generic [ref=e1881]:
+                    - paragraph [ref=e1882]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1883]: ฿ 2,000,000
+                  - generic [ref=e1884]:
+                    - paragraph [ref=e1885]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1886]: ฿ 3,000,000
+                  - generic [ref=e1887]:
+                    - generic [ref=e1888]:
+                      - img [ref=e1889]
+                      - generic [ref=e1891]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1892]:
+                      - img [ref=e1893]
+                      - generic [ref=e1895]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1896]:
+                      - img [ref=e1897]
+                      - generic [ref=e1899]: เที่ยวบินล่าช้า
+                    - generic [ref=e1900]:
+                      - img [ref=e1901]
+                      - generic [ref=e1903]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1904]:
+                  - generic [ref=e1906]:
+                    - paragraph [ref=e1907]: อายุ 15-70 ปี
+                    - paragraph [ref=e1908]: ฿ 856
+                  - generic [ref=e1909]:
+                    - button "ดูรายละเอียด" [ref=e1910] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1911] [cursor=pointer]:
+                      - img "compare" [ref=e1913]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1915] [cursor=pointer]
+            - generic [ref=e1918]:
+              - generic [ref=e1919]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1920]
+                - generic [ref=e1921]:
+                  - paragraph [ref=e1922]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1923]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1924]
+              - generic [ref=e1925]:
+                - generic [ref=e1926]:
+                  - generic [ref=e1927]:
+                    - paragraph [ref=e1928]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1929]: ฿ 2,000,000
+                  - generic [ref=e1930]:
+                    - paragraph [ref=e1931]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1932]: ฿ 1,500,000
+                  - generic [ref=e1933]:
+                    - generic [ref=e1934]:
+                      - img [ref=e1935]
+                      - generic [ref=e1937]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1938]:
+                      - img [ref=e1939]
+                      - generic [ref=e1941]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1942]:
+                      - img [ref=e1943]
+                      - generic [ref=e1945]: เที่ยวบินล่าช้า
+                    - generic [ref=e1946]:
+                      - img [ref=e1947]
+                      - generic [ref=e1949]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1950]:
+                  - generic [ref=e1952]:
+                    - paragraph [ref=e1953]: อายุ 1-14 ปี
+                    - paragraph [ref=e1954]: ฿ 856
+                  - generic [ref=e1955]:
+                    - button "ดูรายละเอียด" [ref=e1956] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e1957] [cursor=pointer]:
+                      - img "compare" [ref=e1959]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e1961] [cursor=pointer]
+            - generic [ref=e1964]:
+              - generic [ref=e1965]:
+                - img "เอ็ม เอส ไอ จี" [ref=e1966]
+                - generic [ref=e1967]:
+                  - paragraph [ref=e1968]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e1969]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e1970]
+              - generic [ref=e1971]:
+                - generic [ref=e1972]:
+                  - generic [ref=e1973]:
+                    - paragraph [ref=e1974]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e1975]: ฿ 2,000,000
+                  - generic [ref=e1976]:
+                    - paragraph [ref=e1977]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e1978]: ฿ 2,000,000
+                  - generic [ref=e1979]:
+                    - generic [ref=e1980]:
+                      - img [ref=e1981]
+                      - generic [ref=e1983]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e1984]:
+                      - img [ref=e1985]
+                      - generic [ref=e1987]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e1988]:
+                      - img [ref=e1989]
+                      - generic [ref=e1991]: เที่ยวบินล่าช้า
+                    - generic [ref=e1992]:
+                      - img [ref=e1993]
+                      - generic [ref=e1995]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e1996]:
+                  - generic [ref=e1998]:
+                    - paragraph [ref=e1999]: อายุ 71-75 ปี
+                    - paragraph [ref=e2000]: ฿ 891
+                  - generic [ref=e2001]:
+                    - button "ดูรายละเอียด" [ref=e2002] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2003] [cursor=pointer]:
+                      - img "compare" [ref=e2005]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2007] [cursor=pointer]
+            - generic [ref=e2010]:
+              - generic [ref=e2011]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2012]
+                - generic [ref=e2013]:
+                  - paragraph [ref=e2014]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2015]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2016]
+              - generic [ref=e2017]:
+                - generic [ref=e2018]:
+                  - generic [ref=e2019]:
+                    - paragraph [ref=e2020]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2021]: ฿ 1,500,000
+                  - generic [ref=e2022]:
+                    - paragraph [ref=e2023]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2024]: ฿ 750,000
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]:
+                      - img [ref=e2027]
+                      - generic [ref=e2029]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2030]:
+                      - img [ref=e2031]
+                      - generic [ref=e2033]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2034]:
+                      - img [ref=e2035]
+                      - generic [ref=e2037]: เที่ยวบินล่าช้า
+                    - generic [ref=e2038]:
+                      - img [ref=e2039]
+                      - generic [ref=e2041]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2042]:
+                  - generic [ref=e2044]:
+                    - paragraph [ref=e2045]: อายุ 76-80 ปี
+                    - paragraph [ref=e2046]: ฿ 891
+                  - generic [ref=e2047]:
+                    - button "ดูรายละเอียด" [ref=e2048] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2049] [cursor=pointer]:
+                      - img "compare" [ref=e2051]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2053] [cursor=pointer]
+            - generic [ref=e2056]:
+              - generic [ref=e2057]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2058]
+                - generic [ref=e2059]:
+                  - paragraph [ref=e2060]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2061]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2062]
+              - generic [ref=e2063]:
+                - generic [ref=e2064]:
+                  - generic [ref=e2065]:
+                    - paragraph [ref=e2066]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2067]: ฿ 2,000,000
+                  - generic [ref=e2068]:
+                    - paragraph [ref=e2069]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2070]: ฿ 3,000,000
+                  - generic [ref=e2071]:
+                    - generic [ref=e2072]:
+                      - img [ref=e2073]
+                      - generic [ref=e2075]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2076]:
+                      - img [ref=e2077]
+                      - generic [ref=e2079]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2080]:
+                      - img [ref=e2081]
+                      - generic [ref=e2083]: เที่ยวบินล่าช้า
+                    - generic [ref=e2084]:
+                      - img [ref=e2085]
+                      - generic [ref=e2087]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2088]:
+                  - generic [ref=e2090]:
+                    - paragraph [ref=e2091]: อายุ 71-75 ปี
+                    - paragraph [ref=e2092]: ฿ 1,284
+                  - generic [ref=e2093]:
+                    - button "ดูรายละเอียด" [ref=e2094] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2095] [cursor=pointer]:
+                      - img "compare" [ref=e2097]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2099] [cursor=pointer]
+            - generic [ref=e2102]:
+              - generic [ref=e2103]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2104]
+                - generic [ref=e2105]:
+                  - paragraph [ref=e2106]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2107]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2108]
+              - generic [ref=e2109]:
+                - generic [ref=e2110]:
+                  - generic [ref=e2111]:
+                    - paragraph [ref=e2112]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2113]: ฿ 1,500,000
+                  - generic [ref=e2114]:
+                    - paragraph [ref=e2115]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2116]: ฿ 1,000,000
+                  - generic [ref=e2117]:
+                    - generic [ref=e2118]:
+                      - img [ref=e2119]
+                      - generic [ref=e2121]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2122]:
+                      - img [ref=e2123]
+                      - generic [ref=e2125]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2126]:
+                      - img [ref=e2127]
+                      - generic [ref=e2129]: เที่ยวบินล่าช้า
+                    - generic [ref=e2130]:
+                      - img [ref=e2131]
+                      - generic [ref=e2133]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2134]:
+                  - generic [ref=e2136]:
+                    - paragraph [ref=e2137]: อายุ 76-80 ปี
+                    - paragraph [ref=e2138]: ฿ 1,284
+                  - generic [ref=e2139]:
+                    - button "ดูรายละเอียด" [ref=e2140] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2141] [cursor=pointer]:
+                      - img "compare" [ref=e2143]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2145] [cursor=pointer]
+            - generic [ref=e2148]:
+              - generic [ref=e2149]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2150]
+                - generic [ref=e2151]:
+                  - paragraph [ref=e2152]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2153]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2154]
+              - generic [ref=e2155]:
+                - generic [ref=e2156]:
+                  - generic [ref=e2157]:
+                    - paragraph [ref=e2158]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2159]: ฿ 3,000,000
+                  - generic [ref=e2160]:
+                    - paragraph [ref=e2161]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2162]: ฿ 4,000,000
+                  - generic [ref=e2163]:
+                    - generic [ref=e2164]:
+                      - img [ref=e2165]
+                      - generic [ref=e2167]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2168]:
+                      - img [ref=e2169]
+                      - generic [ref=e2171]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2172]:
+                      - img [ref=e2173]
+                      - generic [ref=e2175]: เที่ยวบินล่าช้า
+                    - generic [ref=e2176]:
+                      - img [ref=e2177]
+                      - generic [ref=e2179]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2180]:
+                  - generic [ref=e2182]:
+                    - paragraph [ref=e2183]: อายุ 15-70 ปี
+                    - paragraph [ref=e2184]: ฿ 1,350
+                  - generic [ref=e2185]:
+                    - button "ดูรายละเอียด" [ref=e2186] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2187] [cursor=pointer]:
+                      - img "compare" [ref=e2189]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2191] [cursor=pointer]
+            - generic [ref=e2194]:
+              - generic [ref=e2195]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2196]
+                - generic [ref=e2197]:
+                  - paragraph [ref=e2198]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2199]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2200]
+              - generic [ref=e2201]:
+                - generic [ref=e2202]:
+                  - generic [ref=e2203]:
+                    - paragraph [ref=e2204]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2205]: ฿ 2,000,000
+                  - generic [ref=e2206]:
+                    - paragraph [ref=e2207]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2208]: ฿ 1,500,000
+                  - generic [ref=e2209]:
+                    - generic [ref=e2210]:
+                      - img [ref=e2211]
+                      - generic [ref=e2213]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2214]:
+                      - img [ref=e2215]
+                      - generic [ref=e2217]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2218]:
+                      - img [ref=e2219]
+                      - generic [ref=e2221]: เที่ยวบินล่าช้า
+                    - generic [ref=e2222]:
+                      - img [ref=e2223]
+                      - generic [ref=e2225]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2226]:
+                  - generic [ref=e2228]:
+                    - paragraph [ref=e2229]: อายุ 1-14 ปี
+                    - paragraph [ref=e2230]: ฿ 1,350
+                  - generic [ref=e2231]:
+                    - button "ดูรายละเอียด" [ref=e2232] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2233] [cursor=pointer]:
+                      - img "compare" [ref=e2235]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2237] [cursor=pointer]
+            - generic [ref=e2240]:
+              - generic [ref=e2241]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2242]
+                - generic [ref=e2243]:
+                  - paragraph [ref=e2244]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2245]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2246]
+              - generic [ref=e2247]:
+                - generic [ref=e2248]:
+                  - generic [ref=e2249]:
+                    - paragraph [ref=e2250]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2251]: ฿ 5,000,000
+                  - generic [ref=e2252]:
+                    - paragraph [ref=e2253]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2254]: ฿ 5,000,000
+                  - generic [ref=e2255]:
+                    - generic [ref=e2256]:
+                      - img [ref=e2257]
+                      - generic [ref=e2259]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2260]:
+                      - img [ref=e2261]
+                      - generic [ref=e2263]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2264]:
+                      - img [ref=e2265]
+                      - generic [ref=e2267]: เที่ยวบินล่าช้า
+                    - generic [ref=e2268]:
+                      - img [ref=e2269]
+                      - generic [ref=e2271]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2272]:
+                  - generic [ref=e2274]:
+                    - paragraph [ref=e2275]: อายุ 15-70 ปี
+                    - paragraph [ref=e2276]: ฿ 1,844
+                  - generic [ref=e2277]:
+                    - button "ดูรายละเอียด" [ref=e2278] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2279] [cursor=pointer]:
+                      - img "compare" [ref=e2281]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2283] [cursor=pointer]
+            - generic [ref=e2286]:
+              - generic [ref=e2287]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2288]
+                - generic [ref=e2289]:
+                  - paragraph [ref=e2290]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2291]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2292]
+              - generic [ref=e2293]:
+                - generic [ref=e2294]:
+                  - generic [ref=e2295]:
+                    - paragraph [ref=e2296]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2297]: ฿ 2,000,000
+                  - generic [ref=e2298]:
+                    - paragraph [ref=e2299]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2300]: ฿ 1,500,000
+                  - generic [ref=e2301]:
+                    - generic [ref=e2302]:
+                      - img [ref=e2303]
+                      - generic [ref=e2305]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2306]:
+                      - img [ref=e2307]
+                      - generic [ref=e2309]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2310]:
+                      - img [ref=e2311]
+                      - generic [ref=e2313]: เที่ยวบินล่าช้า
+                    - generic [ref=e2314]:
+                      - img [ref=e2315]
+                      - generic [ref=e2317]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2318]:
+                  - generic [ref=e2320]:
+                    - paragraph [ref=e2321]: อายุ 1-14 ปี
+                    - paragraph [ref=e2322]: ฿ 1,844
+                  - generic [ref=e2323]:
+                    - button "ดูรายละเอียด" [ref=e2324] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2325] [cursor=pointer]:
+                      - img "compare" [ref=e2327]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2329] [cursor=pointer]
+            - generic [ref=e2332]:
+              - generic [ref=e2333]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2334]
+                - generic [ref=e2335]:
+                  - paragraph [ref=e2336]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2337]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2338]
+              - generic [ref=e2339]:
+                - generic [ref=e2340]:
+                  - generic [ref=e2341]:
+                    - paragraph [ref=e2342]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2343]: ฿ 3,000,000
+                  - generic [ref=e2344]:
+                    - paragraph [ref=e2345]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2346]: ฿ 4,000,000
+                  - generic [ref=e2347]:
+                    - generic [ref=e2348]:
+                      - img [ref=e2349]
+                      - generic [ref=e2351]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2352]:
+                      - img [ref=e2353]
+                      - generic [ref=e2355]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2356]:
+                      - img [ref=e2357]
+                      - generic [ref=e2359]: เที่ยวบินล่าช้า
+                    - generic [ref=e2360]:
+                      - img [ref=e2361]
+                      - generic [ref=e2363]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2364]:
+                  - generic [ref=e2366]:
+                    - paragraph [ref=e2367]: อายุ 71-75 ปี
+                    - paragraph [ref=e2368]: ฿ 2,025
+                  - generic [ref=e2369]:
+                    - button "ดูรายละเอียด" [ref=e2370] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2371] [cursor=pointer]:
+                      - img "compare" [ref=e2373]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2375] [cursor=pointer]
+            - generic [ref=e2378]:
+              - generic [ref=e2379]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2380]
+                - generic [ref=e2381]:
+                  - paragraph [ref=e2382]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2383]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2384]
+              - generic [ref=e2385]:
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]:
+                    - paragraph [ref=e2388]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2389]: ฿ 1,500,000
+                  - generic [ref=e2390]:
+                    - paragraph [ref=e2391]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2392]: ฿ 1,000,000
+                  - generic [ref=e2393]:
+                    - generic [ref=e2394]:
+                      - img [ref=e2395]
+                      - generic [ref=e2397]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2398]:
+                      - img [ref=e2399]
+                      - generic [ref=e2401]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2402]:
+                      - img [ref=e2403]
+                      - generic [ref=e2405]: เที่ยวบินล่าช้า
+                    - generic [ref=e2406]:
+                      - img [ref=e2407]
+                      - generic [ref=e2409]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2410]:
+                  - generic [ref=e2412]:
+                    - paragraph [ref=e2413]: อายุ 76-80 ปี
+                    - paragraph [ref=e2414]: ฿ 2,025
+                  - generic [ref=e2415]:
+                    - button "ดูรายละเอียด" [ref=e2416] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2417] [cursor=pointer]:
+                      - img "compare" [ref=e2419]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2421] [cursor=pointer]
+            - generic [ref=e2424]:
+              - generic [ref=e2425]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2426]
+                - generic [ref=e2427]:
+                  - paragraph [ref=e2428]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2429]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2430]
+              - generic [ref=e2431]:
+                - generic [ref=e2432]:
+                  - generic [ref=e2433]:
+                    - paragraph [ref=e2434]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2435]: ฿ 5,000,000
+                  - generic [ref=e2436]:
+                    - paragraph [ref=e2437]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2438]: ฿ 5,000,000
+                  - generic [ref=e2439]:
+                    - generic [ref=e2440]:
+                      - img [ref=e2441]
+                      - generic [ref=e2443]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2444]:
+                      - img [ref=e2445]
+                      - generic [ref=e2447]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2448]:
+                      - img [ref=e2449]
+                      - generic [ref=e2451]: เที่ยวบินล่าช้า
+                    - generic [ref=e2452]:
+                      - img [ref=e2453]
+                      - generic [ref=e2455]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2456]:
+                  - generic [ref=e2458]:
+                    - paragraph [ref=e2459]: อายุ 71-75 ปี
+                    - paragraph [ref=e2460]: ฿ 2,766
+                  - generic [ref=e2461]:
+                    - button "ดูรายละเอียด" [ref=e2462] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2463] [cursor=pointer]:
+                      - img "compare" [ref=e2465]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2467] [cursor=pointer]
+            - generic [ref=e2470]:
+              - generic [ref=e2471]:
+                - img "เอ็ม เอส ไอ จี" [ref=e2472]
+                - generic [ref=e2473]:
+                  - paragraph [ref=e2474]: เอ็ม เอส ไอ จี
+                  - paragraph [ref=e2475]: ประกันเดินทางรายเที่ยว
+              - separator [ref=e2476]
+              - generic [ref=e2477]:
+                - generic [ref=e2478]:
+                  - generic [ref=e2479]:
+                    - paragraph [ref=e2480]: ค่ารักษาพยาบาล
+                    - paragraph [ref=e2481]: ฿ 1,500,000
+                  - generic [ref=e2482]:
+                    - paragraph [ref=e2483]: เสียชีวิตจากอุบัติเหตุ
+                    - paragraph [ref=e2484]: ฿ 1,000,000
+                  - generic [ref=e2485]:
+                    - generic [ref=e2486]:
+                      - img [ref=e2487]
+                      - generic [ref=e2489]: กระเป๋าสูญหาย ล่าช้า
+                    - generic [ref=e2490]:
+                      - img [ref=e2491]
+                      - generic [ref=e2493]: ยกเลิกเที่ยวบิน
+                    - generic [ref=e2494]:
+                      - img [ref=e2495]
+                      - generic [ref=e2497]: เที่ยวบินล่าช้า
+                    - generic [ref=e2498]:
+                      - img [ref=e2499]
+                      - generic [ref=e2501]: การปรึกษาแพทย์ทางไกล
+                - generic [ref=e2502]:
+                  - generic [ref=e2504]:
+                    - paragraph [ref=e2505]: อายุ 76-80 ปี
+                    - paragraph [ref=e2506]: ฿ 2,766
+                  - generic [ref=e2507]:
+                    - button "ดูรายละเอียด" [ref=e2508] [cursor=pointer]
+                    - button "compare เปรียบเทียบ" [ref=e2509] [cursor=pointer]:
+                      - img "compare" [ref=e2511]
+                      - text: เปรียบเทียบ
+                - button "สนใจแผนนี้" [ref=e2513] [cursor=pointer]
+    - contentinfo [ref=e2514]:
+      - link "TQM Logo" [ref=e2516] [cursor=pointer]:
+        - /url: /
+        - img "TQM Logo" [ref=e2517]
+      - generic [ref=e2518]:
+        - button "ผลิตภัณฑ์ประกันภัย" [ref=e2521] [cursor=pointer]:
+          - generic [ref=e2523]: ผลิตภัณฑ์ประกันภัย
+          - img [ref=e2525]
+        - button "บริการลูกค้า" [ref=e2529] [cursor=pointer]:
+          - generic [ref=e2531]: บริการลูกค้า
+          - img [ref=e2533]
+        - button "ติดต่อสอบถาม" [ref=e2537] [cursor=pointer]:
+          - generic [ref=e2539]: ติดต่อสอบถาม
+          - img [ref=e2541]
+        - button "บริษัท" [ref=e2545] [cursor=pointer]:
+          - generic [ref=e2547]: บริษัท
+          - img [ref=e2549]
+        - generic [ref=e2551]:
+          - generic [ref=e2552]:
+            - link "line" [ref=e2554] [cursor=pointer]:
+              - /url: https://lin.ee/Ds7qY7v
+              - img "line" [ref=e2555]
+            - link "facebook" [ref=e2557] [cursor=pointer]:
+              - /url: https://www.facebook.com/TqmBroker
+              - img "facebook" [ref=e2558]
+            - link "instagram" [ref=e2560] [cursor=pointer]:
+              - /url: https://www.instagram.com/tqminsurancebroker
+              - img "instagram" [ref=e2561]
+            - link "tiktok" [ref=e2563] [cursor=pointer]:
+              - /url: http://www.tiktok.com/@tqmmorelove
+              - img "tiktok" [ref=e2564]
+            - link "youtube" [ref=e2566] [cursor=pointer]:
+              - /url: https://www.youtube.com/@TQMInsuranceBrokerOfficial
+              - img "youtube" [ref=e2567]
+            - link "x" [ref=e2569] [cursor=pointer]:
+              - /url: https://x.com/Tqmbeside
+              - img "x" [ref=e2570]
+          - link "1737" [ref=e2572] [cursor=pointer]:
+            - /url: tel:1737
+            - img [ref=e2573]
+            - text: "1737"
+        - generic [ref=e2576]:
+          - link "TQM Application" [ref=e2578] [cursor=pointer]:
+            - /url: https://tqm.onelink.me/jwZj/fsmrwgvs
+            - img "TQM Application" [ref=e2579]
+          - generic [ref=e2580]:
+            - link "TQM IOS Application" [ref=e2581] [cursor=pointer]:
+              - /url: https://apps.apple.com/th/app/tqm24/id1274502784
+              - img "TQM IOS Application" [ref=e2582]
+            - link "TQM Android Application" [ref=e2583] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.tqm.tqmapp
+              - img "TQM Android Application" [ref=e2584]
+            - link "TQM APK Download" [ref=e2585] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/tqm-beta-static/files/APK/tqm24.apk
+              - img "TQM APK Download" [ref=e2586]
+        - generic [ref=e2587]:
+          - paragraph [ref=e2588]: ©Copyright 2026 TQM.co.th All Rights Reserved.
+          - generic [ref=e2589]:
+            - paragraph [ref=e2590]:
+              - link "แผนผังเว็บไซต์" [ref=e2591] [cursor=pointer]:
+                - /url: https://devweb.tqm.co.th/sitemap
+            - paragraph [ref=e2592]:
+              - link "ข้อกำหนดและเงื่อนไข" [ref=e2593] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - paragraph [ref=e2594]:
+              - link "นโยบายข้อมูลส่วนบุคคล" [ref=e2595] [cursor=pointer]:
+                - /url: /tqm/privacy
+    - generic [ref=e2596]:
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - button "Close notification":
+            - img
+          - generic:
+            - paragraph: ติดปัญหาตรงไหนแจ้งพี่หมีได้เลยครับผม 😊
+      - button "Toggle chat" [ref=e2597] [cursor=pointer]:
+        - img "chat-on-web" [ref=e2598]
+      - generic:
+        - generic:
+          - generic:
+            - img "chat-admin"
+            - generic:
+              - generic: TQM Chats
+              - generic: พร้อมดูแลคุณ 24 ชั่วโมง
+          - button "Close chat":
+            - img
+        - generic:
+          - status
+          - generic:
+            - generic:
+              - generic:
+                - button "chat-plus-file":
+                  - img "chat-plus-file"
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "พิมพ์เรื่องที่อยากให้พี่หมีช่วยได้เลย..."
+            - button "ส่งข้อความ" [disabled]:
+              - img "send"
+  - alert [ref=e2599]: ผลการค้นหาประกันเดินทาง | TQM ทีคิวเอ็ม
+```
+
+# Test source
+
+```ts
+  101 | // ─────────────────────────────────────────────────────────────────────────────
+  102 | // ต่างประเทศ > รายเที่ยว > ญี่ปุ่น > 2 คน
+  103 | // ─────────────────────────────────────────────────────────────────────────────
+  104 | test(
+  105 |   'travel-normal-ต่างประเทศ-รายเที่ยว-ญี่ปุ่น-2คน',
+  106 |   { tag: ['@e2e', '@regression', '@nmw', '@travel'] },
+  107 |   async ({ page, travelIndex, travelSearchResult, travelProductDetail, travelFillForm, travelSummary, commonTQM }) => {
+  108 |     travelSearchWizardData.travelRouteSelect = travelSearchWizardData.aboard;
+  109 |     travelSearchWizardData.travelTypeSelect = travelSearchWizardData.daily;
+  110 |     travelSearchWizardData.travelToCountry = travelSearchWizardData.travelToCountry; // Japan (default)
+  111 |     travelSearchWizardData.totalTraveler = travelSearchWizardData.total2Traveler;
+  112 | 
+  113 |     await travelIndex.goto(travelSearchWizardData);
+  114 |     await travelIndex.searchWizardTravel(travelSearchWizardData);
+  115 |     await expect(page).toHaveURL(process.env.MAIN_WEB_URL + travelFilterSearchResultData.travelSearchPath);
+  116 | 
+  117 |     await travelSearchResult.filterByInsurrer(travelFilterSearchResultData);
+  118 |     await travelSearchResult.selectProduct();
+  119 |     await travelProductDetail.checkProductData(travelProductDetailData);
+  120 |     await travelProductDetail.getInsurePrice(travelProductDetailData);
+  121 |     await travelProductDetail.getInsureName(travelProductDetailData);
+  122 | 
+  123 |     await travelFillForm.checkProductData(travelProductDetailData);
+  124 |     await travelFillForm.checkInsurePrice(travelProductDetailData);
+  125 |     await travelFillForm.addExtraTravelers(2);
+  126 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData, 0);
+  127 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData2, 1);
+  128 |     await travelFillForm.inputPolicyAddress(travelFillFormData);
+  129 |     await travelFillForm.inputFlightInformation(travelSearchWizardData, travelFillFormData);
+  130 | 
+  131 |     await commonTQM.clickConsent(page);
+  132 |     await travelSummary.checkAssuredDetail([travelFillFormData, travelFillFormData2]);
+  133 |     await travelSummary.checkContactAddress(travelFillFormData);
+  134 |     await travelSummary.checkFlightDetail(travelSearchWizardData, travelFillFormData);
+  135 |     await travelSummary.checkInsureName(travelProductDetailData);
+  136 |     await travelSummary.checkInsurePriceAboard(
+  137 |       travelSearchWizardData,
+  138 |       travelProductDetailData,
+  139 |       travelSearchWizardData.totalTraveler,
+  140 |     );
+  141 | 
+  142 |     await commonTQM.initDevice();
+  143 |     await commonTQM.paymentCreditCard(page, payment.paymentCreditCardData);
+  144 |     await commonTQM.checkOrderDetail(page);
+  145 |   },
+  146 | );
+  147 | 
+  148 | // ─────────────────────────────────────────────────────────────────────────────
+  149 | // ในประเทศ > เครื่องบิน > 1 คน
+  150 | // ─────────────────────────────────────────────────────────────────────────────
+  151 | test(
+  152 |   'travel-normal-ในประเทศ-รายเที่ยว-เครื่องบิน-1คน',
+  153 |   { tag: ['@e2e', '@regression', '@nmw', '@travel'] },
+  154 |   async ({ page, travelIndex, travelSearchResult, travelProductDetail, travelFillForm, travelSummary, commonTQM }) => {
+  155 |     travelSearchWizardData.travelRouteSelect = travelSearchWizardData.domestic;
+  156 |     travelSearchWizardData.totalTraveler = 1;
+  157 | 
+  158 |     await travelIndex.goto(travelSearchWizardData);
+  159 |     await travelIndex.searchWizardTravel(travelSearchWizardData);
+  160 |     await expect(page).toHaveURL(process.env.MAIN_WEB_URL + travelFilterSearchResultData.travelSearchPath);
+  161 | 
+  162 |     await travelSearchResult.filterByInsurrer(travelFilterSearchResultData);
+  163 |     await travelSearchResult.selectProduct();
+  164 |     await travelProductDetail.checkProductData(travelProductDetailData);
+  165 |     await travelProductDetail.getInsurePrice(travelProductDetailData);
+  166 |     await travelProductDetail.getInsureName(travelProductDetailData);
+  167 | 
+  168 |     await travelFillForm.checkProductData(travelProductDetailData);
+  169 |     await travelFillForm.checkInsurePrice(travelProductDetailData);
+  170 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData, 0);
+  171 |     await travelFillForm.inputPolicyAddress(travelFillFormData);
+  172 |     await travelFillForm.inputFlightInformation(travelSearchWizardData, travelFillFormData);
+  173 | 
+  174 |     await commonTQM.clickConsent(page);
+  175 |     await travelSummary.checkAssuredDetail([travelFillFormData]);
+  176 |     await travelSummary.checkContactAddress(travelFillFormData);
+  177 |     await travelSummary.checkFlightDetail(travelSearchWizardData, travelFillFormData);
+  178 |     await travelSummary.checkInsureName(travelProductDetailData);
+  179 |     await travelSummary.checkInsurePriceDomestic(travelSearchWizardData, travelProductDetailData);
+  180 | 
+  181 |     await commonTQM.initDevice();
+  182 |     await commonTQM.paymentCreditCard(page, payment.paymentCreditCardData);
+  183 |     await commonTQM.checkOrderDetail(page);
+  184 |   },
+  185 | );
+  186 | 
+  187 | // ─────────────────────────────────────────────────────────────────────────────
+  188 | // นอกประเทศ > รายเที่ยว > America > 3 คน
+  189 | // ─────────────────────────────────────────────────────────────────────────────
+  190 | test(
+  191 |   'travel-normal-ต่างประเทศ-รายเที่ยว-America-3คน',
+  192 |   { tag: ['@e2e', '@regression', '@nmw', '@travel'] },
+  193 |   async ({ page, travelIndex, travelSearchResult, travelProductDetail, travelFillForm, travelSummary, commonTQM }) => {
+  194 |     travelSearchWizardData.travelRouteSelect = travelSearchWizardData.aboard;
+  195 |     travelSearchWizardData.travelTypeSelect = travelSearchWizardData.daily;
+  196 |     travelSearchWizardData.travelToCountry = travelSearchWizardData.travelToCountryAmerica;
+  197 |     travelSearchWizardData.totalTraveler = travelSearchWizardData.total3Traveler;
+  198 | 
+  199 |     await travelIndex.goto(travelSearchWizardData);
+  200 |     await travelIndex.searchWizardTravel(travelSearchWizardData);
+> 201 |     await expect(page).toHaveURL(process.env.MAIN_WEB_URL + travelFilterSearchResultData.travelSearchPath);
+      |                        ^ Error: expect(page).toHaveURL(expected) failed
+  202 | 
+  203 |     await travelSearchResult.filterByInsurrer(travelFilterSearchResultData);
+  204 |     await travelSearchResult.selectProduct();
+  205 |     await travelProductDetail.checkProductData(travelProductDetailData);
+  206 |     await travelProductDetail.getInsurePrice(travelProductDetailData);
+  207 |     await travelProductDetail.getInsureName(travelProductDetailData);
+  208 | 
+  209 |     await travelFillForm.checkProductData(travelProductDetailData);
+  210 |     await travelFillForm.checkInsurePrice(travelProductDetailData);
+  211 |     await travelFillForm.addExtraTravelers(3);
+  212 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData, 0);
+  213 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData2, 1);
+  214 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData3, 2);
+  215 |     await travelFillForm.inputPolicyAddress(travelFillFormData);
+  216 |     await travelFillForm.inputFlightInformation(travelSearchWizardData, travelFillFormData);
+  217 | 
+  218 |     await commonTQM.clickConsent(page);
+  219 |     await travelSummary.checkAssuredDetail([travelFillFormData, travelFillFormData2]);
+  220 |     await travelSummary.checkContactAddress(travelFillFormData);
+  221 |     await travelSummary.checkFlightDetail(travelSearchWizardData, travelFillFormData);
+  222 |     await travelSummary.checkInsureName(travelProductDetailData);
+  223 |     await travelSummary.checkInsurePriceAboard(
+  224 |       travelSearchWizardData,
+  225 |       travelProductDetailData,
+  226 |       travelSearchWizardData.totalTraveler,
+  227 |     );
+  228 | 
+  229 |     await commonTQM.initDevice();
+  230 |     await commonTQM.paymentCreditCard(page, payment.paymentCreditCardData);
+  231 |     await commonTQM.checkOrderDetail(page);
+  232 |   },
+  233 | );
+  234 | 
+  235 | // ─────────────────────────────────────────────────────────────────────────────
+  236 | // นอกประเทศ > รายปี > World Wide > 6 คน
+  237 | // ─────────────────────────────────────────────────────────────────────────────
+  238 | test(
+  239 |   'travel-normal-ต่างประเทศ-รายปี-WorldWide-6คน',
+  240 |   { tag: ['@e2e', '@regression', '@nmw', '@travel'] },
+  241 |   async ({ page, travelIndex, travelSearchResult, travelProductDetail, travelFillForm, travelSummary, commonTQM }) => {
+  242 |     travelSearchWizardData.travelRouteSelect = travelSearchWizardData.aboard;
+  243 |     travelSearchWizardData.travelTypeSelect = travelSearchWizardData.yearly;
+  244 |     travelSearchWizardData.totalTraveler = travelSearchWizardData.total6Traveler;
+  245 | 
+  246 |     await travelIndex.goto(travelSearchWizardData);
+  247 |     await travelIndex.searchWizardTravel(travelSearchWizardData);
+  248 |     await expect(page).toHaveURL(process.env.MAIN_WEB_URL + travelFilterSearchResultData.travelSearchPath);
+  249 | 
+  250 |     await travelSearchResult.filterByInsurrer(travelFilterSearchResultData);
+  251 |     await travelSearchResult.selectProduct();
+  252 |     await travelProductDetail.checkProductData(travelProductDetailData);
+  253 |     await travelProductDetail.getInsurePrice(travelProductDetailData);
+  254 |     await travelProductDetail.getInsureName(travelProductDetailData);
+  255 | 
+  256 |     await travelFillForm.checkProductData(travelProductDetailData);
+  257 |     await travelFillForm.checkInsurePrice(travelProductDetailData);
+  258 |     await travelFillForm.addExtraTravelers(6);
+  259 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData, 0);
+  260 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData2, 1);
+  261 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData3, 2);
+  262 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData4, 3);
+  263 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData5, 4);
+  264 |     await travelFillForm.inputPolicyInformationTraveler(travelFillFormData6, 5);
+  265 |     await travelFillForm.inputPolicyAddress(travelFillFormData);
+  266 | 
+  267 |     await commonTQM.clickConsent(page);
+  268 |     await travelSummary.checkAssuredDetail([travelFillFormData, travelFillFormData2]);
+  269 |     await travelSummary.checkContactAddress(travelFillFormData);
+  270 |     await travelSummary.checkInsureName(travelProductDetailData);
+  271 |     await travelSummary.checkInsurePriceYearly(
+  272 |       travelSearchWizardData,
+  273 |       travelProductDetailData,
+  274 |       travelSearchWizardData.totalTraveler,
+  275 |     );
+  276 | 
+  277 |     await commonTQM.initDevice();
+  278 |     await commonTQM.paymentCreditCard(page, payment.paymentCreditCardData);
+  279 |     await commonTQM.checkOrderDetail(page);
+  280 |   },
+  281 | );
+  282 | 
+```

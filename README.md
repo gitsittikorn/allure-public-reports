@@ -1,3 +1,7 @@
 # allure-public-reports
 https://gitsittikorn.github.io/allure-public-reports/
-automate code กำลังอยู่ในช่วงปรับปรุงใหม่ เนื่องจาก dev มีการ refactor code หลายจุด ทำให้ code automate ที่เคยใช้งานได้พัง
+Automation Code อยู่ระหว่างการปรับปรุง 
+เนื่องจากทีม Development มีการ Refactor Code ในหลายส่วน 
+ส่งผลให้ Automation Test บางส่วนที่เคยใช้งานได้
+ไม่สามารถทำงานได้ตามปกติ 
+จึงอยู่ระหว่างการแก้ไขและปรับให้รองรับ Code เวอร์ชันปัจจุบัน
